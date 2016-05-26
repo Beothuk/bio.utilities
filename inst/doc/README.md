@@ -1,6 +1,6 @@
-# ecomodTemplate
+# documentation for utilities 
 
-Package to help develop and/or use ecomod tools in order to ...
+Package to help develop and/or use ecomod tools. These are generic tools. 
 
 Installation:
 

@@ -1,0 +1,2 @@
+ gxa = function() graphics.off()
+  
