@@ -6,6 +6,6 @@ Installation:
 
 ```
 require( devtools ) # or install.packages( "devtools", dependencies=TRUE )
-install_github( "githubusername/packagename" ) 
+install_github( "jae0/ecomod_utilities" ) 
 ```
 
