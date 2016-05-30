@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Scotian Shelf snow crab</name>
+  
+  <Style id="reddot">
+		<IconStyle>
+      <scale>0.35</scale>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/reddot.png</href>
+			</Icon>
+      <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+
+  <Style id="yellowdot">
+		<IconStyle>
+      <scale>0.35</scale>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/yellowdot.png</href>
+			</Icon>
+      <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+
+  
+  <StyleMap id="msn_ylw-pushpin_copy2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff33f8ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon38">
+		<IconStyle>
+			<scale>0.472727</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon38.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>cc7fffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_copy2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c7fffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>bfffffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon46">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon46</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon38</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy40">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>cc7fffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>bfffffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff33f8ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon46">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon46.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin_copy30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c7fffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Scotian Shelf snow crab</name>
+		<open>1</open>
+		<description>Asssessment tools for the Scotian Shelf snow crab (Bedford Institute of Oceanography)</description>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<GroundOverlay>
+			<name>Bathymetry</name>
+			<color>ccffffff</color>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/ss.bathy.colour.tif</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<altitudeMode>clampToGround</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>50</north>
+				<south>40</south>
+				<east>-52</east>
+				<west>-72</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<GroundOverlay>
+			<name>Bathymetry contour</name>
+			<color>e6ffffff</color>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/ss.bathy.contour.tif</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<altitudeMode>clampToGround</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>50</north>
+				<south>40</south>
+				<east>-52</east>
+				<west>-72</west>
+			</LatLonBox>
+		</GroundOverlay>
+		<Folder>
+			<name>Management lines</name>
+			<Folder>
+				<name>Gully MPA</name>
+				<Placemark>
+					<name>Gully MPA</name>
+					<styleUrl>#msn_ylw-pushpin_copy2</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-59.10051192315181,44.21678274656149,0 -59.33516115171256,44.10057784448195,0 -59.13782200164582,43.91718619192973,0 -59.13430015596633,43.58357892651157,0 -58.58296879641245,43.58284385250472,0 -58.58345034613519,43.78360045129342,0 -59.10051192315181,44.21678274656149,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>N-ENS Soft Shell Closure Areas</name>
+				<Placemark>
+					<name>6-7 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-59.8669459147477,46.61829003097517,0 -59.86714927555937,46.1903922915425,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>5-6 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.15013169910874,46.61686051036362,0 -60.15070296987705,46.25403077923779,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>4-5 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-58.57169296505639,46.61743715738334,0 -60.35101630484722,46.61743036291101,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>3-4 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.32934961857659,46.73377402095574,0 -58.70455622211595,46.73425821633046,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>2-3 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.29739776341232,46.8490837267233,0 -58.83935581691834,46.8522334225455,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>N-ENS Outside 1</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-59.99891390682926,47.83103013198976,0 -58.56775382241514,46.61649379280151,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>N-ENS Outside 2</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-57.78591208190541,46.00109962205628,0 -58.56775382241514,46.61649379280151,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>1-2 Line</name>
+					<styleUrl>#msn_ylw-pushpin_copy4</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.39965967598059,47.00047832780142,0 -59.01461782671211,47.00028076937365,0 </coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Snow crab fishing areas</name>
+				<Placemark>
+					<name>Gulf-SS</name>
+					<styleUrl>#msn_ylw-pushpin_copy00</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.41568418984078,47.03853523297152,0 -60.00014897319883,47.83408958793515,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>NENS-SENS</name>
+					<styleUrl>#msn_ylw-pushpin_copy00</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-59.85247480316924,46.00291960992756,0 -57.78560987011954,46.00106076110973,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>CFA23 Inshore-offshore</name>
+					<styleUrl>#msn_ylw-pushpin_copy00</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-59.92853837122961,44.69774735070251,0 -58.41005287016962,46.00038380222262,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>CFA 23 - CFA 24</name>
+					<styleUrl>#msn_ylw-pushpin_copy00</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.66040620990439,45.58083805201212,0 -59.11881785180857,43.67610276909335,0 </coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>4X-SENS</name>
+					<styleUrl>#msn_ylw-pushpin_copy00</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-63.52502801857509,44.5005704612574,0 -63.33296001561555,44.33343763428088,0 -63.33161397633095,42.50186912534272,0 </coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Shrimp boxes</name>
+				<Placemark>
+					<name>NW Sable Box</name>
+					<styleUrl>#msn_ylw-pushpin_copy40</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-60.53348522264675,44.16713857065227,0 -59.83402446317178,44.16674842805921,0 -59.8337724318864,44.35020211840867,0 -60.53437630895549,44.35056350439965,0 -60.53348522264675,44.16713857065227,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Louisburg Hole</name>
+					<styleUrl>#msn_ylw-pushpin_copy40</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-59.16722567748156,45.50037490107675,0 -58.11756232854311,45.50029678441212,0 -58.11736586354162,45.91675134337378,0 -59.16724395727103,45.91694991968841,0 -59.16722567748156,45.50037490107675,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Eastern Holes</name>
+					<styleUrl>#msn_ylw-pushpin_copy40</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-60.99983106518073,44.58360971012488,0 -58.0005005513048,44.58361575122798,0 -58.00112052095971,44.9165492050831,0 -58.66697123168657,44.91801611900925,0 -58.66586013724016,45.00054787436935,0 -61.00063058037657,45.00080688407766,0 -60.99983106518073,44.58360971012488,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Bad Neighbours</name>
+					<styleUrl>#msn_ylw-pushpin_copy40</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+-60.95065555250798,45.31550857725852,0 -60.08311721156429,45.46714417665778,0 -60.08371925586215,45.80040191216285,0 </coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+     
+    <Folder>
+      <name>Softshell incidence</name>
+
+
+		</Folder>
+
+ 	</Folder>
+</Document>
+</kml>

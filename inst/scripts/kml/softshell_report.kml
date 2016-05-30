@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>softshell_report</name>
+
+
+  <Style id="pin.red">
+		<IconStyle>
+			<color>c0ffffff</color>
+      <scale>0.3</scale>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/reddot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+
+  <Style id="pin.yellow">
+		<IconStyle>
+			<color>a0ffffff</color>
+      <scale>0.25</scale>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/yellowdot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+
+  <Folder>
+    <name>Scotian Shelf snow crab soft-shell incidence</name>
+    <description>Asssessment tools for the Scotian Shelf snow crab (Bedford Institute of Oceanography)</description>
+
+
+  <Folder>
+    <name>10% to 20% soft</name>
+    <description></description>
+
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.3 / -60.1 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.1,45.3,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.3 / -60.03 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.03,45.3,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 02-Jul-09 
+ Lon / Lat: 44.77 / -60.43 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.43,44.77,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.43 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.43,44.83,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.37 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.37,44.83,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.27 / -60.63 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.63,44.27,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.17 / -60.37 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.37,44.17,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.17 / -60.37 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.37,44.17,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 09-Jul-09 
+ Lon / Lat: 44.77 / -60.87 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.87,44.77,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.43 / -60.63 
+ Soft-shell crab: 18 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.63,45.43,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.93 / -58.3 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.3,44.93,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.9 / -58.33 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.33,44.9,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.27 / -60.17 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.17,45.27,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 26-Jun-09 
+ Lon / Lat: 44.83 / -58.53 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.53,44.83,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 02-Jul-09 
+ Lon / Lat: 44.77 / -60.43 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.43,44.77,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 02-Jul-09 
+ Lon / Lat: 44.7 / -60.47 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.47,44.7,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.33 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.33,44.83,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 04-Jul-09 
+ Lon / Lat: 44.87 / -60.53 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.53,44.87,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.27 / -60.63 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.63,44.27,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.23 / -60.63 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.63,44.23,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.33 / -60.7 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.7,44.33,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.27 / -60.67 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.67,44.27,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.17 / -60.53 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.53,44.17,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 09-Jul-09 
+ Lon / Lat: 44.77 / -60.7 
+ Soft-shell crab: 15 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.7,44.77,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 27-Jun-09 
+ Lon / Lat: 45 / -59.33 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.33,45,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 02-Jul-09 
+ Lon / Lat: 44.77 / -60.43 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.43,44.77,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 02-Jul-09 
+ Lon / Lat: 44.8 / -60.43 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.43,44.8,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.43 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.43,44.83,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.3 / -60.77 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.77,44.3,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.2 / -60.53 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.53,44.2,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.47 / -60.57 
+ Soft-shell crab: 12 %</description>
+      <styleUrl>#pin.yellow</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.57,45.47,10
+
+        </coordinates>
+      </Point>
+    </Placemark>
+</Folder>
+
+  <Folder>
+    <name>Greater than 20% soft</name>
+    <description></description>
+
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.27 / -59.83 
+ Soft-shell crab: 55 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.83,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.23 / -59.87 
+ Soft-shell crab: 45 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.87,45.23,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.23 / -59.83 
+ Soft-shell crab: 40 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.83,45.23,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.3 / -60.07 
+ Soft-shell crab: 38 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.07,45.3,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.9 / -58.43 
+ Soft-shell crab: 35 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.43,44.9,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 20-May-09 
+ Lon / Lat: 45.03 / -59.37 
+ Soft-shell crab: 35 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.37,45.03,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.3 / -60.1 
+ Soft-shell crab: 35 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.1,45.3,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.27 / -59.87 
+ Soft-shell crab: 32 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.87,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.37 
+ Soft-shell crab: 32 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.37,44.83,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 04-Jul-09 
+ Lon / Lat: 44.8 / -60.27 
+ Soft-shell crab: 32 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.27,44.8,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.17 / -60.4 
+ Soft-shell crab: 32 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.4,44.17,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.9 / -58.43 
+ Soft-shell crab: 30 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.43,44.9,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.27 / -60.07 
+ Soft-shell crab: 30 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.07,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.23 / -59.83 
+ Soft-shell crab: 30 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.83,45.23,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.27 / -59.83 
+ Soft-shell crab: 30 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.83,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.43 / -60.57 
+ Soft-shell crab: 30 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.57,45.43,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.27 / -60.13 
+ Soft-shell crab: 28 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.13,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.47 / -60.67 
+ Soft-shell crab: 28 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.67,45.47,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 03-Jul-09 
+ Lon / Lat: 45.27 / -59.83 
+ Soft-shell crab: 25 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-59.83,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.27 / -60.67 
+ Soft-shell crab: 25 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.67,44.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.47 / -60.57 
+ Soft-shell crab: 25 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.57,45.47,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.9 / -58.43 
+ Soft-shell crab: 22 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.43,44.9,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.9 / -58.33 
+ Soft-shell crab: 22 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.33,44.9,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 21-Jun-09 
+ Lon / Lat: 44.87 / -58.57 
+ Soft-shell crab: 22 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.57,44.87,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 26-Jun-09 
+ Lon / Lat: 44.83 / -58.57 
+ Soft-shell crab: 22 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.57,44.83,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 28-Jun-09 
+ Lon / Lat: 45.27 / -60 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60,45.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.37 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.37,44.83,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 05-Jul-09 
+ Lon / Lat: 44.83 / -58.33 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-58.33,44.83,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 04-Jul-09 
+ Lon / Lat: 44.93 / -60.33 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.33,44.93,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 04-Jul-09 
+ Lon / Lat: 44.8 / -60.27 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.27,44.8,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 07-Jul-09 
+ Lon / Lat: 44.27 / -60.6 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.6,44.27,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name></name>
+      <description>Date: 08-Jul-09 
+ Lon / Lat: 45.43 / -60.6 
+ Soft-shell crab: 20 %</description>
+      <styleUrl>#pin.red</styleUrl>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+-60.6,45.43,100
+
+        </coordinates>
+      </Point>
+    </Placemark>
+</Folder>
+</Folder>
+
+  </Document>
+</kml>
+

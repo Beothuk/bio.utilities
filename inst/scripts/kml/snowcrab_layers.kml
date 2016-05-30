@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Snow crab background layers</name>
+
+
+      <Style id="polygon.gully">
+        <LineStyle>
+			    <color>ff33f8ff</color>
+		      <width>1</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4c00ffff</color>
+          <fill>1</fill> 
+          <outline>0</outline>
+        </PolyStyle>
+      </Style>
+
+      <Style id="polygon.shrimp">
+        <LineStyle>
+			    <color>ff7fffff</color>
+		      <width>1</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4c7fffff</color>
+          <fill>1</fill> 
+          <outline>0</outline>
+        </PolyStyle>
+      </Style>
+
+      <Style id="line.soft">
+        <LineStyle>
+			    <color>ff7fffff</color>
+		      <width>1</width>
+        </LineStyle>
+      </Style>
+
+      <Style id="line.cfa">
+        <LineStyle>
+			    <color>bfffffff</color>
+		      <width>3</width>
+        </LineStyle>
+      </Style>
+
+  <Folder>
+    <name>Scotian Shelf snow crab</name>
+    <description>Asssessment tools for the Scotian Shelf snow crab (Bedford Institute of Oceanography)</description>
+
+
+		<GroundOverlay>
+			<name>Bathymetry</name>
+			<color>e6ffffff</color>
+			<Icon>
+				<href>http://nssnowcrab.googlepages.com/ss.bathy.colour.tif</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<altitudeMode>clampToGround</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>50</north>
+				<south>40</south>
+				<east>-52</east>
+				<west>-72</west>
+			</LatLonBox>
+		</GroundOverlay>
+
+  <Folder>
+    <name>Management lines</name>
+    <description></description>
+
+
+      <Placemark>
+        <name>Gully MPA</name>
+        <description></description>
+        <styleUrl>#polygon.gully</styleUrl>
+        <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-59.1005119231518,44.2167827465615,0
+-59.3351611517126,44.1005778444819,0
+-59.1378220016458,43.9171861919297,0
+-59.1343001559663,43.5835789265116,0
+-58.5829687964125,43.5828438525047,0
+-58.5834503461352,43.7836004512934,0
+-59.1005119231518,44.2167827465615,0
+
+            </coordinates>
+        </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <Placemark>
+        <name>CFA23-CFA24</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.6604062099044,45.5808380520121,0
+-59.1188178518086,43.6761027690933,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>SENS-CFA4X</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-63.5250280185751,44.5005704612574,0
+-63.3329600156155,44.3334376342809,0
+-63.331613976331,42.5018691253427,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>CFA23 inshore-offshore</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-59.9285383712296,44.6977473507025,0
+-58.4100528701696,46.0003838022226,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>NENS-SENS</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-59.8524748031692,46.0029196099276,0
+-57.7856098701195,46.0010607611097,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>Gulf-NENS</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.4156841898408,47.0385352329715,0
+-60.0001489731988,47.8340895879352,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>23-24</name>
+        <description></description>
+        <styleUrl>#line.cfa</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-59.1005119231518,44.2167827465615,0
+-59.3351611517126,44.1005778444819,0
+-59.1378220016458,43.9171861919297,0
+-59.1343001559663,43.5835789265116,0
+-58.5829687964125,43.5828438525047,0
+-58.5834503461352,43.7836004512934,0
+-59.1005119231518,44.2167827465615,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+  <Folder>
+    <name>NENS soft-shell closure lines</name>
+    <description></description>
+
+
+      <Placemark>
+        <name>6-7</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-59.8669459147477,46.6182900309752,0
+-59.8671492755594,46.1903922915425,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>5-6</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.1501316991087,46.6168605103636,0
+-60.150702969877,46.2540307792378,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>4-5</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-58.5716929650564,46.6174371573833,0
+-60.3510163048472,46.617430362911,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>3-4</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.3293496185766,46.7337740209557,0
+-58.7045562221159,46.7342582163305,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>2-3</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.2973977634123,46.8490837267233,0
+-58.8393558169183,46.8522334225455,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>1-2</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-60.3996596759806,47.0004783278014,0
+-59.0146178267121,47.0002807693737,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>outside1</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-59.9989139068293,47.8310301319898,0
+-58.5677538224151,46.6164937928015,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name>outside2</name>
+        <description></description>
+        <styleUrl>#line.soft</styleUrl>
+        <LineString>
+        <altitudeMode>absolute</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>0</tessellate>
+          <coordinates>
+-57.7859120819054,46.0010996220563,0
+-58.5677538224151,46.6164937928015,0
+
+          </coordinates>
+        </LineString>
+      </Placemark>
+</Folder>
+
+  <Folder>
+    <name>Shrimp boxes</name>
+    <description></description>
+
+
+      <Placemark>
+        <name>NW Sable</name>
+        <description></description>
+        <styleUrl>#polygon.shrimp</styleUrl>
+        <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-60.5334852226468,44.1671385706523,0
+-59.8340244631718,44.1667484280592,0
+-59.8337724318864,44.3502021184087,0
+-60.5343763089555,44.3505635043997,0
+-60.5334852226468,44.1671385706523,0
+
+            </coordinates>
+        </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <Placemark>
+        <name>Louisburg Hole</name>
+        <description></description>
+        <styleUrl>#polygon.shrimp</styleUrl>
+        <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-59.1672256774816,45.5003749010768,0
+-58.1175623285431,45.5002967844121,0
+-58.1173658635416,45.9167513433738,0
+-59.167243957271,45.9169499196884,0
+-59.1672256774816,45.5003749010768,0
+
+            </coordinates>
+        </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <Placemark>
+        <name>Eastern Holes</name>
+        <description></description>
+        <styleUrl>#polygon.shrimp</styleUrl>
+        <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-60.9998310651807,44.5836097101249,0
+-58.0005005513048,44.583615751228,0
+-58.0011205209597,44.9165492050831,0
+-58.6669712316866,44.9180161190093,0
+-58.6658601372402,45.0005478743694,0
+-61.0006305803766,45.0008068840777,0
+-60.9998310651807,44.5836097101249,0
+
+            </coordinates>
+        </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+
+      <Placemark>
+        <name>Bad Neighbours</name>
+        <description></description>
+        <styleUrl>#polygon.shrimp</styleUrl>
+        <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-60.950655552508,45.3155085772585,0
+-60.0831172115643,45.4671441766578,0
+-60.0837192558621,45.8004019121628,0
+
+            </coordinates>
+        </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+</Folder>
+</Folder>
+</Folder>
+
+  </Document>
+</kml>
+
