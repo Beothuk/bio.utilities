@@ -12,7 +12,7 @@ makeMapBasic= function(x,xlim=c(-67,-57), ylim=c(42,47.5), title="", area="defau
   require("raster")
 	require("geosphere")
 
-  ecomodLibrary("polygons")
+  ecomodLibrary("ecomod_polygons")
 
   #("sp_23_2014-12-01_tow_83UTM20N.shp")
 #   these.shapefiles<-list()
