@@ -1,4 +1,4 @@
-# documentation for utilities 
+# documentation for ecomod_utilities 
 
 Package to help develop and/or use ecomod tools. These are generic tools. 
 
