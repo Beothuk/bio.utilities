@@ -1,8 +1,8 @@
-# **[get.day.r](../../src/_RFunctions/utility/datetime/get.day.r)**
+# **[get.day.r](../../src/_RFunctions/ecomod_utilities/datetime/get.day.r)**
 #### MMM - Jan 2016 
 This function provides the number of days in each month, given a year and month.  It accounts for leapyears from 1904-2096.  Leapyears are not simply every 4 years - please look it up should this script live long enough to need modification :)
 
-This script was originally part of the [date.picker()](../../src/_RFunctions/utility/datetime/date.picker.r) function, but was separated since it might be useful on its own
+This script was originally part of the [date.picker()](../../src/_RFunctions/ecomod_utilities/datetime/date.picker.r) function, but was separated since it might be useful on its own
  
 ```R
 #how many days in February, 1976?

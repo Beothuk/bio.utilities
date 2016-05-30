@@ -1,4 +1,4 @@
-Package: utility
+Package: ecomod_utilities
 Title: Package that interacts with ecomod providing base-level generic routines to make your life easier.
 Version: 0.1
 Authors@R: c( person("Jae", "Choi", email="jae.choi@dfo-mpo.gc.ca", role=c("aut", "cre")) ) 
@@ -10,6 +10,6 @@ Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 License: MIT
 LazyData: true
-URL: https://github.com/jae0/utility/
+URL: https://github.com/jae0/ecomod_utilities/
 
 

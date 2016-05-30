@@ -1,4 +1,4 @@
-# utility
+# ecomod_utilities
 
 Package to help develop and/or use ecomod tools in order to ...
 
