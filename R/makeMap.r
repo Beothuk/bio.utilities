@@ -8,7 +8,7 @@ addSurvey=F,addFisheryFootprint=F,addSummerStrata,main=""){
   require("raster")
 	require("geosphere")
 
-wd = project.datadirectory('ecomod_polygons','data')
+wd = project.datadirectory('bio.polygons','data')
 ##from Ben June 14, 2013 08:15:00 PM
 ##couple of mods by Adam June 14, 2013 01:21:02 PM
 ## area one of c('NENS','SENS','4X','23','24')

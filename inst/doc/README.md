@@ -1,4 +1,4 @@
-# documentation for ecomod_utilities 
+# documentation for bio.utilities 
 
 Package to help develop and/or use ecomod tools. These are generic tools. 
 

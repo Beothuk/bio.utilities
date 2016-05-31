@@ -1,4 +1,4 @@
-# **[date.picker.r](../../src/_RFunctions/ecomod_utilities/datetime/date.picker.r)**
+# **[date.picker.r](../../src/_RFunctions/bio.utilities/datetime/date.picker.r)**
 #### MMM - Jan 2016 
 This function presents successive picklists for year, month and day, and returns a date in the format "YYYY-MM-DD".  Only valid days for each month and year combo are presented.  Most complexity is due to the potential for users to click cancel rather than choose valid options.  Cancelling at any point fails gracefully, and results will depend on the selected parameter.   
 
