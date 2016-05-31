@@ -10,7 +10,7 @@
   # con = ... etc
   # ss = sqlQuery() ...
 
-  ecomodLibrary( "bio.utilities" )
+  bioLibrary( "bio.utilities" )
 
   workdir = getwd()
 

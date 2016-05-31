@@ -34,7 +34,7 @@ assignStation <- function(events,maxdist=0.01,res=0.005,expwin=0.05,map=NULL,lin
 	polys <- CP$PolySet
 
 	if(!is.null(map)){
-		ecomodLibrary('lobster')
+		bioLibrary('lobster')
 		LobsterMap(map,...)
 		addPolys(polys,col=rgb(0,0,1,0.3))
 		if(lines==F)addPoints(events,pch='.',col='red')

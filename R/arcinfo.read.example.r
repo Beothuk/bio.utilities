@@ -4,7 +4,7 @@
     library(maptools)
     gpclibPermit()
   
-    # data.dir = "C:\\NATHecomod\\Data\\Shapefiles\\DA\\2006"
+    # data.dir = "C:\\NATHbio\\Data\\Shapefiles\\DA\\2006"
     data.dir = "/home/jae/nath/ccpp/R"
 
     cdda.shapes = file.path( data.dir, "ns.shapes.rdata")

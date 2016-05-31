@@ -1,6 +1,6 @@
 # documentation for bio.utilities 
 
-Package to help develop and/or use ecomod tools. These are generic tools. 
+Package to help develop and/or use bio tools. These are generic tools. 
 
 Installation:
 

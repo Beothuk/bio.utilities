@@ -12,7 +12,7 @@ makeMapBasic= function(x,xlim=c(-67,-57), ylim=c(42,47.5), title="", area="defau
   require("raster")
 	require("geosphere")
 
-  ecomodLibrary("bio.polygons")
+  bioLibrary("bio.polygons")
 
   #("sp_23_2014-12-01_tow_83UTM20N.shp")
 #   these.shapefiles<-list()
@@ -23,11 +23,11 @@ makeMapBasic= function(x,xlim=c(-67,-57), ylim=c(42,47.5), title="", area="defau
 
 # read in shapefiles
 #--------------------------------------
-  basemap= importShapefile(find.ecomod.gis("map_base_region"))
-  dm200= importShapefile(find.ecomod.gis("dm200_region"))
-  dm100= importShapefile(find.ecomod.gis("dm100_region"))
-  land= importShapefile(find.ecomod.gis("landmass_region"))
-  coast=importShapefile(find.ecomod.gis("coastline_polyline"))
+  basemap= importShapefile(find.bio.gis("map_base_region"))
+  dm200= importShapefile(find.bio.gis("dm200_region"))
+  dm100= importShapefile(find.bio.gis("dm100_region"))
+  land= importShapefile(find.bio.gis("landmass_region"))
+  coast=importShapefile(find.bio.gis("coastline_polyline"))
 
 # Provide projection information
 #---------------------------------
@@ -65,7 +65,7 @@ makeMapBasic= function(x,xlim=c(-67,-57), ylim=c(42,47.5), title="", area="defau
   addPolys(dm100, col="lightblue1", border="lightblue1")
 
 #Try adding a csv data layer
-#  ports <- as.EventData(read.csv(find.ecomod.gis("ports.csv")))
+#  ports <- as.EventData(read.csv(find.bio.gis("ports.csv")))
 #  addPoints(ports,col="red")
 #  addLabels(ports)
 

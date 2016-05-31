@@ -1,10 +1,10 @@
-  fix.permissions = function( loc=ecomod.datadirectory, file.perm="ugo+rw", dir.perm=" ugo+rwx", method="unix" ) {
+  fix.permissions = function( loc=bio.datadirectory, file.perm="ugo+rw", dir.perm=" ugo+rwx", method="unix" ) {
     #\\ File permissions can get messed up easily in a shared environment
     #\\ make permissions sensisble recursively inside directory "loc"
     if (method=="unix") {
       if ( tolower( Sys.info()["sysname"] ) != "linux" ) stop( "This is for unix systems only" )
       print( paste( "Operating upon ... ", loc ) )
-      # system ( paste( "sudo chown -R 1001:1000", file.path(loc, "") ) ) # ecomod user id = 1001. ecomod group = 1000
+      # system ( paste( "sudo chown -R 1001:1000", file.path(loc, "") ) ) # bio user id = 1001. bio group = 1000
       system ( paste( "find", file.path(loc, ""), 
         "\\( -type f -exec chmod", file.perm, " {} \\; \\) ,",
         "\\( -type d -exec chmod", dir.perm, " {} \\; \\) " 

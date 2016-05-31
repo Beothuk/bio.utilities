@@ -7,8 +7,8 @@ region=" -R-72/-52/40/50"
 # projection="-JU-20/8i"  # Universal Transverse Mercator Cylindrical (conformal)
 projection="-JQ-62/8i"  # Cylindrical equidistant (Plate Carre)
 resolution="-I0.25m"
-out="/home/jae/ecomod/bathymetry/ss.highres.ps"
-in="/home/jae/ecomod/bathymetry/data/bathymetry.canada.east.xyz"
+out="/home/jae/bio/bathymetry/ss.highres.ps"
+in="/home/jae/bio/bathymetry/data/bathymetry.canada.east.xyz"
 
 d1="/tmp/isobaths.bin"
 d2="/tmp/isobaths_clipped.bin"

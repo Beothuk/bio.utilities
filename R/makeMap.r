@@ -15,13 +15,13 @@ wd = project.datadirectory('bio.polygons','data')
 
 # read in shapefiles
 #--------------------------------------
-  basemap= importShapefile(find.ecomod.gis("map_base_region"))
-  dm200= importShapefile(find.ecomod.gis("dm200_region"))
-  dm100= importShapefile(find.ecomod.gis("dm100_region"))
-  zones= importShapefile(find.ecomod.gis("sczones2010_polyline"))
-  land= importShapefile(find.ecomod.gis("landmass_region"))
-  coast=importShapefile(find.ecomod.gis("coastline_polyline"))
-  axis=importShapefile(find.ecomod.gis("axis_polyline"))
+  basemap= importShapefile(find.bio.gis("map_base_region"))
+  dm200= importShapefile(find.bio.gis("dm200_region"))
+  dm100= importShapefile(find.bio.gis("dm100_region"))
+  zones= importShapefile(find.bio.gis("sczones2010_polyline"))
+  land= importShapefile(find.bio.gis("landmass_region"))
+  coast=importShapefile(find.bio.gis("coastline_polyline"))
+  axis=importShapefile(find.bio.gis("axis_polyline"))
 
 # Provide projection information
 #---------------------------------
@@ -66,10 +66,10 @@ wd = project.datadirectory('bio.polygons','data')
 
   if(addSummerStrata) {
 
-  a = find.ecomod.gis('summer_strata_labels',return.one.match=F)
+  a = find.bio.gis('summer_strata_labels',return.one.match=F)
   a = read.csv(a,header=T)
   names(a)[4] <- 'label'
-  b = find.ecomod.gis('strat.gf',return.one.match=F)
+  b = find.bio.gis('strat.gf',return.one.match=F)
   b = read.table(b)
   names(b) <- c('X','Y','PID')
   b = within(b,{POS <- ave(PID,list(PID),FUN=seq_along)})
@@ -89,17 +89,17 @@ wd = project.datadirectory('bio.polygons','data')
   }
 
 if(addStAnns) {
-	sta <- read.csv(find.ecomod.gis('StAnnsMPA.csv'))
+	sta <- read.csv(find.bio.gis('StAnnsMPA.csv'))
 	 rc = col2rgb("red")
 	addPolys(sta[sta$PID==1,],col=	rgb(rc[1]/255, rc[2]/255, rc[3]/255, .3) , border = "black")
 }
    if(addEmera) {
-  emera=importShapefile(find.ecomod.gis("ENL_SubseaCable_2km_StudyArea.shp"))
+  emera=importShapefile(find.bio.gis("ENL_SubseaCable_2km_StudyArea.shp"))
   addPolys(emera,col='red',lwd=2)
 }
 
 if(addSurvey) {
-	surveydata <- read.csv(find.ecomod.gis('surveypoints.csv'))
+	surveydata <- read.csv(find.bio.gis('surveypoints.csv'))
   surveydata = surveydata[-which(is.na(surveydata$Station)),]
   names(surveydata) = c("PID", "Y", "X", "Y2", "X2", "ID", "col" )
   surveydata$col[which(surveydata$col == 1)] = "green"
@@ -143,7 +143,7 @@ if(addGully) {
 if(addFisheryFootprint){
 
 n=7
-	ff=importShapefile(find.ecomod.gis("crq0610_weight_2minGrid.shp"))
+	ff=importShapefile(find.bio.gis("crq0610_weight_2minGrid.shp"))
 	cols 			<- colorRampPalette(c("darkblue","cyan","green", "yellow", "orange","darkred", "black"), space = "Lab")
 	fp <- attr(ff,'PolyData')[,c('PID','ZDENSITY','CLASS','GMEAN')]
 	fp$Z <- log(fp$ZDENSITY+1)

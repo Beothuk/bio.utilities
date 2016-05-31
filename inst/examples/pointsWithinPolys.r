@@ -1,27 +1,27 @@
 #MMM - Oct 2, 2014
-##Example of using ecomod to accomplish something useful
+##Example of using bio to accomplish something useful
 ##Getting point data, and checking if it is in a particular polygon
 
 #requires gstat, sp package
-loadfunctions("utility")
-loadfunctions("polygons")
+bioLibrary("bio.utilities")
+bioLibrary("bio.polygons")
 
 #find and load a point dataset
 #rename the fields to lat and lon (unnecessary)
 #multiply longitudes by -1, since this data was in the wrong hemisphere
 
-pointfile <- read.csv(file.path(find.ecomod.gis("surveypoints")))
+pointfile <- read.csv(file.path(find.bio.gis("surveypoints")))
 pointfile<-rename.df(pointfile, "Lat.Start","lat")
 pointfile<-rename.df(pointfile, "Long.Start","lon")
 pointfile$lon<-pointfile$lon*-1
 
 #find and load a polygon (4vw, in this case)
 #rename the fields to lat and lon (unnecessary)
-this.poly<-read.table(find.ecomod.gis("nafo.4vw.dat"))
+this.poly<-read.table(find.bio.gis("nafo.4vw.dat"))
 this.poly<-rename.df(this.poly, "V1","lon")
 this.poly<-rename.df(this.poly, "V2","lat")
 
-#send the coordinates to the point.in.polygon function (sp package) to return array 
+#send the coordinates to the point.in.polygon function (sp package) to return array
 #of whether the points are:
 # (0) of the polygon
 # (1) in the polygon

@@ -2,7 +2,7 @@
   arcinfo.shapes = function( DS, filename, shapename ) {
     
     # filename = file.path( "/home", "jae", "nath", "ccpp", "cdda", "gda_012b06a_e.shp" )
-    # filename = file.path(  "C:", "NATHecomod", "Data", "CCPP", "Mapping", "gda_012b06a_e.shp" )
+    # filename = file.path(  "C:", "NATHbio", "Data", "CCPP", "Mapping", "gda_012b06a_e.shp" )
     
     shapes = file.path( dirname(filename), "ns.shapes.rdata")
 

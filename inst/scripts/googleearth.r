@@ -1,7 +1,7 @@
 
   # example to create a googlearth file adding points ("placemarks")
 
-	ecomodLibrary("bio.utilities")
+	bioLibrary("bio.utilities")
 
 
 	# define workspace appropriate files and directories
