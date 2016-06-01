@@ -1,4 +1,4 @@
-bioLibrary( 'bio.utility', 'groundfish')
+bioLibrary( 'bio.utilities', 'groundfish')
 
 p = groundfish::load.groundfish.environment()
 
