@@ -17,7 +17,8 @@
 
 
     if (loc=="default") {
-      loc = project.codedirectory( "oracle.objects", "src", "sql")
+      loc = system.file(package="bio.utilities")
+      # loc = project.codedirectory( "oracle.objects", "src", "sql")
     }
 
     flist = list.files( path=loc, pattern="*.sql", recursive=TRUE, ignore.case=TRUE )
