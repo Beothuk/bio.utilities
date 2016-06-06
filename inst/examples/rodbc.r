@@ -19,7 +19,7 @@
 
 	  	if (DS == "odbc.logbook.redo") {
 
-        fn.root =  file.path( project.directory("bio.snowcrab"), "data", "logbook", "datadump" )
+        fn.root =  file.path( project.datadirectory("bio.snowcrab"), "data", "logbook", "datadump" )
 
         dir.create( fn.root, recursive = TRUE, showWarnings = FALSE )
 

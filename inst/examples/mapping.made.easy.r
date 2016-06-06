@@ -11,7 +11,7 @@ library(maps)
 library(mapdata)  # high resolution world coastlines/polygons
 require(lubridate)
 require(lattice)
-bioLibrary("groundfish")
+bioLibrary("bio.groundfish")
 bioLibrary("bio.utilities")
 bioLibrary("bio.bathymetry")
 
