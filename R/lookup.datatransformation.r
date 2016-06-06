@@ -14,7 +14,7 @@
       log.transform = variable.list.expand("log.transform")
       scaled.centered = variable.list.expand("scaled.centered")
       sn = variable.list.expand("all")
-      set = bio.groundfish.db("set.partial" )
+      set = groundfish.db("set.partial" )
 	logs=NULL    
       repository = file.path( project.datadirectory("bio.groundfish"), "R", "transform.lookup.rdata" )
     } else {
