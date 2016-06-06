@@ -1,6 +1,6 @@
 bioLibrary( 'bio.utilities', 'groundfish')
 
-p = groundfish::load.groundfish.environment()
+p = bio.groundfish::load.groundfish.environment()
 
 d = groundfish.db(DS='gscat',p=p)
 n = structure(list(spec = c("10", "11", "12", "14", "15", "16", "23",
