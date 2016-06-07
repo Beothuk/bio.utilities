@@ -1,7 +1,11 @@
 Package: bio.utilities
 Title: Package that interacts with bio providing base-level generic routines to make your life easier.
 Version: 0.1
-Authors@R: c( person("Jae", "Choi", email="choijaeseok@gmail.com", role=c("aut", "cre")) ) 
+Authors@R: c( 
+  person("Mike", "McMahon", email = "Mike.McMahon@dfo-mpo.gc.ca", role = c("aut", "cre")),
+  person("Jae", "Choi", email = "choijaeseok@gmail.com", role = c("aut")),
+  person("Brad", "Hubley", email = "Brad.Hubley@dfo-mpo.gc.ca", role = c("aut")),
+  person("Adam", "Cook", email = "Adam.Cook@dfo-mpo.gc.ca", role = c("aut")) ) 
 Description: This project interacts with the functionality of bio 
     to provide simple generic functions.
 Depends: R (>= 3.0.0)
