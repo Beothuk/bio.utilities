@@ -13,8 +13,8 @@ Example:
 
     z.ct <- Sys.time()             # the current date, as class "POSIXct"
     print(z.ct)
-    unclass( z.ct )  # seconds since 1970-1-1 00:00:00 
- 
+    unclass( z.ct )  # seconds since 1970-1-1 00:00:00
+
     z.lt = as.POSIXlt( z.ct, "AST" ) # the current time in Atlantic time zone
     z.lt = as.POSIXlt( z.ct, "GMT" ) # the current time in GMT
     print(z.lt)
@@ -23,7 +23,7 @@ Example:
 
     # pretty print in human readable format
     format(z.lt)
-    format(z.ct) 
+    format(z.ct)
 
     months(z.ct)
     julian(z.lt)
@@ -32,14 +32,14 @@ Example:
 # operating with POSIX .. a bit convoluted:
     date = as.POSIXct("01-01-2010", format = "%d-%m-%Y", tz = "UTC")
     as.POSIXlt(date)$month + 1
-    as.numeric(format(date, "%m"))  
+    as.numeric(format(date, "%m"))
     date = as.POSIXct(format(date,"%Y-2-%d"), tz = "UTC")
-    as.POSIXct(format(as.POSIXct(date), tz = "UTC"), tz = "GMT") 
+    as.POSIXct(format(as.POSIXct(date), tz = "UTC"), tz = "GMT")
 
 
 # lubridate interoprates with POSIX as well as a number of other different formats and is fast
 # install.packages( "lubridate")  # if you do not have it
-  library(lubridate) 
+  library(lubridate)
 
 
     date = dmy("01-01-2010")
@@ -52,9 +52,9 @@ Example:
     ydm("2010-01-01")
 
     dmy(c("31.12.2010", "01.01.2011", "12-01-2010", "12:06.2070"  ))  # kind of smart
-    
+
     z = now()
-    year(z) 
+    year(z)
     minute(z)
 
     year(z) = 2121
@@ -69,6 +69,18 @@ Example:
     b = z- a
     unclass(b)
 
+    ? lubridate::decimal_date  # Converts a date to a decimal of its year.
+    lubridate::decimal_date( z )
 
+    So Julian day is simply:
+
+    (decimal_date( z ) - year(z)) * 365.242189
+
+    dayofyear = function(a) (decimal_date(a) - year(a)) * 365.242189
+
+    dayofyear( z )
+
+
+    ? lubridate::parse_date_time  # low level control
 
 

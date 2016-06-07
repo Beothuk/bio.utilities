@@ -7,7 +7,7 @@
       log.transform = variable.list.expand("log.transform")
       scaled.centered = variable.list.expand("scaled.centered")
       sn = variable.list.expand("all.data")
-      set = bio.snowcrab.db("set.merge.cat") # base transform characteristics 
+      set = snowcrab.db("set.merge.cat") # base transform characteristics 
       logs = logbook.db('logbook')
       repository = file.path( project.datadirectory("bio.snowcrab"), "R", "transform.lookup.rdata" )
     } else if (db=="bio.groundfish") {
