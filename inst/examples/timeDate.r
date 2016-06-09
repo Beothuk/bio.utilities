@@ -63,8 +63,8 @@ Example:
     z = z + hours(3)
 
 
-    z = ymd_hms("2012-01-01 12:00:00")
-    a = ymd_hms("2013-05-05 12:00:00")
+    z = ymd_hms("2012-01-01 12:00:00", tz="UTC")  # UTC is default
+    a = ymd_hms("2013-05-05 12:00:00", tz="America/Halifax")
 
     b = z- a
     unclass(b)
