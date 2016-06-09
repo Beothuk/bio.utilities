@@ -80,6 +80,9 @@ Example:
 
     dayofyear( z )
 
+    or
+
+    lubridate::yday(z)
 
     ? lubridate::parse_date_time  # low level control
 

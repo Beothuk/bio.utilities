@@ -1,9 +1,9 @@
   recode.variable.initiate.db = function( db ) {
-    
+
     tl = lookup.datatransformation( db )
-    
+
     REPOS = NULL
-  
+
     dataset.names = c(names( tl$set),names(tl$logs))
 
     for (si in 1:length(tl$sn)) {
@@ -22,18 +22,18 @@
         scaling = attr(y,"scaled:scale") # RMS error  .. i.e. a Z-transform
       } else {
         transform = "none"
-        y = x 
-        offset = 0 
-        scaling = 1 
+        y = x
+        offset = 0
+        scaling = 1
       }
       # add more as needed
-      REPOS = rbind( REPOS,  cbind( varname, transform, offset, scaling  ) 
+      REPOS = rbind( REPOS,  cbind( varname, transform, offset, scaling  )
       )
     }
     REPOS = data.frame( REPOS, stringsAsFactors=F )
     REPOS$offset = as.numeric(REPOS$offset)
     REPOS$scaling = as.numeric(REPOS$scaling)
-     
+
     loc = dirname( tl$repository )
     dir.create( path=loc, recursive=T, showWarnings=F )
     save( REPOS, file=tl$repository )
