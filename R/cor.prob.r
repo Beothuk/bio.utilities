@@ -1,3 +1,11 @@
+#' @title cor.prob
+#' @description couldn't accurately describe
+#' @param \code{X} 
+#' @param \code{dfr} degrees of freedom
+#' @return \code{} 
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 cor.prob <- function(X, dfr = nrow(X) - 2) {
 	 R <- cor(X)
 	 above <- row(R) < col(R)

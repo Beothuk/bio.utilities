@@ -1,3 +1,13 @@
+#' @title blue.red
+#' @description This function generates a vector of shades from blue to red of a length selected by value of \code{n}.
+#' @param \code{n} = the number of colors desired
+#' @return character vector
+#' @examples
+#' str(blue.red(5))
+#' \code{[1] "#0000FF" "#FFFFFF" "#FFFFFF" "#FF0000"}
+#' @note As of 2016-06-14, this function generates an error: unused argument (gamma = gamma).  It appears to be attempting to generate a hsv value by adding a gamma value at the end of a hex value.  Removing \code{, gamma=gamma} generates the expected ramp.
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 blue.red <- function (n) 
   { 
     n = n-2

@@ -1,3 +1,8 @@
+#' @title assignStation
+#' @description couldn't accurately describe
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 assignStation <- function(events,maxdist=0.01,res=0.005,expwin=0.05,map=NULL,lines=F,...){
 
 	require(spatstat)

@@ -1,5 +1,10 @@
-
- 
+#' @title colour.names
+#' @description This function returns all of the named colours used by R with their associated R, G and B values 
+#' @param \code{colour.order} = the sort order.  Valid values are \code{r}, \code{g} and \code{b} (\code{r} is the default)
+#' @examples
+#' > color.code(type='colourblind1',n=2)
+#' [1] "#FFFFD8" "#071D58"
+#' @export
   colour.names = function( colour.order="r" ) {
     h = t( col2rgb(colors()) )
     rownames(h) = colors()

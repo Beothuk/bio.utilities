@@ -1,7 +1,14 @@
-
-### CONVERTS TO DECIMAL DEGREES
-### can handle a vector with multiple formats
-
+#' @title convert.dd.dddd
+#' @description This function can convert various formats to decimal degrees or to degrees-minutes
+#' @param \code{x} = coordinates
+#' @param \code{format} = dec.deg Acceptable values include dec.deg, deg.min
+#' @examples
+#' > convert.dd.dddd(4730.3)
+#' [1] 47.505
+#' > convert.dd.dddd(47.505, 'deg.min')
+#' [1] 4730.3
+#' @family coordinate converters, poorly documented
+#' @export
 convert.dd.dddd<-function(x,format='dec.deg'){
 	
 	if(format=='dec.deg'){

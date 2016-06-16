@@ -1,3 +1,11 @@
+#' @title connect.ptran
+#' @description This function is supposed to be a user-friendly means for adding a connection to ptran.  The user is prompted for the credentials 5 times before it 
+#' @param \code{user} 
+#' @param \code{password} 
+#' @param \code{i} 
+#' @return \code{channel} 
+#' @author  Mike McMahon, \email{Mike.McMahon@@dfo-mpo.gc.ca}
+#' @export
 connect.ptran = function(user="x", password="x", i=0){
   require(RODBC)
   if (i<5){

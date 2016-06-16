@@ -1,6 +1,17 @@
-
+#' @title convert.datecodes
+#' @description This function take a chron object x and extract required data
+#' @param \code{x} = a chron date object
+#' @param \code{y} = the value to be extracted from \code{x}, acceptable values include 'chron', 'year','month','day','week','julian','julian.ref.2000','tripcode'
+#' @return \code{z} =  the requested date part
+#' @examples
+#' t=Sys.Date()
+#' convert.datecodes(t,'year')
+#' [1] 2016
+#' convert.datecodes(t,'week')
+#' [1] 25
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 convert.datecodes = function (x, y) {
-  # take a chron object x and extract required data
   require(chron)
   q = month.day.year(x)
   j = julian( x=q$month, d=q$day, y=q$year )

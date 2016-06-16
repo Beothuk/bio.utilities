@@ -1,10 +1,12 @@
+#' @title applyMean
+#' @description apply a mean or weighted mean to data by factor
+#' and return a formatted data.frame
+#' must contain index, variable, weight in this sequence 
+#' can take additional parmaters ...
+#'  @family poorly documented
+#'  @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#'  @export
   applyMean = function( f, method="fast", newnames=NULL, ... ) {
-    
-    # apply a mean or weighted mean to data by factor
-    # and return a formatted data.frame
-    # must contain index, variable, weight in this sequence 
-    # can take additional parmaters ...
-
     cnames= c("id", "x", "w" ) 
     
     if (is.null( newnames )) newnames=names(f)

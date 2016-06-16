@@ -1,24 +1,29 @@
-  colour.scale = function( type="seis", nlevels=10, x=NULL, transparency=0.9 ) {
-    #'
-    #'     MMM - Jan, 2016: 
-    #'     Was this written for R?  It almost seems like it's for 
-    #'     KML?  If so, it should be documented.
-    #'     
-    #'     Instead of my desired scheme, i was just getting shades of pink.  
-    #'     
-    #'     The first line applies rbg2bgr which translates the color order and gives
-    #'     the wrong colour, and then the next line attempts to add transparency 
-    #'     (which does not appear to work with R).
-    #'     
-    #'     The end result was that instead of yellow (#FFFF00), I would get 
-    #'     "e600FFFF" instead. Even if you drop the e6 (transparency) from the 
-    #'     beginning, you are left with cyan (#00FFFF).
-    #'         
-    if (length( type) > 1 ) {
-      colours = colorRampPalette( type, space = "rgb") (nlevels)
-    } else {
+#' @title colour.scale
+#' @description This functions return a vector of length \code{x} KML (Google Earth) colour codes using a pre-defined palettes ('seis'). 
+#' @param \code{type} = default is \code{seis}
+#' @param \code{nlevels} = the number of unique colours to generate (default is 10)
+#' @param \code{x} = a vector
+#' @param \code{transparency} = the transparency of the resultant colours (default is 0.9)
+#' @return list of 2 - \code{$y} is a vector of \code{x-1} length, which can used to assign the colours of \code{$cols} to the original vector \code{x}; \code{$cols} is a vector of KML colours of length \code{nlevels}
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @examples
+#' > colour.scale(nlevels=3,x=seq(1:6))
+#' $y
+#' [1] 1 1 2 2 3 3
+#' 
+#' $cols
+#' code
+#' 1 e68B0000
+#' 2 e600008B
+#' @note not toally sure if this function works as intended.  It seems as though \code{nlevels} should return the number of colours specified - not one less.  Jae or Adam might have more information about this.
+#' @export
+colour.scale = function( type="seis", nlevels=10, x=NULL, transparency=0.9 ) {
+    # if (length( type) > 1 ) {
+    #   colours = colorRampPalette( type, space = "rgb") (nlevels)
+    # } else {
       colours = color.code( type, n=nlevels-1 )
-    }
+    # }
 
     cols = data.frame( code=as.character(colours) ) 
 
