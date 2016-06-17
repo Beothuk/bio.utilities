@@ -10,7 +10,6 @@
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   concave.hull = function( xy, k=5, ub=NULL, dname=NULL, fname=NULL, random.start=F ) {
-
     require(spatstat) # to compute convex hull
 
     if (k < 3) return (NULL)
