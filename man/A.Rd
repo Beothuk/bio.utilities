@@ -18,7 +18,6 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 Other poorly documented: \code{\link{applyMean}},
   \code{\link{applySum}}, \code{\link{break.list}},
   \code{\link{by2}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}},
   \code{\link{compute.oxygen.saturation}},
   \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},

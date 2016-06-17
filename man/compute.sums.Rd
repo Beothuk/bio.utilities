@@ -19,6 +19,11 @@ compute.sums(x, var, index)
 \description{
 This function takes a matrix, and for a given column and index, returns a matrix of different unique values for each.
 }
+\note{
+A = matrix(c(2, 4, 3, 1, 5, 7,2,4,7,2,5,6,1,2,3,5,6,7), ncol=3, byrow = TRUE)
+compute.sums(A,"a",1) = for the unique values of first column, var1= corresponding value in col "a", sums of corresponding values in column a
+compute.sums(A,"a",2) = for the unique values of second column, var1= corresponding value in col "a", Freq = sums of corresponding values in column a
+}
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
@@ -26,7 +31,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
   \code{\link{break.list}}, \code{\link{by2}},
-  \code{\link{colour.scale}}, \code{\link{compileODF}},
+  \code{\link{colour.scale}},
   \code{\link{compute.oxygen.saturation}},
   \code{\link{convert.graphics.format}},
   \code{\link{convert2factor}}
