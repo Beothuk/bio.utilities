@@ -7,20 +7,12 @@
 applySum(f, method = "fast", newnames = NULL)
 }
 \description{
-apply a sum and return a formated data frame
+apply a sum and return a formated data frame. If 3 columns of data then a weighted sum is returned, if 1 column (vector) then a count is returned. Must contain index, variable, weight in this sequence
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export
 }
 \seealso{
-Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}},
-  \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
-  \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+Other poorly documented, unclaimed: \code{\link{applyMean}}
 }
 

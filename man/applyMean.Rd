@@ -11,8 +11,11 @@ apply a mean or weighted mean to data by factor
 and return a formatted data.frame
 must contain index, variable, weight in this sequence 
 can take additional parmaters ...
- @family poorly documented
- @author  unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export
+}
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
+\seealso{
+Other poorly documented, unclaimed: \code{\link{applySum}}
 }
 

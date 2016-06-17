@@ -1,11 +1,8 @@
 #' @title applySum
-#' @description apply a sum and return a formated data frame
-# if 3 columns of data then a weighted sum is returned
-# if 1 column (vector) then a count is returned
-# must contain index, variable, weight in this sequence
-#' @family poorly documented
+#' @description apply a sum and return a formated data frame. If 3 columns of data then a weighted sum is returned, if 1 column (vector) then a count is returned. Must contain index, variable, weight in this sequence
+#' @family poorly documented, unclaimed
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
-#'  @export
+#' @export
   applySum = function( f, method="fast", newnames=NULL ) { 
     cnames= c("id", "x", "w" ) 
     
