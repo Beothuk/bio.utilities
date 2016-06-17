@@ -3,7 +3,7 @@
 #' and return a formatted data.frame
 #' must contain index, variable, weight in this sequence 
 #' can take additional parmaters ...
-#' @family poorly documented, unclaimed
+#' @family poorly documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   applyMean = function( f, method="fast", newnames=NULL, ... ) {

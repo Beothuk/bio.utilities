@@ -16,6 +16,13 @@ can take additional parmaters ...
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other poorly documented, unclaimed: \code{\link{applySum}}
+Other poorly documented: \code{\link{A}},
+  \code{\link{applySum}}, \code{\link{break.list}},
+  \code{\link{by2}}, \code{\link{colour.scale}},
+  \code{\link{compileODF}},
+  \code{\link{compute.oxygen.saturation}},
+  \code{\link{compute.sums}},
+  \code{\link{convert.graphics.format}},
+  \code{\link{convert2factor}}
 }
 

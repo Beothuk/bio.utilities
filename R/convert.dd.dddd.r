@@ -3,11 +3,11 @@
 #' @param \code{x} = coordinates
 #' @param \code{format} = dec.deg Acceptable values include dec.deg, deg.min
 #' @examples
-#' > convert.dd.dddd(4730.3)
+#' convert.dd.dddd(4730.3)
 #' [1] 47.505
-#' > convert.dd.dddd(47.505, 'deg.min')
+#' convert.dd.dddd(47.505, 'deg.min')
 #' [1] 4730.3
-#' @family coordinate converters, poorly documented
+#' @family coordinate converters
 #' @export
 convert.dd.dddd<-function(x,format='dec.deg'){
 	

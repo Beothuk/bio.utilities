@@ -6,7 +6,7 @@
 #' @param \code{dname} 
 #' @param \code{fname} 
 #' @param \code{random.start}
-#' @family poorly documented
+#' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   concave.hull = function( xy, k=5, ub=NULL, dname=NULL, fname=NULL, random.start=F ) {

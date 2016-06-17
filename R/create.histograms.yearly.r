@@ -1,5 +1,11 @@
-
-
+#' @title create.histograms.yearly
+#' @description couldn't accurately describe
+#' @param \code{X} 
+#' @param \code{probs} 
+#' @return \code{nn}
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
   create.histograms.yearly = function( X, probs=c(0, 0.995) ) {
     xr=range(X)
     xl=quantile( X, probs=probs )

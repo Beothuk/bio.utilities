@@ -7,13 +7,13 @@
 #' @note taken from help of 'toupper' 
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @examples
-#'> capwords('this is a test', F, T)
+#' capwords('this is a test', F, T)
 #'[1] "This is a test"
-#'> capwords('this is a test', T, T)
+#' capwords('this is a test', T, T)
 #'[1] "This is a test"
-#'> capwords('this is a test', T, F)
+#' capwords('this is a test', T, F)
 #'[1] "This Is A Test"
-#'> capwords('this is a test', F, F)
+#' capwords('this is a test', F, F)
 #'[1] "This Is A Test"
 #' @export
 capwords <- function(s, strict = FALSE, sentence=T) {

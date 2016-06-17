@@ -1,8 +1,8 @@
-#'  @title break.list
-#'  @description couldn't accurately describe
-#'  @family poorly documented
-#'  @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
-#'  @export
+#' @title break.list
+#' @description couldn't accurately describe
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
   break.list = function( X, delimit=NULL, return.columns=NULL, nvars=NULL ) {
     
     if (is.null(delimit)) delimit = X$delimit

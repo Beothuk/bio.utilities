@@ -5,7 +5,7 @@
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @examples
 #' x=-1000:10
-#' > bufferRange(x,2)
+#' bufferRange(x,2)
 #' [1] -1020.0    10.2
 #' @export
 bufferRange <- function(x,buffer.percent = 2) {

@@ -1,11 +1,10 @@
 #' @title coordinates.db
 #' @description this is an assortment of coordinates for commonly used objects
-#' @note does not work in Windows
 #' @param \code{item} the desired object.  Valid values are 'gully','nens.ss.6-7','nens.ss.5-6','nens.ss.4-5','nens.ss.3-4','nens.ss.2-3','nens.ss.1-2','nens.ss.outside.1','nens.ss.outside.2','gulf-ss','nens-sens','cfa23.inshore-offshore','cfa23-cfa24','sens-cfa4x','shrimp.nw.sable','shrimp.louisburg','shrimp.bad.neighbours'
 #' @return \code{} 
 #' @examples
 #' coordinates.db('gully')
-#' @note It is tempting to mark this as deprecated, as it is not clear that they are a definitive source 
+#' @note It is tempting to mark this as deprecated, as it is not clear that these objects will be updated to reflect a more definitive source 
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   coordinates.db = function( item ) {

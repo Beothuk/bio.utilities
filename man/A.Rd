@@ -15,12 +15,13 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 \seealso{
 \code{\link[base]{attr}}
 
-Other poorly documented: \code{\link{assignStation}},
-  \code{\link{colour.scale}}, \code{\link{compileODF}},
+Other poorly documented: \code{\link{applyMean}},
+  \code{\link{applySum}}, \code{\link{break.list}},
+  \code{\link{by2}}, \code{\link{colour.scale}},
+  \code{\link{compileODF}},
   \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
+  \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+  \code{\link{convert2factor}}
 }
 

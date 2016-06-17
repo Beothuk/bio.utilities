@@ -3,9 +3,9 @@
 #' @param \code{x} = dataframe to be handled, with lat and lon colnames
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @examples
-#' > test=as.data.frame(cbind(42.5,55.255))
-#' > colnames(test)=c("lat","lon")
-#' > convert.degdec2degmin(test)
+#' test=as.data.frame(cbind(42.5,55.255))
+#' colnames(test)=c("lat","lon")
+#' convert.degdec2degmin(test)
 #' lat    lon
 #' 1 42.3 55.153
 #' (55.153 is 55deg 15.3min)

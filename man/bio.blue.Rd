@@ -19,7 +19,7 @@ This function generates a vector of shades of blue (from white to blue) of the l
 }
 \examples{
 bio.blue(5)
-\\code{[1] "#FFFFFFFF" "#AAAAFFFF" "#5555FFFF" "#0000FFFF"}
+[1] "#FFFFFFFF" "#AAAAFFFF" "#5555FFFF" "#0000FFFF"
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}

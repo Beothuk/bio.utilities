@@ -13,7 +13,10 @@ colour.names(colour.order = "r")
 This function returns all of the named colours used by R with their associated R, G and B values
 }
 \examples{
-> color.code(type='colourblind1',n=2)
+color.code(type='colourblind1',n=2)
 [1] "#FFFFD8" "#071D58"
+}
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 

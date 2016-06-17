@@ -2,19 +2,24 @@
 % Please edit documentation in R/by2.r
 \name{by2}
 \alias{by2}
-\title{@title by2
- @description  'slower but more flexible'
- @family poorly documented
- @author  unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export}
+\title{by2}
 \usage{
 by2(x, indices, func, var, newvars, ...)
 }
 \description{
-@title by2
- @description  'slower but more flexible'
- @family poorly documented
- @author  unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export
+"slower but more flexible"
+}
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
+\seealso{
+Other poorly documented: \code{\link{A}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{break.list}}, \code{\link{colour.scale}},
+  \code{\link{compileODF}},
+  \code{\link{compute.oxygen.saturation}},
+  \code{\link{compute.sums}},
+  \code{\link{convert.graphics.format}},
+  \code{\link{convert2factor}}
 }
 

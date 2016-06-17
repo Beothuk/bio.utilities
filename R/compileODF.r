@@ -1,8 +1,8 @@
 #' @title compileODF
-#' @description No description
+#' @description No description. Requires the \code{parse.odf.file()} function from this package.  
 #' @param \code{path} = location of an ODF file
-#' @return \code{result} =  what the function returns
-#' @note requires the \code{parse.odf.file()} function from this package.  Currently don't have an *.odf file to test this on
+#' @return \code{result}
+#' @note MMM - 2016-06-17 - Unable to get this to work.
 #' @family poorly documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export

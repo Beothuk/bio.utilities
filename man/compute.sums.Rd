@@ -7,9 +7,9 @@
 compute.sums(x, var, index)
 }
 \arguments{
-\item{\code{x}}{}
+\item{\code{x}}{=the input matrix}
 
-\item{\code{var}}{}
+\item{\code{var}}{=}
 
 \item{\code{index}}{}
 }
@@ -17,19 +17,18 @@ compute.sums(x, var, index)
 \code{res}
 }
 \description{
-couldn't accurately describe
+This function takes a matrix, and for a given column and index, returns a matrix of different unique values for each.
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{break.list}}, \code{\link{by2}},
+  \code{\link{colour.scale}}, \code{\link{compileODF}},
   \code{\link{compute.oxygen.saturation}},
-  \code{\link{concave.hull}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+  \code{\link{convert2factor}}
 }
 

@@ -17,7 +17,7 @@ This function adds a bit of negative a positive buffer to a range.
 }
 \examples{
 x=-1000:10
-> bufferRange(x,2)
+bufferRange(x,2)
 [1] -1020.0    10.2
 }
 \author{

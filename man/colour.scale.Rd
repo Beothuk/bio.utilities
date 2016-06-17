@@ -16,16 +16,16 @@ colour.scale(type = "seis", nlevels = 10, x = NULL, transparency = 0.9)
 \item{\code{transparency}}{= the transparency of the resultant colours (default is 0.9)}
 }
 \value{
-list of 2 - \code{$y} is a vector of \code{x-1} length, which can used to assign the colours of \code{$cols} to the original vector \code{x}; \code{$cols} is a vector of KML colours of length \code{nlevels}
+list of 2: \code{$y} is a vector of \code{x-1} length, which can used to assign the colours of \code{$cols} to the original vector \code{x}; \code{$cols} is a vector of KML colours of length \code{nlevels}
 }
 \description{
 This functions return a vector of length \code{x} KML (Google Earth) colour codes using a pre-defined palettes ('seis').
 }
 \note{
-not toally sure if this function works as intended.  It seems as though \code{nlevels} should return the number of colours specified - not one less.  Jae or Adam might have more information about this.
+not totally sure if this function works as intended.  It seems as though \code{nlevels} should return the number of colours specified - not one less.  Jae or Adam might have more information about this.
 }
 \examples{
-> colour.scale(nlevels=3,x=seq(1:6))
+colour.scale(nlevels=3,x=seq(1:6))
 $y
 [1] 1 1 2 2 3 3
 
@@ -39,11 +39,12 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{compileODF}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{break.list}}, \code{\link{by2}},
+  \code{\link{compileODF}},
   \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
+  \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+  \code{\link{convert2factor}}
 }
 

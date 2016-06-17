@@ -27,12 +27,8 @@ X is the matrix of values with each column representing a single variable.  The 
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}},
-  \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
-  \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}}
+Other abysmally documented: \code{\link{assignStation}},
+  \code{\link{concave.hull}}, \code{\link{cor.prob}},
+  \code{\link{create.histograms.yearly}}
 }
 

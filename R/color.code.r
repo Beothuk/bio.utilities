@@ -1,10 +1,10 @@
 #' @title color.code
 #' @description This functions return a vector of colour codes using a number of pre-defined palettes ('types') 
-#' @param \code{type} = the colour palette to use.  Options include: yellow.red; blue.black; red.white.blue; seis; red.yellow.blue; nathalie; blue.yellow.red; blue.yellow.blue; colourblind1
+#' @param \code{type} = the colour palette to use.  Valid options include: yellow.red; blue.black; red.white.blue; seis; red.yellow.blue; nathalie; blue.yellow.red; blue.yellow.blue; colourblind1
 #' @param \code{n} = the number of colours to return
 #' @return vector of \code{n} length of hex color codes
 #' @examples
-#' > color.code(type='colourblind1',n=2)
+#' color.code(type='colourblind1',n=2)
 #' [1] "#FFFFD8" "#071D58"
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export

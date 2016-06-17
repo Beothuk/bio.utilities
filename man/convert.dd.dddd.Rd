@@ -15,9 +15,13 @@ convert.dd.dddd(x, format = "dec.deg")
 This function can convert various formats to decimal degrees or to degrees-minutes
 }
 \examples{
-> convert.dd.dddd(4730.3)
+convert.dd.dddd(4730.3)
 [1] 47.505
-> convert.dd.dddd(47.505, 'deg.min')
+convert.dd.dddd(47.505, 'deg.min')
 [1] 4730.3
+}
+\seealso{
+Other coordinate converters: \code{\link{convert.degdec2degmin}},
+  \code{\link{convert.degmin2degdec}}
 }
 

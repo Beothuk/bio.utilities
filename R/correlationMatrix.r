@@ -5,7 +5,7 @@
 #' @param \code{meth.} 
 #' @return \code{}
 #' @note X is the matrix of values with each column representing a single variable.  The upper triangle of the resulting matrix is p-values and lower is cor test value
-#' @family poorly documented
+#' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 correlationMatrix <- function(X, dfr = nrow(X) - 2,meth.=c("pearson", "kendall", "spearman")) {

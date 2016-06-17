@@ -10,24 +10,25 @@ compileODF(path = loc)
 \item{\code{path}}{= location of an ODF file}
 }
 \value{
-\code{result} =  what the function returns
+\code{result}
 }
 \description{
-No description
+No description. Requires the \code{parse.odf.file()} function from this package.
 }
 \note{
-requires the \code{parse.odf.file()} function from this package.  Currently don't have an *.odf file to test this on
+MMM - 2016-06-17 - Unable to get this to work.
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{break.list}}, \code{\link{by2}},
+  \code{\link{colour.scale}},
   \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
+  \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+  \code{\link{convert2factor}}
 }
 

@@ -3,7 +3,7 @@
 #' @param \code{X} 
 #' @param \code{dfr} degrees of freedom
 #' @return \code{} 
-#' @family poorly documented
+#' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 cor.prob <- function(X, dfr = nrow(X) - 2) {

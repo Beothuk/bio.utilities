@@ -13,14 +13,18 @@ convert.degdec2degmin(x)
 This function converts decimals to degree and minute notation
 }
 \examples{
-> test=as.data.frame(cbind(42.5,55.255))
-> colnames(test)=c("lat","lon")
-> convert.degdec2degmin(test)
+test=as.data.frame(cbind(42.5,55.255))
+colnames(test)=c("lat","lon")
+convert.degdec2degmin(test)
 lat    lon
 1 42.3 55.153
 (55.153 is 55deg 15.3min)
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
+\seealso{
+Other coordinate converters: \code{\link{convert.dd.dddd}},
+  \code{\link{convert.degmin2degdec}}
 }
 

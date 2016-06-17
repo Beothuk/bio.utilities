@@ -21,13 +21,9 @@ couldn't accurately describe
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}},
-  \code{\link{compute.oxygen.saturation}},
-  \code{\link{compute.sums}}, \code{\link{concave.hull}},
-  \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}},
-  \code{\link{correlationMatrix}}
+Other abysmally documented: \code{\link{assignStation}},
+  \code{\link{concave.hull}},
+  \code{\link{correlationMatrix}},
+  \code{\link{create.histograms.yearly}}
 }
 

@@ -17,13 +17,10 @@ compute.oxygen.saturation(t.C, sal.ppt, oxy.ml.l)
 \code{DO} = saturation percentage
 }
 \description{
-This function determines the percentage of Dissolved oxygen in solution at a given temperature and salinity given a known saturation amount
-}
-\note{
-formula attributed to Weiss DSR 17, 721-735, 1970
+This function determines the percentage of Dissolved oxygen in solution at a given temperature and salinity given a known saturation amount. formula attributed to Weiss DSR 17, 721-735, 1970
 }
 \examples{
-> compute.oxygen.saturation(0, 25, 8.2)
+compute.oxygen.saturation(0, 25, 8.2)
 [1] 95.19575
 }
 \author{
@@ -31,11 +28,11 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other poorly documented: \code{\link{A}},
-  \code{\link{assignStation}}, \code{\link{colour.scale}},
-  \code{\link{compileODF}}, \code{\link{compute.sums}},
-  \code{\link{concave.hull}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{break.list}}, \code{\link{by2}},
+  \code{\link{colour.scale}}, \code{\link{compileODF}},
+  \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+  \code{\link{convert2factor}}
 }
 

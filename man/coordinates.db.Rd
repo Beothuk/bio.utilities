@@ -16,9 +16,7 @@ coordinates.db(item)
 this is an assortment of coordinates for commonly used objects
 }
 \note{
-does not work in Windows
-
-It is tempting to mark this as deprecated, as it is not clear that they are a definitive source
+It is tempting to mark this as deprecated, as it is not clear that these objects will be updated to reflect a more definitive source
 }
 \examples{
 coordinates.db('gully')

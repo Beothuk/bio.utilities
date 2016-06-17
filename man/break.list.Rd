@@ -2,19 +2,24 @@
 % Please edit documentation in R/break.list.r
 \name{break.list}
 \alias{break.list}
-\title{@title break.list
- @description couldn't accurately describe
- @family poorly documented
- @author  unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export}
+\title{break.list}
 \usage{
 break.list(X, delimit = NULL, return.columns = NULL, nvars = NULL)
 }
 \description{
-@title break.list
- @description couldn't accurately describe
- @family poorly documented
- @author  unknown, \email{<unknown>@dfo-mpo.gc.ca}
- @export
+couldn't accurately describe
+}
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
+\seealso{
+Other poorly documented: \code{\link{A}},
+  \code{\link{applyMean}}, \code{\link{applySum}},
+  \code{\link{by2}}, \code{\link{colour.scale}},
+  \code{\link{compileODF}},
+  \code{\link{compute.oxygen.saturation}},
+  \code{\link{compute.sums}},
+  \code{\link{convert.graphics.format}},
+  \code{\link{convert2factor}}
 }
 

@@ -7,11 +7,11 @@
 #' @examples
 #' require(chron)
 #' t1<- chron(dates =  dates(c("02/27/92")), times =  "08:00:00")
-#' > chron2datestamp(t1,100)
+#' chron2datestamp(t1,100)
 #' [1] "02/27/92.33"
 #' 
 #' t2<- chron(dates =  dates(c("02/27/92")), times =  "12:00:00")
-#' > chron2datestamp(t2,10)
+#' chron2datestamp(t2,10)
 #' [1] "02/27/92.5"
 #' @export
   chron2datestamp = function(x, res=12) {

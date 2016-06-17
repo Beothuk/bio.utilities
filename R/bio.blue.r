@@ -5,7 +5,7 @@
 #' @return character vector
 #' @examples
 #' bio.blue(5)
-#' \code{[1] "#FFFFFFFF" "#AAAAFFFF" "#5555FFFF" "#0000FFFF"}
+#' [1] "#FFFFFFFF" "#AAAAFFFF" "#5555FFFF" "#0000FFFF"
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 bio.blue <- function (n, alpha=1) { 

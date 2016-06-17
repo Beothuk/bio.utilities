@@ -21,12 +21,12 @@ This function removes rows where specific columns have NA
 The name is deceptive - I did not find it to be fun at all.
 }
 \examples{
-> A = matrix(c(2, NA, 3, 1, 5, 7), nrow=2, ncol=3, byrow = TRUE)
-> A
+A = matrix(c(2, NA, 3, 1, 5, 7), nrow=2, ncol=3, byrow = TRUE)
+A
 [,1] [,2] [,3]
 [1,]    2   NA    3
 [2,]    1    5    7
-> completeFun(A, 2)
+completeFun(A, 2)
 [1] 1 5 7
 }
 \author{

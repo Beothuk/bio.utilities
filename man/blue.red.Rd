@@ -19,8 +19,8 @@ This function generates a vector of shades from blue to red of a length selected
 As of 2016-06-14, this function generates an error: unused argument (gamma = gamma).  It appears to be attempting to generate a hsv value by adding a gamma value at the end of a hex value.  Removing \code{, gamma=gamma} generates the expected ramp.
 }
 \examples{
-str(blue.red(5))
-\\code{[1] "#0000FF" "#FFFFFF" "#FFFFFF" "#FF0000"}
+blue.red(5)
+[1] "#0000FF" "#FFFFFF" "#FFFFFF" "#FF0000"
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
