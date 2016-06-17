@@ -21,8 +21,7 @@ couldn't accurately describe
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other abysmally documented: \code{\link{assignStation}},
-  \code{\link{concave.hull}}, \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}}
+Other abysmally documented: \code{\link{concave.hull}},
+  \code{\link{cor.prob}}, \code{\link{correlationMatrix}}
 }
 

@@ -2,11 +2,33 @@
 % Please edit documentation in R/createTS.r
 \name{createTS}
 \alias{createTS}
-\title{taken from http://stats.stackexchange.com/questions/29239/creating-auto-correlated-random-values-in-r'}
+\title{createTS}
 \usage{
 createTS(N = 100, seed = NULL, nonstationary = T, all.positive = T)
 }
+\arguments{
+\item{\code{N}}{= the number of values desired (Defaults to 100)}
+
+\item{\code{seed}}{(Defaults to \code{null})}
+
+\item{\code{nonstationary}}{(Defaults to T)}
+
+\item{\code{all.positive}}{= if you want all values positive set all.positive=T to rescale (Defaults to T)}
+}
+\value{
+\code{x}
+}
 \description{
-taken from http://stats.stackexchange.com/questions/29239/creating-auto-correlated-random-values-in-r'
+creates a random time series of data of length N, not perfect but works
+}
+\examples{
+createTS(8,nonstationary=T,all.positive=F)
+[1]  0.0000000  0.6036440  0.8781622  0.8489549  1.3040091  0.5772213  0.2788312 -0.2574978 -0.6370382
+}
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
+\references{
+\url{http://stats.stackexchange.com/questions/29239/creating-auto-correlated-random-values-in-r}
 }
 

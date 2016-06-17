@@ -27,4 +27,8 @@ convert.datecodes(t,'week')
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
+\seealso{
+Other date functions: \code{\link{chron2datestamp}},
+  \code{\link{date.picker}}, \code{\link{get.day}}
+}
 

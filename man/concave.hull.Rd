@@ -25,8 +25,8 @@ cannot accurately describe
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other abysmally documented: \code{\link{assignStation}},
-  \code{\link{cor.prob}}, \code{\link{correlationMatrix}},
+Other abysmally documented: \code{\link{cor.prob}},
+  \code{\link{correlationMatrix}},
   \code{\link{create.histograms.yearly}}
 }
 

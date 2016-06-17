@@ -27,8 +27,8 @@ X is the matrix of values with each column representing a single variable.  The 
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other abysmally documented: \code{\link{assignStation}},
-  \code{\link{concave.hull}}, \code{\link{cor.prob}},
+Other abysmally documented: \code{\link{concave.hull}},
+  \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}}
 }
 

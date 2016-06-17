@@ -14,8 +14,7 @@ couldn't accurately describe
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other abysmally documented: \code{\link{concave.hull}},
-  \code{\link{cor.prob}}, \code{\link{correlationMatrix}},
-  \code{\link{create.histograms.yearly}}
+Other overly specific: \code{\link{cutOutLand}},
+  \code{\link{dataOverlap}}
 }
 

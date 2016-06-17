@@ -30,4 +30,8 @@ chron2datestamp(t2,10)
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
+\seealso{
+Other date functions: \code{\link{convert.datecodes}},
+  \code{\link{date.picker}}, \code{\link{get.day}}
+}
 
