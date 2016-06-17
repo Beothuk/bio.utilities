@@ -2,6 +2,7 @@
 #' @description This function can convert various formats to decimal degrees or to degrees-minutes
 #' @param \code{x} = coordinates
 #' @param \code{format} = dec.deg Acceptable values include dec.deg, deg.min
+#' @author Brad Hubley 
 #' @examples
 #' convert.dd.dddd(4730.3)
 #' [1] 47.505

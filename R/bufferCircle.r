@@ -6,7 +6,7 @@
 #' @return data.frame of 101 indivual points of $lat and $lon
 #' @examples
 #' bufferCircle(c(-64.15,44.75),100)
-#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @author  Adam Cook, \email{Adam.Cook@@dfo-mpo.gc.ca}
 #' @export
 bufferCircle <- function(lonlat, radius, npoints=100) {
 	#//**radius must be in km, this treats the globe as a sphere**
