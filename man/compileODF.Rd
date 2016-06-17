@@ -13,13 +13,13 @@ compileODF(path = loc)
 \code{result} =  what the function returns
 }
 \description{
-No description
+Compile ODF files from in a specific folder (path) CTD casts into a data frame.  This script only requires casts to be labeled either down ('D') or up ('U') along the file naming convention
 }
 \note{
 requires the \code{parse.odf.file()} function from this package.  Currently don't have an *.odf file to test this on
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
 }
 \seealso{
 Other poorly documented: \code{\link{A}},

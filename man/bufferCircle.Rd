@@ -23,6 +23,6 @@ This function buffers a point by a specified radius \code{n}.
 bufferCircle(c(-64.15,44.75),100)
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
 }
 

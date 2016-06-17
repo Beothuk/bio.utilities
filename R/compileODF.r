@@ -1,10 +1,10 @@
 #' @title compileODF
-#' @description No description
+#' @description Compile ODF files from in a specific folder (path) CTD casts into a data frame.  This script only requires casts to be labeled either down ('D') or up ('U') along the file naming convention
 #' @param \code{path} = location of an ODF file
 #' @return \code{result} =  what the function returns
 #' @note requires the \code{parse.odf.file()} function from this package.  Currently don't have an *.odf file to test this on
 #' @family poorly documented
-#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @author  Adam Cook, \email{Adam.Cook@@dfo-mpo.gc.ca}
 #' @export
 compileODF <- function(path=loc) {
 		f 	<- file.path(path)

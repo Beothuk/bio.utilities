@@ -20,4 +20,7 @@ This function can convert various formats to decimal degrees or to degrees-minut
 > convert.dd.dddd(47.505, 'deg.min')
 [1] 4730.3
 }
+\author{
+Brad Hubley
+}
 
