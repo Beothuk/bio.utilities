@@ -1,5 +1,11 @@
-#function to add a datestamp to the bottom right corner of a figure
-
+#' @title dstamp
+#' @description function to add a datestamp to the bottom right corner of a figure
+#' @param \code{txt} 
+#' @param \code{pwd} 
+#' @param \code{time.} 
+#' @family plotting
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 dstamp<- function (txt, pwd = FALSE, time. = TRUE) 
 {
     stamp <- function(string = Sys.time(), print = TRUE, plot = TRUE) {

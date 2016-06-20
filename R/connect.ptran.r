@@ -5,6 +5,7 @@
 #' @param \code{i} 
 #' @return \code{channel} 
 #' @author  Mike McMahon, \email{Mike.McMahon@@dfo-mpo.gc.ca}
+#' @family GUI functions
 #' @export
 connect.ptran = function(user="x", password="x", i=0){
   require(RODBC)

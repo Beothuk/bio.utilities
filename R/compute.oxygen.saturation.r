@@ -7,7 +7,7 @@
 #' @examples
 #' compute.oxygen.saturation(0, 25, 8.2)
 #' [1] 95.19575
-#' @family poorly documented
+#' @family physical and chemical properties
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   compute.oxygen.saturation = function(t.C, sal.ppt, oxy.ml.l) {

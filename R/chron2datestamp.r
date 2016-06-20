@@ -13,6 +13,7 @@
 #' t2<- chron(dates =  dates(c("02/27/92")), times =  "12:00:00")
 #' chron2datestamp(t2,10)
 #' [1] "02/27/92.5"
+#' @family date functions
 #' @export
   chron2datestamp = function(x, res=12) {
     ds = paste( dates(x),

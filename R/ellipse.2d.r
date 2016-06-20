@@ -1,5 +1,13 @@
-
-
+#' @title ellipse.2d
+#' @description This function calculates a 2D kernel density then plot highest density regions with contour().
+#' @param \code{x} 
+#' @param \code{y} 
+#' @param \code{pv} the density of the region to be outlined - defaults to 95% (i.e. 0.05) 
+#' @param \code{sc} a scaling factor? defaults to 50
+#' @references \url{https://stat.ethz.ch/pipermail/r-help/2000-March/005973.html}
+#' @family  plotting
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 ellipse.2d = function( x, y, pv=0.05, sc=50 ) {
   library(KernSmooth)
   xr = range( x, na.rm=T)

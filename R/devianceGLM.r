@@ -1,6 +1,15 @@
+#' @title devianceGLM
+#' @description couldn't accurately describe
+#' @family statistical
+#' @param \code{x} the glm model object
+#' @param \code{data} 
+#' @param \code{test} defaults to FALSE
+#' @param \code{digits} defaults to 2
+#' @return \code{result}
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 devianceGLM <- function (x, data, test = "F", digits = 2) {
     #deviance explained by glm model 
-    #x is glm model object
     nexpl <- x$deviance
     tot <- x$null.deviance
     expl <- tot - nexpl

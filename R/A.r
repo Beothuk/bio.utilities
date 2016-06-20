@@ -4,5 +4,5 @@
 #' @family poorly documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
- A = function(x) attr(x)
+A = function(x) attr(x)
 

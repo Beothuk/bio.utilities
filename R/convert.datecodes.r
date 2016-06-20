@@ -10,6 +10,7 @@
 #' convert.datecodes(t,'week')
 #' [1] 25
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @family date functions
 #' @export
 convert.datecodes = function (x, y) {
   require(chron)

@@ -1,5 +1,17 @@
-#// plots distributions in R, useful for setting up priors in Bayesian analyses
-
+#' @title dist.plt
+#' @description plots distributions in R, useful for setting up priors in Bayesian analyses
+#' @param \code{dist} 
+#' @param \code{par1} 
+#' @param \code{par2} 
+#' @param \code{x} 
+#' @param \code{xl} 
+#' @param \code{col} 
+#' @return \code{add}
+#' @return \code{alpha}
+#' @return \code{plot.lines}
+#' @family plotting
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @export
 dist.plt<-function(dist="beta",par1,par2,x,xl=c(0,1),col=1,add=F,alpha=0.05,plot.lines=F,title=''){
 
 	

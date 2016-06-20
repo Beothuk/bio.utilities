@@ -1,5 +1,17 @@
+#' @title cutOutLand
+#' @description PBS mapping utility to remove the land from management area polygons, include coastline data or defaults to "bio.data/lobster/data/maps/gshhs/shorelineUR.csv"
+#' @param \code{Polys} 
+#' @param \code{coast} (Defaults to \code{null})
+#' @param \code{mapRes} (Defaults to \code{UR})
+#' @param \code{keepUniquePolys} = if you want all values positive set all.positive=T to rescale (Defaults to T)
+#' @return \code{x} 
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @examples
+#' example.function() returns \code{4}
+#' example.function(6) returns \code{36}.
+#' @family overly specific
+#' @export
 cutOutLand<-function(Polys,coast,mapRes="UR",keepUniquePolys=T){
-#// PBS mapping utility to remove the land from management area polygons, include coastline data or defaults to "bio.data/lobster/data/maps/gshhs/shorelineUR.csv"
 	if(missing(coast))coast<-read.csv(file.path( project.datadirectory("lobster"), "data","maps","gshhs",paste0("shoreline",mapRes,".csv")))
 	attr(coast,"projection")<-"LL"
 	coast<-clipPolys(coast,xlim=range(Polys$X),ylim=range(Polys$Y))

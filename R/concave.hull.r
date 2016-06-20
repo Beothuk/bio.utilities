@@ -1,11 +1,11 @@
 #' @title concave.hull
 #' @description cannot accurately describe
 #' @param \code{xy} 
-#' @param \code{k} 
-#' @param \code{ub} 
-#' @param \code{dname} 
-#' @param \code{fname} 
-#' @param \code{random.start}
+#' @param \code{k} defaults to 5
+#' @param \code{ub} defaults to NULL
+#' @param \code{dname} defaults to NULL 
+#' @param \code{fname} defaults to NULL
+#' @param \code{random.start} defaults to FALSE
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
