@@ -15,6 +15,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other overly specific: \code{\link{cutOutLand}},
-  \code{\link{dataOverlap}}
+  \code{\link{dataOverlap}},
+  \code{\link{default.lattice.options}}
 }
 

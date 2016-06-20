@@ -10,13 +10,15 @@ concave.hull(xy, k = 5, ub = NULL, dname = NULL, fname = NULL,
 \arguments{
 \item{\code{xy}}{}
 
-\item{\code{k}}{}
+\item{\code{k}}{defaults to 5}
 
-\item{\code{ub}}{}
+\item{\code{ub}}{defaults to NULL}
 
-\item{\code{dname}}{}
+\item{\code{dname}}{defaults to NULL}
 
-\item{\code{fname}}{}
+\item{\code{fname}}{defaults to NULL}
+
+\item{\code{random.start}}{defaults to FALSE}
 }
 \description{
 cannot accurately describe
@@ -26,7 +28,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{cor.prob}},
-  \code{\link{correlationMatrix}},
-  \code{\link{create.histograms.yearly}}
+  \code{\link{create.histograms.yearly}},
+  \code{\link{errorbars}}
 }
 

@@ -32,8 +32,8 @@ Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
   \code{\link{break.list}}, \code{\link{by2}},
   \code{\link{colour.scale}},
-  \code{\link{compute.oxygen.saturation}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}
+  \code{\link{convert2factor}}, \code{\link{dim.list}},
+  \code{\link{duplicates.toremove}}
 }
 

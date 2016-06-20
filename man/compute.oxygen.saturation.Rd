@@ -27,11 +27,6 @@ compute.oxygen.saturation(0, 25, 8.2)
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
-Other poorly documented: \code{\link{A}},
-  \code{\link{applyMean}}, \code{\link{applySum}},
-  \code{\link{break.list}}, \code{\link{by2}},
-  \code{\link{colour.scale}}, \code{\link{compute.sums}},
-  \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}
+Other physical and chemical properties: \code{\link{decibar2depth}}
 }
 

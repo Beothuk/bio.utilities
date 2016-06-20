@@ -31,4 +31,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 \references{
 \url{http://stats.stackexchange.com/questions/29239/creating-auto-correlated-random-values-in-r}
 }
+\seealso{
+Other random data: \code{\link{create.random.matrix}}
+}
 

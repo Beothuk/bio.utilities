@@ -29,6 +29,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other date functions: \code{\link{chron2datestamp}},
-  \code{\link{date.picker}}, \code{\link{get.day}}
+  \code{\link{date.picker}}, \code{\link{dayofyear}},
+  \code{\link{get.day}}
 }
 

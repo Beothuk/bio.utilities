@@ -23,6 +23,6 @@ Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
 \seealso{
 Other date functions: \code{\link{chron2datestamp}},
   \code{\link{convert.datecodes}},
-  \code{\link{date.picker}}
+  \code{\link{date.picker}}, \code{\link{dayofyear}}
 }
 

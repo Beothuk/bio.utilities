@@ -8,11 +8,13 @@ dataOverlap(data1, data2, distance.Theshold = 0.1, dnames = c("EID", "X",
   "Y", "date", "salinity", "temperature", "depth", "source"))
 }
 \arguments{
-\item{\code{data1}}{}
+\item{\code{data1}}{dataset #1}
 
-\item{\code{data2}}{}
+\item{\code{data2}}{dataset #2}
 
-\item{\code{distance.Theshold}}{}
+\item{\code{distance.Theshold}}{defaults to 0.1}
+
+\item{\code{dnames}}{defaults to \code{c("EID","X","Y","date","salinity","temperature","depth","source")}}
 }
 \value{
 \code{Data}
@@ -21,13 +23,14 @@ dataOverlap(data1, data2, distance.Theshold = 0.1, dnames = c("EID", "X",
 compare 2 datasets and returns values that overlap
 }
 \note{
-the return object should probably be Data1, not Data
+should not the return object should probably be Data1, not Data?
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other overly specific: \code{\link{assignStation}},
-  \code{\link{cutOutLand}}
+  \code{\link{cutOutLand}},
+  \code{\link{default.lattice.options}}
 }
 
