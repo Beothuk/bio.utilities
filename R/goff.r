@@ -1,4 +1,3 @@
-goff = graphics.off
-
-
-
+goff <- function(){
+  graphics.off
+} 
