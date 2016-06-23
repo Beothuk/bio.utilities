@@ -1,7 +1,4 @@
-
-
-
-  variable.list.expand = function(component="all.data") {
+variable.list.expand = function(component="all.data") {
     
     V = switch( EXPR=component,
       

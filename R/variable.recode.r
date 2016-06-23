@@ -1,5 +1,4 @@
- 
-  variable.recode = function( x, variable, direction="forward", db="snowcrab", rm.na=F ) {
+variable.recode = function( x, variable, direction="forward", db="snowcrab", rm.na=F ) {
 
     #  load transformation tables associated with a given variable 
     tl = lookup.datatransformation(db) 
