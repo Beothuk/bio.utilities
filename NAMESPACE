@@ -59,3 +59,5 @@ export(make.xyz)
 export(pie.add)
 export(pie.draw)
 export(pie.legend)
+export(recode)
+
