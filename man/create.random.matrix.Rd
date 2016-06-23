@@ -4,7 +4,7 @@
 \alias{create.random.matrix}
 \title{create.random.matrix}
 \usage{
-create.random.matrix(the.nrow = 5, the.ncol = 5, the.range = 1:100)
+create.random.matrix(the.nrow = 10, the.ncol = 2, the.range = 1:50)
 }
 \arguments{
 \item{\code{the.nrow}}{= desired number of rows (default is 5)}

@@ -11,12 +11,12 @@ ellipse.2d(x, y, pv = 0.05, sc = 50)
 
 \item{\code{y}}{}
 
-\item{\code{pv}}{the density of the region to be outlined - defaults to 95% (i.e. 0.05)}
+\item{\code{pv}}{the density of the region to be outlined - defaults to 95 percent (i.e. 0.05)}
 
 \item{\code{sc}}{a scaling factor? defaults to 50}
 }
 \description{
-calculates a 2D kernel density then plot highest density regions with contour().
+This function calculates a 2D kernel density then plot highest density regions with contour().
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}

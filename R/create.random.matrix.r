@@ -8,6 +8,6 @@
 #' @family random data
 #' @examples create.random.matrix(the.nrow=10, the.ncol=20, the.range=0:9)
 #' @export
-create.random.matrix<-function(the.nrow=5, the.ncol=5, the.range=1:100){
+create.random.matrix<-function(the.nrow=10, the.ncol=2, the.range=1:50){
   return(matrix(sample(the.range, size = the.nrow*the.ncol, replace = TRUE), the.nrow, the.ncol))
 }
