@@ -1,3 +1,4 @@
+#' @export
   make.histograms = function(set, det, hvar="cw", breaks=NULL) {
     nbins = length(breaks)-1
     sids = sort(unique(set$sid))

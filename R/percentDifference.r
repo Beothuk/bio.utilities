@@ -1,3 +1,4 @@
+#' @export
 percentDifference <- function(x) {
 	 
 	if(is.vector(x)) {

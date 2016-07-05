@@ -1,3 +1,4 @@
+#' @export
 #' @title cbindPad
 #' @description This function adds in NAs to fill in missing rows for combining multiple data sources
 #' @param \code{x} = vector, matrix

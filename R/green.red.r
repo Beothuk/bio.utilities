@@ -1,3 +1,4 @@
+#' @export
 
 
   green.red <- function (n) {

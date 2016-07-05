@@ -1,3 +1,4 @@
+#' @export
 idHoles<-function(Polys){
 #// PBS mapping utility to identify holes in a PolySet
 	sids<-unique(Polys$SID)

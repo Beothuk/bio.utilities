@@ -1,3 +1,4 @@
+#' @export
  
   offset.determine = function(x) {
     offset = 0

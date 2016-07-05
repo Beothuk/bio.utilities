@@ -1,3 +1,4 @@
+#' @export
 #' @title correlationMatrix
 #' @description couldn't accurately describe
 #' @param \code{X} 

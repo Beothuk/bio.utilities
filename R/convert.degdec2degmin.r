@@ -1,3 +1,4 @@
+#' @export
 #' @title convert.degdec2degmin
 #' @description This function converts decimals to degree and minute notation
 #' @param \code{x} = dataframe to be handled, with lat and lon colnames

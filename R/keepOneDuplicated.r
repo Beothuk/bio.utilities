@@ -1,3 +1,4 @@
+#' @export
 keepOneDuplicated = function(x,cols,test.col,test.val,test.direction=c('greater','less','equal','not.equal')) {
 	#// x is the data frame containing all data, cols is the columns to check for duplicates, test.col is the column which contains the info that is not duplicated and you wish to remove one entry based on a test.val and a test.direction
 

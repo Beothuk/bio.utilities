@@ -1,3 +1,4 @@
+#' @export
 #catch given Fishing mortality and Biomass
 #useful for  projections
 

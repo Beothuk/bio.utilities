@@ -1,3 +1,4 @@
+#' @export
 #' @title get.day
 #' @description This function provides the number of days in each month, given a year and month. This script was originally part of the date.picker() function, but was separated since it might be useful on its own
 #' @note It accounts for leapyears from 1904-2096.  Leapyears are not simply every 4 years - please look it up should this script live long enough to need modification 

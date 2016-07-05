@@ -1,3 +1,4 @@
+#' @export
 
   nearest.sorted.angles = function( plist, hull, k, eps=pi/4, ub=NULL ) {
  

@@ -1,3 +1,4 @@
+#' @export
   fix.permissions = function( loc=bio.datadirectory, file.perm="ugo+rw", dir.perm=" ugo+rwx", method="unix" ) {
     #\\ File permissions can get messed up easily in a shared environment
     #\\ make permissions sensisble recursively inside directory "loc"

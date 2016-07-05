@@ -1,3 +1,4 @@
+#' @export
   mod.graphics.basic = function(files, outformat="") {
 
        if (outformat == "ps2eps") {

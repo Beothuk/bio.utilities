@@ -1,3 +1,4 @@
+#' @export
 #' @title concave.hull
 #' @description cannot accurately describe
 #' @param \code{xy} 

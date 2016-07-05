@@ -1,3 +1,4 @@
+#' @export
 
   Tabulate = function(f, data, varname="n") {
     xt = xtabs( f, data=data )

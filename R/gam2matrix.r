@@ -1,3 +1,4 @@
+#' @export
  gam2matrix = function( oo, i=1, n2=100 )  {
 
     xterm <- oo$smooth[[i]]$term[1]

@@ -1,3 +1,4 @@
+#' @export
 
   matrix.multiply = function (x, y, nfac=2){ 
     ndat = dim(x)[1]

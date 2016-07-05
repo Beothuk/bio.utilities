@@ -1,3 +1,4 @@
+#' @export
 #' @title convert.dd.dddd
 #' @description This function can convert various formats to decimal degrees or to degrees-minutes
 #' @param \code{x} = coordinates

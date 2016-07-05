@@ -1,3 +1,4 @@
+#' @export
 #' @title default.lattice.options
 #' @description couldn't accurately describe
 #' @note 

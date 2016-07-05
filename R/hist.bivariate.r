@@ -1,3 +1,4 @@
+#' @export
 
 
 hist.bivariate = function(x,y, method="fd", xrange=NULL, yrange=NULL) {

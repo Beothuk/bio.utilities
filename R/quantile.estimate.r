@@ -1,3 +1,4 @@
+#' @export
 
 	quantile.estimate = function(x) {
 		# essentially the same as ecdf, but over-writes the max value with the next largest quantile

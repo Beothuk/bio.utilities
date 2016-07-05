@@ -1,3 +1,4 @@
+#' @export
 #' @title legend.bubble
 #' @description couldn't accurately describe
 #' @param \code{x} 

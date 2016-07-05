@@ -1,3 +1,4 @@
+#' @export
 
   ra.jit = function(jvalue=1) {
   # kind of slow  ... try the jit approach

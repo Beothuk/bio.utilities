@@ -1,3 +1,4 @@
+#' @export
 table.view = function( x ) {
     a = tempfile()
     write.table (x, file=a, sep=",")

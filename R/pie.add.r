@@ -1,3 +1,4 @@
+#' @export
 #' @title pie.add
 #' @description couldn't accurately describe
 #' @param \code{z} 

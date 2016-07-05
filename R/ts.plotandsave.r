@@ -1,3 +1,4 @@
+#' @export
 
   ts.plotandsave = function ( x, y, lb=NULL, ub=NULL, w=NULL, outdir=NULL, action=NULL, title="default", filename="NULL", smooth=NULL) {
 

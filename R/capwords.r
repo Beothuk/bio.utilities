@@ -1,3 +1,4 @@
+#' @export
 #' @title capwords
 #' @description This function capitalizes words 
 #' @param \code{s} = the string to handle

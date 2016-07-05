@@ -1,3 +1,4 @@
+#' @export
 #' @title create.histograms.yearly
 #' @description couldn't accurately describe
 #' @param \code{X} 

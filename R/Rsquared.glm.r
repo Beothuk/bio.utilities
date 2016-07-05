@@ -1,3 +1,4 @@
+#' @export
  
   Rsquared.glm <- function(o) { 
     typ <- matrix(c(

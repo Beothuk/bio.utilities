@@ -1,3 +1,4 @@
+#' @export
  # ----------------
  explicit.to.implicit.2d.line = function ( p1, p2 ) {
 

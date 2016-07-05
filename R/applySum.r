@@ -1,3 +1,4 @@
+#' @export
 #' @title applySum
 #' @description apply a sum and return a formated data frame. If 3 columns of data then a weighted sum is returned, if 1 column (vector) then a count is returned. Must contain index, variable, weight in this sequence
 #' @family poorly documented

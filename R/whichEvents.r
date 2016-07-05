@@ -1,3 +1,4 @@
+#' @export
 whichEvents <- function(lonlatpoint,radius,event.data,on.boundary=T) {
 	#lonlatpoint is the central data point you want to find the surroundings c(lon,lat)
 	#radius is the radius of the buffer zone you want to identify

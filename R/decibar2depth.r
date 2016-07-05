@@ -1,3 +1,4 @@
+#' @export
 #' @title decibar2depth
 #' @description This function calculates depth in meters from pressure in decibars using Saunders and Fofonoff's method
 #' @param \code{P} = pressure, in decibars

@@ -1,3 +1,4 @@
+#' @export
 
   kml.document = function( item="", document.name="" ) {
     

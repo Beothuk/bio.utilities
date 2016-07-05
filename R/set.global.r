@@ -1,3 +1,4 @@
+#' @export
 
   set.global <- function (x, value) {
     x <- deparse(substitute(x))

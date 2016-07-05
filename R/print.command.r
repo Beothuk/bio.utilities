@@ -1,3 +1,4 @@
+#' @export
   print.command <- function(x) {
       default.args <- attr(x, "default.args")
       if (!length(default.args)) default.args <- list()

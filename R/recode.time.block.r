@@ -1,3 +1,4 @@
+#' @export
  
   recode.time.block = function ( X=NULL, type="annual" ) {
     if (type=="annual") w = X$yr

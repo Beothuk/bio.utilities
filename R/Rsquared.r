@@ -1,3 +1,4 @@
+#' @export
 	
   Rsquared <- function(o){
     # o is an lm, glm or gam object

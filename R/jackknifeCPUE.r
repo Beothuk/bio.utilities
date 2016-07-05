@@ -1,3 +1,4 @@
+#' @export
 
 jackknifeCPUE<-function(data,err='se',grouping){
 	#Smith 1980 CJFAS

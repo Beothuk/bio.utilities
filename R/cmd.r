@@ -1,3 +1,4 @@
+#' @export
 #' @title cmd
 #' @description This facilitates invoking system commands directly
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}

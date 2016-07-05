@@ -1,3 +1,4 @@
+#' @export
 SQL.in <- function(x) {
   #//MMM, Dec, 2015
   #//Takes a vector, and converts it into a comma separated list of characters

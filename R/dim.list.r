@@ -1,3 +1,4 @@
+#' @export
 #' @title dim.list
 #' @description takes a list and returns a simplified list of its dimensions
 #' @param \code{list1} 

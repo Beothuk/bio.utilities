@@ -1,3 +1,4 @@
+#' @export
 #' @title connect.ptran
 #' @description This function is supposed to be a user-friendly means for adding a connection to ptran.  The user is prompted for the credentials 5 times before it 
 #' @param \code{user} 

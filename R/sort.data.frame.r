@@ -1,3 +1,4 @@
+#' @export
   sort.data.frame <- function(x, key, ...) {
     if (missing(key)) {
         rn <- rownames(x)

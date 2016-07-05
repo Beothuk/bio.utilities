@@ -1,3 +1,4 @@
+#' @export
   
   filter.dayno = function( x, period, index=T ) {
     if (period=="SUMMER") {

@@ -1,3 +1,4 @@
+#' @export
 
   sql.find.bio = function( sql, loc="default" ) {
 

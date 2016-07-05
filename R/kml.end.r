@@ -1,3 +1,4 @@
+#' @export
 
    kml.end = function( con ) {
     writeLines( kml.document('footer'),  con ) 

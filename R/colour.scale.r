@@ -1,3 +1,4 @@
+#' @export
 #' @title colour.scale
 #' @description This functions return a vector of length \code{x} KML (Google Earth) colour codes using a pre-defined palettes ('seis'). 
 #' @param \code{type} = default is \code{seis}

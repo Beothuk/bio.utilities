@@ -1,3 +1,4 @@
+#' @export
   plot.histograms.temporal = function( mm, xlab="", ylab="", barscale=0.75, barcol="darkgray", overlaydata=NULL ) {
     # this adds historgrams to the current figure
     # mm is a matrix of the actual distributions  

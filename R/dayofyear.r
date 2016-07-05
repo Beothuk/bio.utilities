@@ -1,3 +1,4 @@
+#' @export
 #' @title dayofyear
 #' @description This function converts dates from \code{chron::} format into the day number of year
 #' @param \code{t} = the date

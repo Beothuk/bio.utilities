@@ -1,3 +1,4 @@
+#' @export
 SQL.in.noquotes <- function(x) {
   #//MMM, Dec, 2015
   #//Same as SQL.in, but appropriate for numbers (not vectors), since no 

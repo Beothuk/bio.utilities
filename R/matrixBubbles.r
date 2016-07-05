@@ -1,3 +1,4 @@
+#' @export
 
 matrixBubbles <- function (dmat,xr,yr,ttl,xlab,ylab,maxinch,colors,zeroflag=T,yc.colors=F,ch.col = c("rainbow(nx,alpha=0.5)", "heat.colors(nx,alpha=0.5)","terrain.colors(nx,alpha=0.5)",
  "topo.colors(nx,alpha=0.5)","cm.colors(nx,alpha=0.5)"),xlabs = seq(1970,2015,by=5)){                                                      

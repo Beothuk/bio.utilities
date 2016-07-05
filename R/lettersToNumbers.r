@@ -1,3 +1,4 @@
+#' @export
 lettersToNumbers <- function(x) {
   #replaces all letters with digits - there must be a better way!
   res=gsub("A",01,gsub("B",02,gsub("C",03,gsub("D",04,gsub("E",05,gsub(

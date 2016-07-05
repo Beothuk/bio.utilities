@@ -1,3 +1,4 @@
+#' @export
 quantileBreak2NA <- function(x, qu=0.99) {
 	#//changing outliers and infinite values to NA , if qu has two elements will be treated as lower and upper, otherwise it will be an upper quantile only
 				i = which(is.infinite(x))

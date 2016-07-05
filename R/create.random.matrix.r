@@ -1,3 +1,4 @@
+#' @export
 #' @title create.random.matrix
 #' @description This function calculates depth in meters from pressure in decibars using Saunders and Fofonoff's method
 #' @param \code{the.nrow} = desired number of rows (default is 5)

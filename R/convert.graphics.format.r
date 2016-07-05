@@ -1,3 +1,4 @@
+#' @export
 #' @title convert.graphics.format
 #' @description this uses imagemagicks functionality
 #' @note does not work in Windows

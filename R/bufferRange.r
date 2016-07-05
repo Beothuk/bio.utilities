@@ -1,3 +1,4 @@
+#' @export
 #' @title bufferRange
 #' @description This function adds a bit of negative a positive buffer to a range.
 #' @param \code{buffer.percent} = buffer amount (default = 2) 

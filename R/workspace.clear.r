@@ -1,3 +1,4 @@
+#' @export
 
   workspace.clear = function() {
 

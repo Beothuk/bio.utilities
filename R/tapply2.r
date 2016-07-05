@@ -1,3 +1,4 @@
+#' @export
 
 
   tapply2 = function (x, indices, func, var, newvars, ...) {

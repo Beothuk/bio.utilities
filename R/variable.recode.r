@@ -1,3 +1,4 @@
+#' @export
 #' @export 
   variable.recode = function( x, variable, direction="forward", db="snowcrab", rm.na=F ) {
 

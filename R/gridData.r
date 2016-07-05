@@ -1,3 +1,4 @@
+#' @export
 gridData <- function(Data,domain.poly,lvls,bcol="YlGnBu",border=1,FUN=mean,grid.size=1,aspr="calculate",sx,sy,ex,ey) {  
 
 #// summarizes data onto a grid, creates PBSmapping polySet and polyData 

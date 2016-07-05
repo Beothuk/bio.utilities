@@ -1,3 +1,4 @@
+#' @export
 #' @title dstamp
 #' @description function to add a datestamp to the bottom right corner of a figure
 #' @param \code{txt} 

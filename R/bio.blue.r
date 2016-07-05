@@ -1,3 +1,4 @@
+#' @export
 #' @title bio.blue
 #' @description This function generates a vector of shades of blue (from white to blue) of the length selected by value of \code{n}.
 #' @param \code{n} = the number of colors desired

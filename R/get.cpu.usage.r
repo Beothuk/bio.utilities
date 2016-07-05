@@ -1,3 +1,4 @@
+#' @export
 
 
   get.cpu.usage = function() {

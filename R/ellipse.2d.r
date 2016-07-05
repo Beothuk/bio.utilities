@@ -1,3 +1,4 @@
+#' @export
 #' @title ellipse.2d
 #' @description This function calculates a 2D kernel density then plot highest density regions with contour().
 #' @param \code{x} 

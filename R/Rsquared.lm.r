@@ -1,3 +1,4 @@
+#' @export
 
   Rsquared.lm = function(o) {
     R2 <- summary(o)$r.squared

@@ -1,3 +1,4 @@
+#' @export
 #----------------------------------------------------
 # generate map using PBSmapping plotting functions
 # derived from Ben Zisserson's original work (June 14, 2013 08:15:00 PM)

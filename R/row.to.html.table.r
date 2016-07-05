@@ -1,3 +1,4 @@
+#' @export
 row.to.html.table <- function(therow,main='',center='F',tableSummary='')
 {
   #//MMM - 2016 - there are times where I want to be able to pull all of the attributes for a particular

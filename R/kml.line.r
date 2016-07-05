@@ -1,3 +1,4 @@
+#' @export
   kml.line = function( item='', name='', label='', style.id='', line.colour='4c7fffff', line.width=1, con='' ) {
 
     switch( item, 

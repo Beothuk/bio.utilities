@@ -1,3 +1,4 @@
+#' @export
 
 #// moving average of x with weigts w and tapered ends
 # by Bob Mohn

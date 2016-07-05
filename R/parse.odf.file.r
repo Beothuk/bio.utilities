@@ -1,3 +1,4 @@
+#' @export
 
 parse.odf.file = function( fn ) {
   dta = readLines(fn )

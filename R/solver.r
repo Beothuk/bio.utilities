@@ -1,3 +1,4 @@
+#' @export
 solver = function(pars,fn,hess=TRUE,...)
 {
   fit = optim(pars,fn,hessian=hess,...)

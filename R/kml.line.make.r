@@ -1,3 +1,4 @@
+#' @export
 
   kml.line.make = function( con, item='', name='', label='', style.id='', x='', line.colour='4c7fffff', line.width=1 ) {
     

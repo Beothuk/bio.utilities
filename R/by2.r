@@ -1,3 +1,4 @@
+#' @export
 #' @title by2
 #' @description  "slower but more flexible"
 #' @family poorly documented

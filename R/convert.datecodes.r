@@ -1,3 +1,4 @@
+#' @export
 #' @title convert.datecodes
 #' @description This function take a chron object x and extract required data
 #' @param \code{x} = a chron date object

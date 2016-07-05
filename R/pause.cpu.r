@@ -1,3 +1,4 @@
+#' @export
 
 
   pause.cpu = function(variable="cpu.total", threshold=99) {

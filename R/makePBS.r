@@ -1,3 +1,4 @@
+#' @export
 makePBS <- function(x,polygon=T,projection="LL") {
 	cat('Polygon or Event Data for PBSmapping\n')
 

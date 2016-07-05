@@ -1,3 +1,4 @@
+#' @export
  
   rbg2bgr = function ( rgb ) {
     # convert an RGB colour value into BGR which is used by googleearth

@@ -1,3 +1,4 @@
+#' @export
 
 	# To update/install useful packages
   # package.install ()

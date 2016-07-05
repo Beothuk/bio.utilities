@@ -1,3 +1,4 @@
+#' @export
 
 interpolate.xy.robust = function( xy, method, target.r2=0.9, mv.win=10, trim=0.05,
   probs=c(0.025, 0.975), loess.spans=seq( 0.25, 0.01, by=-0.01 ), inla.model="rw2",

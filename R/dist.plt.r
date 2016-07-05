@@ -1,3 +1,4 @@
+#' @export
 #' @title dist.plt
 #' @description plots distributions in R, useful for setting up priors in Bayesian analyses
 #' @param \code{dist} 

@@ -1,3 +1,4 @@
+#' @export
 whichEventsVincenty <- function(lonlat,events,radius) {
 		cat('Uses Vincenty Formula to Determine Distances between points \n')
 		cat('radius is in km \n')

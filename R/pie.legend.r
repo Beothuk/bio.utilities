@@ -1,3 +1,4 @@
+#' @export
 #' @title pie.legend
 #' @description couldn't accurately describe
 #' @param \code{x}

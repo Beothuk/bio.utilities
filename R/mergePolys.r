@@ -1,3 +1,4 @@
+#' @export
 
 mergePolys<-function(Polys){
 #// PBS mapping utility to merge complex polygon with multiple SIDs into one large polygon (outer boundary)

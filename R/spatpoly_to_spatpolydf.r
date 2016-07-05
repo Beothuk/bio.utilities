@@ -1,3 +1,4 @@
+#' @export
 spatpoly_to_spatpolydf <- function(spat_poly)
 {
   #'MMM March 2016

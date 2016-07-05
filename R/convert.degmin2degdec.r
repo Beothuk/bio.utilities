@@ -1,3 +1,4 @@
+#' @export
 #' @title convert.degmin2degdec
 #' @description This function converts coordinates in dd.mmmm to decimal degrees
 #' @param \code{x} = dataframe to be handled, with lat and lon colnames

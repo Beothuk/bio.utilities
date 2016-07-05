@@ -1,3 +1,4 @@
+#' @export
 
   kml.screen.overlay = function( name, color='ffffffff', href='', 
     overlay=c(0,1,"fraction","fraction"), screen=c(5,5,"pixel","pixelinset"), size=c(100,100,"pixel","pixel")  ) {

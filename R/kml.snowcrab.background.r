@@ -1,3 +1,4 @@
+#' @export
 
   kml.snowcrab.background = function( filename) {
     

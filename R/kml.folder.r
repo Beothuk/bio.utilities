@@ -1,3 +1,4 @@
+#' @export
   kml.folder = function( item="header", folder.name='', desc='', style='', bgColor='88995419', text='' ) {
   
     switch( item,

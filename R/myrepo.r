@@ -1,3 +1,4 @@
+#' @export
 #set repository
 #'changed to function, since it was working as part of a package
 myrepo <-function(){

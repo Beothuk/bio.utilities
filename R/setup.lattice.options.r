@@ -1,3 +1,4 @@
+#' @export
    setup.lattice.options = function () {
       require( lattice )
       

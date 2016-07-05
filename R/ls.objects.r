@@ -1,3 +1,4 @@
+#' @export
 # improved list of objects
 ls.objects <- function (pos = 1, pattern, order.by,
                         decreasing=FALSE, head=FALSE, n=5) {

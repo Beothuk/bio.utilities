@@ -1,3 +1,4 @@
+#' @export
 #' @title color.code
 #' @description This functions return a vector of colour codes using a number of pre-defined palettes ('types') 
 #' @param \code{type} = the colour palette to use.  Valid options include: yellow.red; blue.black; red.white.blue; seis; red.yellow.blue; nathalie; blue.yellow.red; blue.yellow.blue; colourblind1

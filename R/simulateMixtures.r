@@ -1,3 +1,4 @@
+#' @export
 #simulate mixtures
 
 simulateMixtures <- function(k,means,sigmas,prop=NA,size=10000) {

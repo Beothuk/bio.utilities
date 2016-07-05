@@ -1,3 +1,4 @@
+#' @export
   kml.background = function( name, colour='', href='', x='' ) {
     
     paste('

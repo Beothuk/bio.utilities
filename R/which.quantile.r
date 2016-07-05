@@ -1,3 +1,4 @@
+#' @export
 
   which.quantile = function( x, probs, inside=TRUE ) {
     qnts = quantile( x, probs=probs, na.rm=TRUE ) 

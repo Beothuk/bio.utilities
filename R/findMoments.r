@@ -1,3 +1,4 @@
+#' @export
 #source('C:/Documents and Settings/cooka/Desktop/Scripts/Surplus Production dec 2011/bugs/finding moments of distributions.R')
 
 

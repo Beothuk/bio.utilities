@@ -1,3 +1,4 @@
+#' @export
 #' @title cutOutLand
 #' @description PBS mapping utility to remove the land from management area polygons, include coastline data or defaults to "bio.data/lobster/data/maps/gshhs/shorelineUR.csv"
 #' @param \code{Polys} 

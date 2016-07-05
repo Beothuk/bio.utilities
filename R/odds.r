@@ -1,3 +1,4 @@
+#' @export
 
 	odds = function( M) {
 		list( 

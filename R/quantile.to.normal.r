@@ -1,3 +1,4 @@
+#' @export
 
 quantile.to.normal = function( x, mean =0.5, ci=0.999 ) {
   # convert quantile to normal with mean 0.5 and variance such that ci% are found within the range (0,1)

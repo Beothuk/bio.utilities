@@ -1,3 +1,4 @@
+#' @export
 #load in package if not in lib need to put quotes around name
 getPackage <- function(pkg){
   if(!require(pkg, character.only=TRUE)){

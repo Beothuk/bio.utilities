@@ -1,3 +1,4 @@
+#' @export
 findCurvature = function (x, y, eps = 0.02) {
 #       generally preferable to using first differences of raw data, 
 #because differencing raw data amplifies noise, while appropriate smooths 

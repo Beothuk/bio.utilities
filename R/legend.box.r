@@ -1,3 +1,4 @@
+#' @export
 #' @title legend.box
 #' @description couldn't accurately describe
 #' @param \code{x} position

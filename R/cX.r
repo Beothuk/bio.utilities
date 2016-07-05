@@ -1,3 +1,4 @@
+#' @export
 #' @title cX
 #' @description write table to paste into excel
 #' @param \code{X} 

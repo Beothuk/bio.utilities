@@ -1,3 +1,4 @@
+#' @export
 #' @title blue.red
 #' @description This function generates a vector of shades from blue to red of a length selected by value of \code{n}.
 #' @param \code{n} = the number of colors desired

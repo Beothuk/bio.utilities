@@ -1,3 +1,4 @@
+#' @export
 #' @title duplicates.toremove
 #' @description This function looks for rows that contain identical values as other rows, irrespective of position  
 #' @param \code{m}  The matrix to examine

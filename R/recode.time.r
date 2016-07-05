@@ -1,3 +1,4 @@
+#' @export
 
   recode.time = function(x, type, delta=1, vector=F, t0=NULL) {
 

@@ -1,3 +1,4 @@
+#' @export
 graphics.convert = function( infile=NULL, outfile.basename=NULL, formats=NULL) {
 
   for ( outformat in formats ) {

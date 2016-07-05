@@ -1,3 +1,4 @@
+#' @export
 
   filter.season = function( x, period, index=T ) {
     # read julian day and categorise

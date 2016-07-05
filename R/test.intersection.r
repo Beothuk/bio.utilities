@@ -1,3 +1,4 @@
+#' @export
  
   test.intersection = function(pfocus, hull, p.test ) {
     

@@ -1,3 +1,4 @@
+#' @export
 
   make.random.string = function(x="_") {
     rand.seq = floor(runif(1)*10^9)

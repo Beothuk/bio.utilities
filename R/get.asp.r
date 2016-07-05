@@ -1,3 +1,4 @@
+#' @export
 #' @title get.asp
 #' @description gets the aspect ratio
 #' @family  plotting

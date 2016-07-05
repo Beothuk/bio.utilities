@@ -1,3 +1,4 @@
+#' @export
 
 	package.list = function( X="basic", default.repository="http://mirror.its.dal.ca/cran" ) {
 

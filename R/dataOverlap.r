@@ -1,3 +1,4 @@
+#' @export
 #' @title dataOverlap
 #' @description compare 2 datasets and returns values that overlap
 #' @param \code{data1} dataset #1

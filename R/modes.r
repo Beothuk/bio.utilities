@@ -1,3 +1,4 @@
+#' @export
 
 modes = function( Z, eps=0, ... ) {
   # find the largest mode 

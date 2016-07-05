@@ -1,3 +1,4 @@
+#' @export
 
 parse.odf.parameter.header = function ( header ) {
     

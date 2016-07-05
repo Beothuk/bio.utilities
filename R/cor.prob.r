@@ -1,3 +1,4 @@
+#' @export
 #' @title cor.prob
 #' @description couldn't accurately describe
 #' @param \code{X} 

@@ -1,3 +1,4 @@
+#' @export
 toNums<-function(x,cols,numerics=T) {
 	for(i in 1:length(cols)) {
 	if(is.factor(x[,cols[i]])) {

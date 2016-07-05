@@ -1,3 +1,4 @@
+#' @export
 
   string2chron = function(u, informat=c(dates="year-m-d", times="h:m:s"), outformat=c(dates="year-m-d", times="h:m:s") ) {
     # convert a string representation of chron into a chron object

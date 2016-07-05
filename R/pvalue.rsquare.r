@@ -1,3 +1,4 @@
+#' @export
 
 
 	pvalue.rsquare = function( M ) {

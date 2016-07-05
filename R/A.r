@@ -1,3 +1,4 @@
+#' @export
 #' @title A
 #' @description This function is a shorthand for \code{attr()}.
 #' @seealso \code{\link[base]{attr}}

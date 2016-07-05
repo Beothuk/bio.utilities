@@ -1,3 +1,4 @@
+#' @export
 
 	
 	summary.deviance = function( M ) {

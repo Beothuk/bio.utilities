@@ -1,3 +1,4 @@
+#' @export
 #' @title chron2datestamp
 #' @description This function converts dates from \code{chron::} format and append the time as a fraction, for use as a timestamp  
 #' @param \code{x} = the date

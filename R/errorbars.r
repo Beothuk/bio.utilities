@@ -1,3 +1,4 @@
+#' @export
 #' @title errorbars
 #' @description create plots of mean y after binning x values, adding 1 SE bars
 #' @param \code{b} 

@@ -1,3 +1,4 @@
+#' @export
 list.names.to.columns<-function(data) {
 	for(i in 1:length(data)) {
 			if( !is.null(data[[i]])) {

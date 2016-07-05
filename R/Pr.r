@@ -1,3 +1,4 @@
+#' @export
 
 
   Pr = function(dev=NULL, dname=NULL, fname=NULL, trim=T, width=10, height=10, res=100, pointsize=40, ...) {

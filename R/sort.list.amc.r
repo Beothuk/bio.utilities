@@ -1,3 +1,4 @@
+#' @export
 #sorts all elements in a list based on the column r
 sort.list.amc<-function(list1,r,inc=T) { 
 	#r=column number for sort

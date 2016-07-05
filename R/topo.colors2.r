@@ -1,3 +1,4 @@
+#' @export
 
 topo.colors2 = function (n) 
 {

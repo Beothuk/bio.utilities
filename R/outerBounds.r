@@ -1,3 +1,4 @@
+#' @export
 
 outerBounds = function(pointData, round.digit= 3){
 

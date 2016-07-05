@@ -1,3 +1,4 @@
+#' @export
 #' @title compute.sums
 #' @description This function takes a matrix, and for a given column and index, returns a matrix of different unique values for each.  
 #' @param \code{x} =the input matrix

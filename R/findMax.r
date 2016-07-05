@@ -1,3 +1,4 @@
+#' @export
 findMax <- function(x,y){  
 			np 	= length(x)
 			ix 	= which.max(y)

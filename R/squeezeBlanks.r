@@ -1,3 +1,4 @@
+#' @export
 #removes leading blanks
 squeezeBlanks <- function (text) 
 {

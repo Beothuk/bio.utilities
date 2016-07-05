@@ -1,3 +1,4 @@
+#' @export
 
       truncate.distribution = function( W, Ql, Qu ) {
         # the following truncates data to a range limited by quantiles or fixed limits

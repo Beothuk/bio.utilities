@@ -1,3 +1,4 @@
+#' @export
 #' @title copy.data.structure
 #' @description takes an exiting data frame, and returns the structure only
 #' @param \code{x} the source data.frame

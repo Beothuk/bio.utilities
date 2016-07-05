@@ -1,3 +1,4 @@
+#' @export
 #' @title bufferCircle
 #' @description This function buffers a point by a specified radius \code{n}. 
 #' @param \code{lonlat} = the position to buffer 

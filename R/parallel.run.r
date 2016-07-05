@@ -1,3 +1,4 @@
+#' @export
 
 parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.to.clusters=F,... ) {
   # expectation of all relevant parameters in a list 'p'

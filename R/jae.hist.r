@@ -1,3 +1,4 @@
+#' @export
 
 
   jae.hist = function(x, s0, s1, bwh, bwd, title, ...) {

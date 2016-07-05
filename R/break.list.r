@@ -1,3 +1,4 @@
+#' @export
 #' @title break.list
 #' @description couldn't accurately describe
 #' @family poorly documented

@@ -1,3 +1,4 @@
+#' @export
 #' @title compute.oxygen.saturation
 #' @description This function determines the percentage of Dissolved oxygen in solution at a given temperature and salinity given a known saturation amount. formula attributed to Weiss DSR 17, 721-735, 1970
 #' @param \code{t.C} = temperature in Celsius

@@ -1,3 +1,4 @@
+#' @export
 
   plot.timeseries = function ( x, vars, regions, outdir="timesseries", backtransform=T) {
 

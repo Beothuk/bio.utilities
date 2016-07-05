@@ -1,3 +1,4 @@
+#' @export
 
   kml.placemark = function( item='', name='', desc='', style.id='', colour='', scale='',
     href='' ) {

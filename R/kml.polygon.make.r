@@ -1,3 +1,4 @@
+#' @export
 
   kml.polygon.make = function( con, item='', name='', label='', style.id='', x='', colour='ff0000cc', line.colour='4c7fffff', line.width='1', fill='0', outline='1', style.id.normal='', style.id.highlight=''  ) {
     

@@ -1,3 +1,4 @@
+#' @export
 #get color vector for plot
 getCols <- function(n){
  N <- 6

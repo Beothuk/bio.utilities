@@ -1,3 +1,4 @@
+#' @export
 
 stats.by.factors = function( x, factors ) {
 

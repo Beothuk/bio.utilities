@@ -1,3 +1,4 @@
+#' @export
 #' @title convert2factor
 #' @description converts objects to factors
 #' @note does not work in Windows

@@ -1,3 +1,4 @@
+#' @export
 #' @title devianceGLM
 #' @description couldn't accurately describe
 #' @family statistical

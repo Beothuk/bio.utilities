@@ -1,3 +1,4 @@
+#' @export
 #recode a column of variables easily
 recode <- function (var, recodes) 
 {

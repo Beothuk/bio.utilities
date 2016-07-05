@@ -1,3 +1,4 @@
+#' @export
 #' @title applyMean
 #' @description apply a mean or weighted mean to data by factor
 #' and return a formatted data.frame

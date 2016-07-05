@@ -1,3 +1,4 @@
+#' @export
 
   # ------------------------------------------
   mod.graphics = function(variables, plottimes, outdir, outformat="") {

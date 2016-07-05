@@ -1,3 +1,4 @@
+#' @export
 #' @title cap
 #' @description This function ensures that the passed string gets a capitalized letter 
 #' @param \code{s} = the string to handle

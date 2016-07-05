@@ -1,3 +1,4 @@
+#' @export
 
 # define compact list of variable (e.g.,  year, var, etc)  combinations for parallel processing
 # which can be accessed w:e ithin a parallel run to recover variable comnbinations using a single index 

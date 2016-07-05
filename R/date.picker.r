@@ -1,3 +1,4 @@
+#' @export
 #' @title date.picker
 #' @description This function presents successive picklists for year, month and day, and returns a date.  The original purpose of this function is to provide a means to select valid dates for use in modifying SQL queries on demand.
 #' @note Only valid days for each month and year combo are presented.  Most complexity is due to the potential for users to click cancel rather than choose valid options.  Cancelling at any point fails gracefully, and results will depend on the selected parameter.   

@@ -1,3 +1,4 @@
+#' @export
 pressure2Depth <- function (pressure, lat = 45) {
 		#Unesco 1983. Algorithms for computation of fundamental properties of seawater, 1983
     lat <- lat * 0.0174532925199433

@@ -1,4 +1,5 @@
 #' @export
+#' @export
 
 
   variable.list.expand = function(component="all.data") {

@@ -1,3 +1,4 @@
+#' @export
   kml.placemark.make = function( con, item='', name='', desc='', style.id='', colour='', scale='', href='' , x='' ) {
     if ( item=='style' ) {
       writeLines(  kml.placemark( 'style', style.id=style.id, colour=colour, scale=scale, href=href ), con ) 

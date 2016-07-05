@@ -1,3 +1,4 @@
+#' @export
 point2PolygonDist <- function(poly, pt){
 	require(PBSmapping)
 	attr(poly,'projection') <-"LL"

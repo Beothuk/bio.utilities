@@ -1,3 +1,4 @@
+#' @export
 #' @title completeFun
 #' @description This function removes rows where specific columns have NA, and is a function to return complete rows.
 #' @param \code{data} = the matrix/data.frame to be evaluated

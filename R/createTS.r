@@ -1,3 +1,4 @@
+#' @export
 #' @title createTS
 #' @description creates a random time series of data of length N, not perfect but works
 #' @param \code{N} = the number of values desired (Defaults to 100)

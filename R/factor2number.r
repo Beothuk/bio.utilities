@@ -1,3 +1,4 @@
+#' @export
 
   factor2number = function(x, vars=NULL) {
 	if(is.null(vars)) {

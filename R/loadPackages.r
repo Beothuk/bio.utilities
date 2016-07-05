@@ -1,3 +1,4 @@
+#' @export
 loadPackages <- function(x) {
 	  x <- as.character(substitute(x)) 
 	  if(isTRUE(x %in% .packages(all.available=TRUE))) { 
