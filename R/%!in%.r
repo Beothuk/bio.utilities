@@ -1,4 +1,4 @@
-#' "%!in%"
+#' not in 
 #' @param x numeric
 #' @param y numeric
 #' @examples
