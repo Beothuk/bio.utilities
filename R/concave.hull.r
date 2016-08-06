@@ -4,12 +4,14 @@
 #' @param \code{xy}  Points data in x,y format
 #' @param \code{k} Number of nearest neighbours to consider, defaults to 5
 #' @param \code{ub} Upper bound in spatial distance to consider, defaults to 1/20 max range
-#' @param \code{plot} defaults to FALSE
+#' @param \code{plot} defaults to TRUE
 #' @param \code{random.start} defaults to FALSE otherwise the min values are used.
 #' @family documented
 #' @author Jae Choi, \email{<jae.choi>@dfo-mpo.gc.ca}
 #' @export
-  concave.hull = function( xy, k=5, ub=NULL, plot=FALSE, random.start=FALSE ) {
+  concave.hull = function( xy, k=5, ub=NULL, plot=TRUE, random.start=FALSE ) {
+    require(splancs)
+    require(spatstat)
 
     if (k < 3) return (NULL)
     p = as.matrix( xy )
