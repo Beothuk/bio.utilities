@@ -15,6 +15,12 @@
     p = as.matrix( xy )
     dimnames(p) =NULL
     p = p[ ! duplicated( p) , ]
+    if (is.null(ub)) {
+      dx = diff(range(xy[,1]))
+      dy = diff(range(xy[,2]))
+      dd = max( dx, dy )
+      ub = dd / 20
+    }
 
     nsets = nrow (p)
     if ( nsets < 3 ) return ( NULL )
