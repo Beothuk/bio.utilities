@@ -3,7 +3,7 @@
 #' @description Find the outline (boundary) of a set of points in 2D space.
 #' @param \code{xy}  Points data in x,y format
 #' @param \code{k} Number of nearest neighbours to consider, defaults to 5
-#' @param \code{ub} Upper bound in spatial distance to consider, defaults to 1/20 max range
+#' @param \code{ub} Upper bound in spatial distance to consider, defaults to 1/10 max range
 #' @param \code{plot} defaults to FALSE
 #' @param \code{random.start} defaults to FALSE otherwise the min values are used.
 #' @family documented
@@ -19,7 +19,7 @@
       dx = diff(range(xy[,1]))
       dy = diff(range(xy[,2]))
       dd = max( dx, dy )
-      ub = dd / 20
+      ub = dd / 10
     }
 
     nsets = nrow (p)
