@@ -1,30 +1,33 @@
 #' @export
 #' @title concave.hull
 #' @description Find the outline (boundary) of a set of points in 2D space.
-#' @param \code{xy}
-#' @param \code{k} defaults to 5
-#' @param \code{ub} defaults to NULL
-#' @param \code{dname} defaults to NULL
-#' @param \code{fname} defaults to NULL
-#' @param \code{random.start} defaults to FALSE
-#' @family abysmally documented
-#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @param \code{xy}  Points data in x,y format
+#' @param \code{k} Number of nearest neighbours to consider, defaults to 5
+#' @param \code{ub} Upper bound in spatial distance to consider, defaults to 1/20 max range
+#' @param \code{plot} defaults to FALSE
+#' @param \code{random.start} defaults to FALSE otherwise the min values are used.
+#' @family documented
+#' @author Jae Choi, \email{<jae.choi>@dfo-mpo.gc.ca}
 #' @export
-  concave.hull = function( xy, k=5, ub=NULL, dname=NULL, plot=FALSE, random.start=F ) {
-    require(spatstat) # to compute convex hull
+  concave.hull = function( xy, k=5, ub=NULL, plot=FALSE, random.start=FALSE ) {
 
     if (k < 3) return (NULL)
-
     p = as.matrix( xy )
     dimnames(p) =NULL
     p = p[ ! duplicated( p) , ]
+    if (is.null(ub)) {
+      dx = diff(range(xy[,1]))
+      dy = diff(range(xy[,2]))
+      dd = max( dx, dy )
+      ub = dd / 20
+    }
 
     nsets = nrow (p)
     if ( nsets < 3 ) return ( NULL )
     if ( nsets == 3) return( p )
 
     # initiate list with the first few points
-    convex.hull <- convexhull.xy( p )
+    convex.hull <- spatstat::convexhull.xy( p )
 
     p0i = which.min( convex.hull$bdry[[1]]$y )
     if (random.start) {
@@ -39,12 +42,12 @@
     while ( ! finished ) {
       if (nrow(hull)==3) p = rbind( p.start, p)  # return p.start after a few steps
       p.new=NULL
-      p.new = nearest.sorted.angles( p, hull, k, eps=pi/10, ub=ub ) # eps determines the acute angle solutions to ignore
+      p.new = bio.utilities::nearest.sorted.angles( p, hull, k, eps=pi/10, ub=ub ) # eps determines the acute angle solutions to ignore
       if (is.null(p.new) ) {
         kadd = k
         while (is.null(p.new) ) {
           kadd = kadd + 1
-          p.new = nearest.sorted.angles( p, hull, k=kadd, eps=pi/10, ub=ub )
+          p.new = bio.utilities::nearest.sorted.angles( p, hull, k=kadd, eps=pi/10, ub=ub )
           if ((kadd-k) > 10) stop()
         }
       }
@@ -56,8 +59,8 @@
 #      lines(hull[,1], hull[,2])
     }
 
-    sa = signif(areapl(hull),3)
-    densit = signif( nsets/areapl(hull),3)
+    sa = signif(splancs::areapl(hull),3)
+    densit = signif( nsets/splancs::areapl(hull),3)
 
     print( paste("Surface area:", sa))
     print( paste("Mean density:", densit))
