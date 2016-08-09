@@ -1,5 +1,8 @@
 #' @export
 #' @title estimParamsFromCI
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 
     estimParamsFromCI = function( CL, probs=c(0.025, 0.975), distribution="gamma", method="L-BFGS-B", plot=FALSE) {
       # CL  is estimated/approximate 95% confidence bounds 
