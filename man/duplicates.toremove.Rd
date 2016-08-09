@@ -40,6 +40,7 @@ Other poorly documented: \code{\link{A}},
   \code{\link{break.list}}, \code{\link{by2}},
   \code{\link{colour.scale}}, \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{dim.list}}
+  \code{\link{convert2factor}}, \code{\link{dim.list}},
+  \code{\link{na.zero}}
 }
 
