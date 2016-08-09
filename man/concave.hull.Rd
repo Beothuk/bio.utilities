@@ -29,6 +29,6 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 \seealso{
 Other abysmally documented: \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}},
-  \code{\link{errorbars}}
+  \code{\link{errorbars}}, \code{\link{estimParamsFromCI}}
 }
 

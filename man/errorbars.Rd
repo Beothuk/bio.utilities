@@ -29,6 +29,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 \seealso{
 Other abysmally documented: \code{\link{concave.hull}},
   \code{\link{cor.prob}},
-  \code{\link{create.histograms.yearly}}
+  \code{\link{create.histograms.yearly}},
+  \code{\link{estimParamsFromCI}}
 }
 

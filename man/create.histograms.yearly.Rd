@@ -22,6 +22,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{concave.hull}},
-  \code{\link{cor.prob}}, \code{\link{errorbars}}
+  \code{\link{cor.prob}}, \code{\link{errorbars}},
+  \code{\link{estimParamsFromCI}}
 }
 

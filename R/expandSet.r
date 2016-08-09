@@ -1,3 +1,4 @@
+#' @title expandSet
 #' @export
 expandSet <- function(x,freq =T) {
 	y = seq(min(x),max(x))
