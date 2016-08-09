@@ -12,7 +12,7 @@ errorbars(b, v, br = "Sturges", nfilter = 0, lowess = 0.4, trim = 0,
 
 \item{\code{v}}{}
 
-\item{\code{br}}{'br is the number of bins to be created from the x-values'}
+\item{\code{br}}{br is the number of bins to be created from the x-values}
 
 \item{\code{nfilter}}{defaults to 0}
 
