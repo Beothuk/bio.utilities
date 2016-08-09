@@ -1,3 +1,7 @@
+#' @title makeMap
+#' @description unknown
+#' @family abysmally documented
+#' @author  Ben Zisserson, \email{Ben.Zisserson@@dfo-mpo.gc.ca}
 #' @export
 #----------------------------------------------------
 # generate map using PBSmapping plotting functions

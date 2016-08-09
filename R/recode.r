@@ -1,5 +1,9 @@
+#' @title recode
+#' @description recode a column of variables easily
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-#recode a column of variables easily
+#
 recode <- function (var, recodes) 
 {
 		#useage dat$species <- recode(dat$species,  "10=2; 60=6; 15=3;400=7;11=5;16=8;14=10;200=11; 220=12;12=13;50=14;40=4")       

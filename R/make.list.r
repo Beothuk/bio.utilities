@@ -1,5 +1,8 @@
+#' @title make.list
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 # define compact list of variable (e.g.,  year, var, etc)  combinations for parallel processing
 # which can be accessed w:e ithin a parallel run to recover variable comnbinations using a single index 
 #    outside of parallel run

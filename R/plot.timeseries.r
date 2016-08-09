@@ -1,5 +1,8 @@
+#' @title plot.timeseries
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   plot.timeseries = function ( x, vars, regions, outdir="timesseries", backtransform=T) {
 
     xrange = range(x$year)

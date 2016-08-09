@@ -1,8 +1,9 @@
+#' @title mod.graphics
+#' @description converts all files in a directory from one type to another type for generic mapping routines
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-  # ------------------------------------------
   mod.graphics = function(variables, plottimes, outdir, outformat="") {
-    # converts all files in a directory from one type to another type for generic mapping routines
 
     for (v in variables) {
     for (t in plottimes) {

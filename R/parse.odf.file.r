@@ -1,5 +1,8 @@
+#' @title parse.odf.file
+#' @description unknown
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 parse.odf.file = function( fn ) {
   dta = readLines(fn )
   nheaderlines = grep( "-- DATA --", dta, fixed=T, useBytes=TRUE )

@@ -1,5 +1,8 @@
+#' @title kml.polygon.make
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   kml.polygon.make = function( con, item='', name='', label='', style.id='', x='', colour='ff0000cc', line.colour='4c7fffff', line.width='1', fill='0', outline='1', style.id.normal='', style.id.highlight=''  ) {
     
     if (item=='') {

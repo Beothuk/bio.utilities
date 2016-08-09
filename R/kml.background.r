@@ -1,3 +1,7 @@
+#' @title kml.background
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   kml.background = function( name, colour='', href='', x='' ) {
     

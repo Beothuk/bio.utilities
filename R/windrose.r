@@ -1,3 +1,7 @@
+#' @title windrose
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 windrose <- function (frec, fnum = 4, fint = 5, flab = 2, ang = 3 * pi/16, 
     col = rainbow(10, 0.5, 0.92, start = 0.33, end = 0.2), margen = c(0, 

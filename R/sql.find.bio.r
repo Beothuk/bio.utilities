@@ -1,9 +1,9 @@
+#' @title sql.find.bio
+#' @description find matching SQL in a given localtion and execute
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   sql.find.bio = function( sql, loc="default" ) {
-
-    # find matching SQL in a given localtion and execute
-
     example.usage = FALSE
     if (example.usage) {
       sqlcmd = sql.find.bio( "GSINF_VIEW" )

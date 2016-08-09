@@ -1,3 +1,7 @@
+#' @title list.names.to.columns
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 list.names.to.columns<-function(data) {
 	for(i in 1:length(data)) {

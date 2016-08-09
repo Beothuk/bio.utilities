@@ -1,6 +1,10 @@
+#' @title makeMapBasic
+#' @description generate map using PBSmapping plotting functions
+#' @family abysmally documented
+#' @author  Mike McMahon, \email{Mike.McMahon@@dfo-mpo.gc.ca}
 #' @export
 #----------------------------------------------------
-# generate map using PBSmapping plotting functions
+# 
 # derived from Ben Zisserson's original work (June 14, 2013 08:15:00 PM)
 # couple of mods by Adam June 14, 2013 01:21:02 PM
 # Simplified and generalized by Mike M, Mar 12, 2015

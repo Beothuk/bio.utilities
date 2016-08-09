@@ -1,3 +1,7 @@
+#' @title matrixBubbles
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 
 matrixBubbles <- function (dmat,xr,yr,ttl,xlab,ylab,maxinch,colors,zeroflag=T,yc.colors=F,ch.col = c("rainbow(nx,alpha=0.5)", "heat.colors(nx,alpha=0.5)","terrain.colors(nx,alpha=0.5)",

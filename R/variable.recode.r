@@ -1,8 +1,9 @@
+#' @title variable.recode
+#' @description load transformation tables associated with a given variable 
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-#' @export 
   variable.recode = function( x, variable, direction="forward", db="snowcrab", rm.na=F ) {
-
-    #  load transformation tables associated with a given variable 
     tl = lookup.datatransformation(db) 
 
     if (file.exists( tl$repository) ) {

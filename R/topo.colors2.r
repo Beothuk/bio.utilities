@@ -1,5 +1,8 @@
+#' @title topo.colors2
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 topo.colors2 = function (n) 
 {
     if ((n <- as.integer(n[1])) > 0) {

@@ -1,6 +1,8 @@
+#' @title green.red
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
   green.red <- function (n) {
     # the default colour scheme ... note additional ones can be passed .. check the main prg
     colour = NA

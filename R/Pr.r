@@ -1,6 +1,8 @@
+#' @title Pr
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
   Pr = function(dev=NULL, dname=NULL, fname=NULL, trim=T, width=10, height=10, res=100, pointsize=40, ...) {
     if (is.null(dev)) {
       dev.print(pdf, "temp.pdf")

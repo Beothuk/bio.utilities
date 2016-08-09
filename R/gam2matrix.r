@@ -1,3 +1,7 @@
+#' @title gam2matrix
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
  gam2matrix = function( oo, i=1, n2=100 )  {
 

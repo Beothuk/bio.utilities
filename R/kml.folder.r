@@ -1,3 +1,7 @@
+#' @title kml.folder
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   kml.folder = function( item="header", folder.name='', desc='', style='', bgColor='88995419', text='' ) {
   

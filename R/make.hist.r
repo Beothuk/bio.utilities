@@ -1,5 +1,8 @@
+#' @title make.hist
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
     make.hist = function (data, v, basedir, res=300, type="histogram", sizevar="cw", weightvar="sa.weight", bandwidth = 0.2, xrange, yrange, nsets) {
 
       outdir = file.path(type, basedir)

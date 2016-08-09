@@ -1,5 +1,8 @@
+#' @title fillNaDf2
+#' @description function to fill in nas with vaules from a table matching one or several columns
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-	#function to fill in nas with vaules from a table matching one or several columns
 		fillNaDf2 <- function(naDf, fillDf, mergeCols, fillCols) {
 		 	 fillB <- do.call(paste, c(fillDf[, mergeCols, drop = FALSE], sep="\r"))
 		  	naB <- do.call(paste, c(naDf[, mergeCols, drop = FALSE], sep="\r"))

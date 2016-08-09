@@ -1,5 +1,8 @@
+#' @title kml.screen.overlay
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   kml.screen.overlay = function( name, color='ffffffff', href='', 
     overlay=c(0,1,"fraction","fraction"), screen=c(5,5,"pixel","pixelinset"), size=c(100,100,"pixel","pixel")  ) {
 

@@ -1,3 +1,7 @@
+#' @title explicit.to.implicit.2d.line
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
  # ----------------
  explicit.to.implicit.2d.line = function ( p1, p2 ) {

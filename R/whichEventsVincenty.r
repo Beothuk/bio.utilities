@@ -1,3 +1,8 @@
+#' @title whichEventsVincenty
+#' @description Uses Vincenty Formula to Determine Distances between points
+#' @param \code{radius} km
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 whichEventsVincenty <- function(lonlat,events,radius) {
 		cat('Uses Vincenty Formula to Determine Distances between points \n')

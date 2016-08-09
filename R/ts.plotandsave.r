@@ -1,5 +1,8 @@
+#' @title ts.plotandsave
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   ts.plotandsave = function ( x, y, lb=NULL, ub=NULL, w=NULL, outdir=NULL, action=NULL, title="default", filename="NULL", smooth=NULL) {
 
       require(Hmisc)

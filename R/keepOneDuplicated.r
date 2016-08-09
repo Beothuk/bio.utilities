@@ -1,6 +1,14 @@
+#' @title keepOneDuplicated
+#' @description unknown
+#' @param \code{x} the data frame containing all data, 
+#' @param \code{cols} is the columns to check for duplicates, 
+#' @param \code{test.col} is the column which contains the info that is not duplicated and you wish to remove one entry based on a test.val and a test.direction
+#' @param \code{test.val}
+#' @param \code{test.direction}
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 keepOneDuplicated = function(x,cols,test.col,test.val,test.direction=c('greater','less','equal','not.equal')) {
-	#// x is the data frame containing all data, cols is the columns to check for duplicates, test.col is the column which contains the info that is not duplicated and you wish to remove one entry based on a test.val and a test.direction
 
 	a = which(duplicated(x[,cols],fromLast=F))
 	b = which(duplicated(x[,cols],fromLast=T))

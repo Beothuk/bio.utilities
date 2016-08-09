@@ -1,5 +1,8 @@
+#' @title parse.odf.parameter.header
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 parse.odf.parameter.header = function ( header ) {
     
   iparams = grep( "PARAMETER_HEADER,", header, fixed=T, useBytes=TRUE )
