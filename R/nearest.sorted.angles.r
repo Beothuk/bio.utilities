@@ -1,5 +1,8 @@
+#' @title nearest.sorted.angles
+#' @description unknown
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   nearest.sorted.angles = function( plist, hull, k, eps=pi/4, ub=NULL ) {
  
     nch = nrow(hull) 

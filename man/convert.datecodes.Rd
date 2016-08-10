@@ -9,7 +9,7 @@ convert.datecodes(x, y)
 \arguments{
 \item{\code{x}}{= a chron date object}
 
-\item{\code{y}}{= the value to be extracted from \code{x}, acceptable values include 'chron', 'year','month','day','week','julian','julian.ref.2000','tripcode'}
+\item{\code{y}}{= the value to be extracted x, acceptable values include 'chron', 'year','month','day','week','julian','julian.ref.2000','tripcode'}
 }
 \value{
 \code{z} =  the requested date part

@@ -1,13 +1,9 @@
+#' @title plot3AgeComparisons
+#' @description plot triplets of age readings on a hexagon to compare 3 age readers or to compare 3 aging methods
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
-
-#--------------------------------------------
-
 plot3AgeComparisons = function(triplets,color="grey60",offset=.20){
-
-#// plot triplets of age readings on a hexagon to compare 3 age readers
-# or to compare 3 aging methods
 
 # triplets is a matrix with number of rows equal to number of fish aged, and 3 columns.
 # Each column contains the age readings obtained from one reader (or one aging method).

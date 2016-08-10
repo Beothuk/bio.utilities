@@ -1,7 +1,8 @@
+#' @title mave
+#' @description moving average of x with weigts w and tapered ends
+#' @family abysmally documented
+#' @author  Bob Mohn, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-#// moving average of x with weigts w and tapered ends
-# by Bob Mohn
 
 mave<-function(x,w){
 	t = c(x,rep(0,(length(w) - 1)))

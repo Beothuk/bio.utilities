@@ -1,8 +1,10 @@
+#' @title gridData
+#' @description summarizes data onto a grid, creates PBSmapping polySet and polyData 
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 gridData <- function(Data,domain.poly,lvls,bcol="YlGnBu",border=1,FUN=mean,grid.size=1,aspr="calculate",sx,sy,ex,ey) {  
 
-#// summarizes data onto a grid, creates PBSmapping polySet and polyData 
-	print("Mike's a dork")
 	require(PBSmapping)
 	require(RColorBrewer)
 	names(Data)[1:4]<-c("EID","X","Y","Z")

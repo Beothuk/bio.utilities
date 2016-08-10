@@ -1,3 +1,7 @@
+#' @title nlsBooter
+#' @description unknown
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 nlsBooter<-function (nls, data1,niter = 999,Qlow1, Qhigh1) 
 {

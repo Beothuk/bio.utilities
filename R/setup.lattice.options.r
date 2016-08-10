@@ -1,3 +1,7 @@
+#' @title setup.lattice.options
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
    setup.lattice.options = function () {
       require( lattice )

@@ -5,7 +5,7 @@
 #' @return 2 values, each buffered to extend the range by the selected percentage
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @examples
-#' x=-1000:10
+#' x=-1000:10   
 #' bufferRange(x,2)
 #' [1] -1020.0    10.2
 #' @export

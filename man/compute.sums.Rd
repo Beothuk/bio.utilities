@@ -34,6 +34,7 @@ Other poorly documented: \code{\link{A}},
   \code{\link{colour.scale}},
   \code{\link{convert.graphics.format}},
   \code{\link{convert2factor}}, \code{\link{dim.list}},
-  \code{\link{duplicates.toremove}}
+  \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
+  \code{\link{nearest.sorted.angles}}
 }
 

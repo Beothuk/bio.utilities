@@ -1,13 +1,12 @@
+#' @title findMoments 
+#' @description to find the first two moments of a distrbution from quantile breaks (defined by the upper and lower percent)
+#' @note Gamma distribution returns shape and scale rather than rate (as per winbugs distribution) for use in r rate=1/scale lo and l.perc are the value and percentile for the low end of the distribution, up and u.perc are the upper values and percentiles
+#' @family abysmally documented
+#' @author  Adam Cook, \email{Adam.Cook@@dfo-mpo.gc.ca}
 #' @export
 #source('C:/Documents and Settings/cooka/Desktop/Scripts/Surplus Production dec 2011/bugs/finding moments of distributions.R')
-
-
-
-####Written by: 	AM Cook
-####Purpose: 		to find the first two moments of a distrbution from quantile breaks (defined by the upper and lower percent)
 ####Date:			February 10, 2012 
-####Note: 			Gamma distribution returns shape and scale rather than rate (as per winbugs distribution) for use in r rate=1/scale
-### lo and l.perc are the value and percentile for the low end of the distribution, up and u.perc are the upper values and percentiles
+	
 
 
 findMoments <- function(lo=0.1,up=0.8,l.perc=0.025,u.perc=0.975,dist=c('norm','lnorm','weibull','gamma','inv.gamma'),plot=T) {

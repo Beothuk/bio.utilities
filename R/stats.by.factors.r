@@ -1,5 +1,8 @@
+#' @title stats.by.factors
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 stats.by.factors = function( x, factors ) {
 
   omean = as.data.frame.table( tapply( x, factors, FUN=mean, na.rm=T,simplify=T ) )

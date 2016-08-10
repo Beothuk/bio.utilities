@@ -1,5 +1,8 @@
+#' @title jackknifeCPUE
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 jackknifeCPUE<-function(data,err='se',grouping){
 	#Smith 1980 CJFAS
 	#grouping = c('month','year')

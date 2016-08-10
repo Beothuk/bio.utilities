@@ -1,5 +1,8 @@
+#' @title kml.snowcrab.background
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   kml.snowcrab.background = function( filename) {
     
     con = kml.start( filename, "Snow crab background layers" )

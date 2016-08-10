@@ -1,3 +1,7 @@
+#' @title filter.dayno
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   
   filter.dayno = function( x, period, index=T ) {

@@ -1,6 +1,8 @@
+#' @title tapply2
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
   tapply2 = function (x, indices, func, var, newvars, ...) {
     # fast
     x = convert2factor(x, indices)

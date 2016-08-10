@@ -1,6 +1,8 @@
+#' @title pvalue.rsquare
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
 	pvalue.rsquare = function( M ) {
 		# R^2 = SSDmodel/(SSDmodel+SSDres) 
 		# F = DFres/DFmodel*SSDmodel/SSDres

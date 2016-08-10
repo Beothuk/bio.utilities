@@ -1,7 +1,10 @@
+#' @title Rsquared
+#' @description unknown
+#' @param \code{o} is an lm, glm or gam object
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-	
   Rsquared <- function(o){
-    # o is an lm, glm or gam object
     # # one of the three link/variance combinations:
     # (1) log and mu (which is canonical for Poisson),
     # (2) logit and mu(1-mu) (which is canonical for binomial), or

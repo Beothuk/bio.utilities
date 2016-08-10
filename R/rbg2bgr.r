@@ -1,7 +1,9 @@
+#' @title rbg2bgr
+#' @description convert an RGB colour value into BGR which is used by googleearth
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
- 
   rbg2bgr = function ( rgb ) {
-    # convert an RGB colour value into BGR which is used by googleearth
     rgb = as.character( rgb) 
     if ( nchar( rgb) == 7 ) {
       r = substr( rgb, 2,3 )

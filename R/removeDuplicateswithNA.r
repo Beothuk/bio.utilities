@@ -1,3 +1,7 @@
+#' @title removeDuplicateswithNA
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 #x = data.frame(trip=c(1,2,3,4,4,3),set=c(1,1,1,1,1,1),dt=c(1,2,3,4,NA,NA))
 

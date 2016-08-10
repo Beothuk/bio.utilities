@@ -1,7 +1,11 @@
+#' @title sort.list.amc
+#' @description sorts all elements in a list based on the column r
+#' @param \code{r} column number for sort
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-#sorts all elements in a list based on the column r
 sort.list.amc<-function(list1,r,inc=T) { 
-	#r=column number for sort
+	
 	a<-length(list1)
 	b<-list1
 	for(i in 1:a) {

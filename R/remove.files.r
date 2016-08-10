@@ -1,3 +1,7 @@
+#' @title remove.files
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   remove.files = function (clean) {
     if (is.null(clean) || length(clean)==0 ) return()

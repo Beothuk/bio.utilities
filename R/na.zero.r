@@ -1,3 +1,7 @@
+#' @title na.zero
+#' @description converts NAs to zeroes
+#' @family poorly documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 na.zero<-function(x){
   for(i in 1:length(x[1,])){

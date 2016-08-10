@@ -1,5 +1,8 @@
+#' @title test.intersection
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
- 
   test.intersection = function(pfocus, hull, p.test ) {
     
     out = NULL

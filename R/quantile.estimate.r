@@ -1,7 +1,9 @@
+#' @title quantile.estimate
+#' @description essentially the same as ecdf, but over-writes the max value with the next largest quantile
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 	quantile.estimate = function(x) {
-		# essentially the same as ecdf, but over-writes the max value with the next largest quantile
 		i = which( is.finite( x) )
 		pr = ecdf(x[i])( x[i] )
 		ix = which( pr ==1 )

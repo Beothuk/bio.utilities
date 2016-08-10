@@ -1,7 +1,8 @@
+#' @title variable.list.expand
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-#' @export
-
-
   variable.list.expand = function(component="all.data") {
     
     V = switch( EXPR=component,

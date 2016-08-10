@@ -3,7 +3,7 @@
 #' @description create plots of mean y after binning x values, adding 1 SE bars
 #' @param \code{b} 
 #' @param \code{v} 
-#' @param \code{br} 'br is the number of bins to be created from the x-values'
+#' @param \code{br} br is the number of bins to be created from the x-values
 #' @param \code{nfilter} defaults to 0
 #' @param \code{lowess} defaults to 0.4
 #' @param \code{trim} defaults to 0

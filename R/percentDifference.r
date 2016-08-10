@@ -1,3 +1,7 @@
+#' @title percentDifference
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 percentDifference <- function(x) {
 	 

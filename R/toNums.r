@@ -1,3 +1,7 @@
+#' @title toNums
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 toNums<-function(x,cols,numerics=T) {
 	for(i in 1:length(cols)) {

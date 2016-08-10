@@ -1,8 +1,7 @@
-#' @export
 #' @title convert.datecodes
 #' @description This function take a chron object x and extract required data
 #' @param \code{x} = a chron date object
-#' @param \code{y} = the value to be extracted from \code{x}, acceptable values include 'chron', 'year','month','day','week','julian','julian.ref.2000','tripcode'
+#' @param \code{y} = the value to be extracted x, acceptable values include 'chron', 'year','month','day','week','julian','julian.ref.2000','tripcode'
 #' @return \code{z} =  the requested date part
 #' @examples
 #' t=Sys.Date()

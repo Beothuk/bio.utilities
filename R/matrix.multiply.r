@@ -1,3 +1,7 @@
+#' @title matrix.multiply
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 
   matrix.multiply = function (x, y, nfac=2){ 

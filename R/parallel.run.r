@@ -1,7 +1,10 @@
+#' @title parallel.run
+#' @description expectation of all relevant parameters in a list 'p'
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 
 parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.to.clusters=F,... ) {
-  # expectation of all relevant parameters in a list 'p'
 
   require(parallel)
 

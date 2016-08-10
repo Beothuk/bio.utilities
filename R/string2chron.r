@@ -1,7 +1,9 @@
+#' @title string2chron
+#' @description convert a string representation of chron into a chron object
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   string2chron = function(u, informat=c(dates="year-m-d", times="h:m:s"), outformat=c(dates="year-m-d", times="h:m:s") ) {
-    # convert a string representation of chron into a chron object
     require (chron)
     u = gsub("[()]", "", u)
     ii = which( is.na(u) )

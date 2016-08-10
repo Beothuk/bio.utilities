@@ -1,12 +1,11 @@
+#' @title row.to.html.table
+#' @description pulls all of the attributes for a particular row of data into a single html table, where the first column corresponds with the fields, and the second row are the values.
+#' @note This might assist people using the kmlbuilder package who want to populate the kml balloon with all of the attributes.  Calling via apply(x,1, row.to.html.table) might be helpful
+#' @family abysmally documented
+#' @author  Mike McMahon, \email{Mike.McMahon@@dfo-mpo.gc.ca}
 #' @export
 row.to.html.table <- function(therow,main='',center='F',tableSummary='')
 {
-  #//MMM - 2016 - there are times where I want to be able to pull all of the attributes for a particular
-  #//row of data into a single html table, where the first column corresponds with the fields,
-  #//and the second row are the values.
-  #//This might assist people using the kmlbuilder package who want to populate the kml balloon
-  #//with all of the attributes
-  #//Calling via apply(x,1, row.to.html.table) might be helpful
   tabhead=paste0('<![CDATA[
               <table style="border: 1px solid #1C1C1C; border-collapse: collapse;" summary=',tableSummary,'>
               <caption><em>',main,'</em></caption>

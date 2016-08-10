@@ -1,5 +1,8 @@
+#' @title Rsquared.glm
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
- 
   Rsquared.glm <- function(o) { 
     typ <- matrix(c(
             "Logit: log(mu/(1 - mu))", 

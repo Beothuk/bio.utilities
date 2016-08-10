@@ -1,3 +1,7 @@
+#' @title loadPackages
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 loadPackages <- function(x) {
 	  x <- as.character(substitute(x)) 

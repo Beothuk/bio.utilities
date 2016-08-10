@@ -1,3 +1,7 @@
+#' @title kml.placemark.make
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   kml.placemark.make = function( con, item='', name='', desc='', style.id='', colour='', scale='', href='' , x='' ) {
     if ( item=='style' ) {

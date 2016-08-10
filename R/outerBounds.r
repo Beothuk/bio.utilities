@@ -1,8 +1,9 @@
+#' @title outerBounds
+#' @description for creating a tight polygon around a dense set of points
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 outerBounds = function(pointData, round.digit= 3){
-
-#// for creating a tight polygon around a dense set of points
 
 	require(PBSmapping)
 

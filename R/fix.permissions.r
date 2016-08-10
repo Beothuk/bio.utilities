@@ -1,7 +1,9 @@
+#' @title fix.permissions
+#' @description File permissions can get messed up easily in a shared environment, make permissions sensisble recursively inside directory "loc"
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   fix.permissions = function( loc=bio.datadirectory, file.perm="ugo+rw", dir.perm=" ugo+rwx", method="unix" ) {
-    #\\ File permissions can get messed up easily in a shared environment
-    #\\ make permissions sensisble recursively inside directory "loc"
     if (method=="unix") {
       if ( tolower( Sys.info()["sysname"] ) != "linux" ) stop( "This is for unix systems only" )
       print( paste( "Operating upon ... ", loc ) )

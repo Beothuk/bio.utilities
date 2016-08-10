@@ -1,9 +1,13 @@
+#' @title whichEvents
+#' @description unknown
+#' @param \code{lonlatpoint} is the central data point you want to find the surroundings c(lon,lat)
+#' @param \code{radius} is the radius of the buffer zone you want to identify
+#' @param \code{event.data} is the data frame for finding the points within a specified radius 
+#' @param \code{on.boundary} if true will include all points on the boundary of the polygon
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 whichEvents <- function(lonlatpoint,radius,event.data,on.boundary=T) {
-	#lonlatpoint is the central data point you want to find the surroundings c(lon,lat)
-	#radius is the radius of the buffer zone you want to identify
-	#event.data is the data frame for finding the points within a specified radius
-	#on.boundary if true will include all points on the boundry of the polygon
 	loadPackages(PBSmapping)
 	
 	poly <- makePBS(bufferCircle(lonlat=lonlatpoint,radius=radius),polygon=T)

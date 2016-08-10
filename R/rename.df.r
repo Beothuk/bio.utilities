@@ -1,5 +1,8 @@
+#' @title rename.df
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   rename.df = function(x, n0, n1) {
   	if(!length(n0)== length(n1)) stop('length of names and renames need to be the same length')
   	for(i in 1:length(n0)){

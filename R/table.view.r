@@ -1,3 +1,7 @@
+#' @title table.view
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 table.view = function( x ) {
     a = tempfile()

@@ -1,4 +1,3 @@
-#' @export
 #' @title make.xyz
 #' @description couldn't accurately describe
 #' @param \code{x} 

@@ -1,6 +1,8 @@
+#' @title get.cpu.usage
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
-
   get.cpu.usage = function() {
       sys.usage = system ("vmstat -n 2 5", intern=T)  # a unix command: get 3 snapshots of 1 sec intervals
       sys.usage = gsub ( "^[[:space:]]", "", sys.usage ) # remove starting blanks

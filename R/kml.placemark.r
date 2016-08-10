@@ -1,5 +1,8 @@
+#' @title kml.placemark
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   kml.placemark = function( item='', name='', desc='', style.id='', colour='', scale='',
     href='' ) {
     

@@ -1,3 +1,7 @@
+#' @title makePBS
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 makePBS <- function(x,polygon=T,projection="LL") {
 	cat('Polygon or Event Data for PBSmapping\n')

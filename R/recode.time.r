@@ -1,5 +1,8 @@
+#' @title recode.time
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   recode.time = function(x, type, delta=1, vector=F, t0=NULL) {
 
     if (vector) x$yr = x

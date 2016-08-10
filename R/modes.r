@@ -1,7 +1,9 @@
+#' @title modes
+#' @description find the largest mode 
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 modes = function( Z, eps=0, ... ) {
-  # find the largest mode 
   debug = FALSE
   if (debug) {
     # construct something that looks like a profile 

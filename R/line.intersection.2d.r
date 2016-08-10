@@ -1,5 +1,8 @@
+#' @title line.intersection.2d
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 line.intersection.2d = function( p1a, p1b, p2a, p2b ) {
 
   dim_num = 2

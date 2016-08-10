@@ -1,5 +1,8 @@
+#' @title kml.line.make
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
   kml.line.make = function( con, item='', name='', label='', style.id='', x='', line.colour='4c7fffff', line.width=1 ) {
     
     if (item=='') {

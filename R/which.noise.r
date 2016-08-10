@@ -1,8 +1,9 @@
+#' @title which.noise
+#' @description   similar to interpolate.xy.robust given a vector, or xy, identify errors or noise
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 which.noise = function( xy, method="",  probs=c(0.025, 0.975), lags=c(1,2,3,2,1)  ) {
-  
-  # similar to interpolate.xy.robust  
-  # given a vector, or xy, identify errors or noise
 
   debug = FALSE
   # debug = TRUE

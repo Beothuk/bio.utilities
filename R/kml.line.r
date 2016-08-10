@@ -1,3 +1,7 @@
+#' @title kml.line
+#' @description unknown
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
   kml.line = function( item='', name='', label='', style.id='', line.colour='4c7fffff', line.width=1, con='' ) {
 

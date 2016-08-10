@@ -1,12 +1,10 @@
+#' @title findCurvature
+#' @description generally preferable to using first differences of raw data,  because differencing raw data amplifies noise, while appropriate smooths eliminate much of the noise, leaving you with what you most want. Ramsay and Silverman (2005) Functional Data Analysis, 2nd ed. (Springer) suggest that if you want a second derivative, it is often wise to use quintic splines, because then the second derivative are cubic splines. (The first derivative of a spline of order k is a spline of order k-1.)
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 findCurvature = function (x, y, eps = 0.02) {
-#       generally preferable to using first differences of raw data, 
-#because differencing raw data amplifies noise, while appropriate smooths 
-#eliminate much of the noise, leaving you with what you most want.   
-#Ramsay and Silverman (2005) Functional Data Analysis, 2nd ed. (Springer) 
-#suggest that if you want a second derivative, it is often wise to use 
-#quintic splines, because then the second derivative are cubic splines.   
-#(The first derivative of a spline of order k is a spline of order k-1.)  
+#        
 
        print('aka second derivative via splines--not done')
     

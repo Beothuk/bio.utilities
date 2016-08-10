@@ -1,6 +1,9 @@
+#' @title idHoles
+#' @description PBS mapping utility to identify holes in a PolySet
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
 idHoles<-function(Polys){
-#// PBS mapping utility to identify holes in a PolySet
 	sids<-unique(Polys$SID)
 	Polys$Hole<-NA
 	for(i in sids){

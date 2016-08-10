@@ -1,5 +1,8 @@
+#' @title package.list
+#' @description unknown
+#' @family abysmally documented
+#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-
 	package.list = function( X="basic", default.repository="http://mirror.its.dal.ca/cran" ) {
 
     print( "Choose: basic, parallel, spatial, etc., using 'all' as default ..."  )

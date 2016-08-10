@@ -1,5 +1,8 @@
+#' @title getCols
+#' @description get color vector for plot
+#' @family abysmally documented
+#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-#get color vector for plot
 getCols <- function(n){
  N <- 6
  
