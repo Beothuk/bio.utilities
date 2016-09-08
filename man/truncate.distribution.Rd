@@ -6,6 +6,13 @@
 \usage{
 \method{truncate}{distribution}(W, Ql, Qu)
 }
+\arguments{
+\item{\code{W}}{NULL}
+
+\item{\code{Ql}}{NULL}
+
+\item{\code{Qu}}{NULL}
+}
 \description{
 the following truncates data to a range limited by quantiles or fixed limits
 }
