@@ -8,9 +8,9 @@ errorbars(b, v, br = "Sturges", nfilter = 0, lowess = 0.4, trim = 0,
   xlab, ylab, db, ...)
 }
 \arguments{
-\item{\code{b}}{}
+\item{\code{b}}{NULL}
 
-\item{\code{v}}{}
+\item{\code{v}}{NULL}
 
 \item{\code{br}}{br is the number of bins to be created from the x-values}
 
@@ -19,6 +19,12 @@ errorbars(b, v, br = "Sturges", nfilter = 0, lowess = 0.4, trim = 0,
 \item{\code{lowess}}{defaults to 0.4}
 
 \item{\code{trim}}{defaults to 0}
+
+\item{\code{xlab}}{NULL}
+
+\item{\code{ylab}}{NULL}
+
+\item{\code{db}}{NULL}
 }
 \description{
 create plots of mean y after binning x values, adding 1 SE bars

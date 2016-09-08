@@ -1,10 +1,10 @@
 #' @export
 #' @title pie.legend
-#' @description couldn't accurately describe
-#' @param \code{x}
+#' @description couldnt accurately describe
+#' @param \code{x} NULL
 #' @param \code{y} defaults to NULL
 #' @param \code{z} defaults to NULL
-#' @param \code{labels}
+#' @param \code{labels} NULL
 #' @param \code{radius} defaults to 1
 #' @param \code{bty} defaults to "o" 
 #' @param \code{mab} defaults to 1.2

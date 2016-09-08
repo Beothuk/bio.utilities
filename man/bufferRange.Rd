@@ -16,7 +16,7 @@ bufferRange(x, buffer.percent = 2)
 This function adds a bit of negative a positive buffer to a range.
 }
 \examples{
-x=-1000:10
+x=-1000:10   
 bufferRange(x,2)
 [1] -1020.0    10.2
 }

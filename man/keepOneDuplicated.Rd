@@ -13,6 +13,10 @@ keepOneDuplicated(x, cols, test.col, test.val, test.direction = c("greater",
 \item{\code{cols}}{is the columns to check for duplicates,}
 
 \item{\code{test.col}}{is the column which contains the info that is not duplicated and you wish to remove one entry based on a test.val and a test.direction}
+
+\item{\code{test.val}}{NULL}
+
+\item{\code{test.direction}}{NULL}
 }
 \description{
 unknown

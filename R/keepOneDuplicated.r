@@ -3,11 +3,12 @@
 #' @param \code{x} the data frame containing all data, 
 #' @param \code{cols} is the columns to check for duplicates, 
 #' @param \code{test.col} is the column which contains the info that is not duplicated and you wish to remove one entry based on a test.val and a test.direction
-#' @param \code{test.val}
-#' @param \code{test.direction}
+#' @param \code{test.val} NULL
+#' @param \code{test.direction} NULL
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
+#' 
 keepOneDuplicated = function(x,cols,test.col,test.val,test.direction=c('greater','less','equal','not.equal')) {
 
 	a = which(duplicated(x[,cols],fromLast=F))

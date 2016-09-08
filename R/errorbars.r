@@ -1,18 +1,18 @@
-#' @export
 #' @title errorbars
 #' @description create plots of mean y after binning x values, adding 1 SE bars
-#' @param \code{b} 
-#' @param \code{v} 
+#' @param \code{b} NULL
+#' @param \code{v} NULL
 #' @param \code{br} br is the number of bins to be created from the x-values
 #' @param \code{nfilter} defaults to 0
 #' @param \code{lowess} defaults to 0.4
 #' @param \code{trim} defaults to 0
-#' @param \code{xlab}
-#' @param \code{ylab}
-#' @param \code{db}
+#' @param \code{xlab} NULL
+#' @param \code{ylab} NULL
+#' @param \code{db} NULL
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
+
   errorbars = function(b, v, br="Sturges", nfilter=0, lowess=0.4, trim=0, xlab, ylab, db, ...)  {
     # ... params to send to errbar (labels, lty, etc)
     b[,v[2]] = variable.recode( b[,v[2]], v[2], direction="forward", db=db )
