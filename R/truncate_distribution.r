@@ -1,4 +1,4 @@
-#' @title truncate.distribution
+#' @title truncate_distribution
 #' @description the following truncates data to a range limited by quantiles or fixed limits
 #' @param \code{W} NULL
 #' @param \code{Ql} NULL
@@ -6,7 +6,7 @@
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-truncate.distribution = function( W, Ql, Qu ) {
+truncate_distribution = function( W, Ql, Qu ) {
         Q = quantile( W, c(Ql, Qu), na.rm=T )
         j = which( W < Q[1] )
         k = which( W > Q[2] )

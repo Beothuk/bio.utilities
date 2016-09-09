@@ -4,8 +4,8 @@
 \alias{plot.histograms.temporal}
 \title{plot.histograms.temporal}
 \usage{
-\method{plot}{histograms.temporal}(mm, xlab = "", ylab = "",
-  barscale = 0.75, barcol = "darkgray", overlaydata = NULL)
+plot.histograms.temporal(mm, xlab = "", ylab = "", barscale = 0.75,
+  barcol = "darkgray", overlaydata = NULL)
 }
 \arguments{
 \item{\code{mm}}{is a matrix of the actual distributions}
@@ -109,8 +109,8 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{tapply2}}, \code{\link{test.intersection}},
   \code{\link{toNums}}, \code{\link{topo.colors2}},
   \code{\link{trimWhiteSpace}},
-  \code{\link{truncate.distribution}},
-  \code{\link{truncate.vector}},
+  \code{\link{truncate_distribution}},
+  \code{\link{truncate_vector}},
   \code{\link{ts.plotandsave}},
   \code{\link{variable.list.expand}},
   \code{\link{variable.recode}}, \code{\link{which.noise}},

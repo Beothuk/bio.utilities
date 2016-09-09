@@ -4,7 +4,7 @@
 \alias{plot.nothing}
 \title{plot.nothing}
 \usage{
-\method{plot}{nothing}()
+plot.nothing()
 }
 \description{
 unknown
@@ -105,8 +105,8 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{tapply2}}, \code{\link{test.intersection}},
   \code{\link{toNums}}, \code{\link{topo.colors2}},
   \code{\link{trimWhiteSpace}},
-  \code{\link{truncate.distribution}},
-  \code{\link{truncate.vector}},
+  \code{\link{truncate_distribution}},
+  \code{\link{truncate_vector}},
   \code{\link{ts.plotandsave}},
   \code{\link{variable.list.expand}},
   \code{\link{variable.recode}}, \code{\link{which.noise}},
