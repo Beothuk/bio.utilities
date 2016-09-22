@@ -1,10 +1,10 @@
-#' @title plot.histograms.temporal
+#' @title plot_histograms_temporal
 #' @description this adds histograms to the current figure
 #' @param \code{mm} is a matrix of the actual distributions  
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-  plot.histograms.temporal = function( mm, xlab="", ylab="", barscale=0.75, barcol="darkgray", overlaydata=NULL ) {
+  plot_histograms_temporal = function( mm, xlab="", ylab="", barscale=0.75, barcol="darkgray", overlaydata=NULL ) {
     xx = as.numeric(colnames(mm) )
     yy = as.numeric(rownames(mm) )
 

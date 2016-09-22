@@ -1,9 +1,9 @@
-#' @title summary.deviance
+#' @title summary_deviance
 #' @description unknown
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-	summary.deviance = function( M ) {
+	summary_deviance = function( M ) {
 	  deviance = M$null.deviance-M$deviance
 		df = M$df.null-M$df.residual
 		p = dchisq( deviance, df )

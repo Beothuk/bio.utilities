@@ -1,9 +1,9 @@
-#' @title hist.bivariate
+#' @title hist_bivariate
 #' @description unknown
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-hist.bivariate = function(x,y, method="fd", xrange=NULL, yrange=NULL) {
+hist_bivariate = function(x,y, method="fd", xrange=NULL, yrange=NULL) {
   
   xhist <- hist(x, plot=F, method )
   yhist <- hist(y, plot=F, method )

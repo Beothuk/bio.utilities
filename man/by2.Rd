@@ -18,7 +18,7 @@ Other poorly documented: \code{\link{A}},
   \code{\link{break.list}}, \code{\link{colour.scale}},
   \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{convert2factor}}, \code{\link{dim.list}},
+  \code{\link{convert2factor}}, \code{\link{dim_list}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
