@@ -1,9 +1,9 @@
-#' @title set.global
+#' @title set_global
 #' @description unknown
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-  set.global <- function (x, value) {
+  set_global <- function (x, value) {
     x <- deparse(substitute(x))
     assign(x, value, pos=.GlobalEnv)
   }
