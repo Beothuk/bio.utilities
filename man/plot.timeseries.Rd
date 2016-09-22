@@ -4,7 +4,8 @@
 \alias{plot.timeseries}
 \title{plot.timeseries}
 \usage{
-plot.timeseries(x, vars, regions, outdir = "timesseries", backtransform = T)
+\method{plot}{timeseries}(x, vars, regions, outdir = "timesseries",
+  backtransform = T)
 }
 \description{
 unknown
@@ -82,9 +83,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{pressure2Depth}},
   \code{\link{print.command}},
   \code{\link{pvalue.rsquare}},
-  \code{\link{quantile.estimate}},
-  \code{\link{quantile.to.normal}},
-  \code{\link{quantileBreak2NA}}, \code{\link{rX}},
+  \code{\link{quantileBreak2NA}},
+  \code{\link{quantile_estimate}},
+  \code{\link{quantile_to_normal}}, \code{\link{rX}},
   \code{\link{ra.jit}}, \code{\link{rbg2bgr}},
   \code{\link{recode.time.block}},
   \code{\link{recode.time}}, \code{\link{recode}},

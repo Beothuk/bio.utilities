@@ -52,7 +52,7 @@ pie.draw <- function (x, y, z, radius, scale = T, labels = NA, silent = TRUE,
     if (scale & length(radius) == 1) 
       radiusi <- radius * sqrt(sum(zi, na.rm = T))/sqrt(maxsumz)
     if (sum(zi) > 0) 
-      add.pie(zi, xi, yi, labels, radius = radiusi, ...)
+      pie.add(zi, xi, yi, labels, radius = radiusi, ...)
     if (!silent) 
       iw=11
     #pm <- progressMsg(pm, i)

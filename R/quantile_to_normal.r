@@ -1,9 +1,9 @@
-#' @title quantile.to.normal
+#' @title quantile_to_normal
 #' @description convert quantile to normal with mean 0.5 and variance such that ci% are found within the range (0,1)
 #' @family abysmally documented
 #' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
 #' @export
-quantile.to.normal = function( x, mean =0.5, ci=0.999 ) {
+quantile_to_normal = function( x, mean =0.5, ci=0.999 ) {
   
   xmin = min( x[ which(x>0) ], na.rm=T )
   xmax = max( x[ which(x<1) ], na.rm=T )
