@@ -1,7 +1,7 @@
 #' @title parallel.run
-#' @description expectation of all relevant parameters in a list 'p'
+#' @description Run a parallel process .. wrapper for snow. Expectation of all relevant parameters in a list 'p'.
 #' @family abysmally documented
-#' @author unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @author Jae Choi, \email{Jae.Choi@@dfo-mpo.gc.ca}
 #' @export
 
 parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.to.clusters=F,... ) {
@@ -22,22 +22,24 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
       print( paste( "Using", rndseed, "as the default random number seed for parallel operations, Specify 'rndseed' to change." ))
     }
     if (!exists("nruns")) stop( "Must define 'nruns' in the paramater list")
-    
-    if ( length(clusters) == 1 ) {
+
+    if ( length(clusters) == 1 | nruns==1 ) {
       out = NULL
-      out = FUNC( p=p, ... ) 
+      out = FUNC( p=p, ... )
       return(out)
     }
-    
+
+    if ( nruns < length(clusters) ) clusters = sample( nruns, clusters)  # if very few runs, use only what is required
+
     if ( length(clusters) > 1 ) {
 
-      cl = makeCluster( spec=clusters, type=clustertype ) # SOCK works well but does not load balance as MPI 
+      cl = makeCluster( spec=clusters, type=clustertype ) # SOCK works well but does not load balance as MPI
       RNGkind("L'Ecuyer-CMRG")  # multiple streams of pseudo-random numbers.
-      
+
       clusterSetRNGStream(cl, iseed=rndseed )
 
       if ( !is.null(export)) clusterExport( cl, export )
-     
+
       # define allocation of runs to clusters
       if ( !specific.allocation.to.clusters ) {
         # default is a simple split
@@ -53,7 +55,7 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
           ssplt[[j]]  = which(p$runs$v == uv[j])
         }
         ssplt2 = rep(list(numeric()),lc)
-        if(uvl>lc) { 
+        if(uvl>lc) {
           for(j in 1:uvl) {
             k=j
             if(j>lc) k = j%%lc+1
@@ -65,8 +67,8 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
 
       out = NULL
       out = clusterApply( cl, ssplt, FUNC, p=p, ... )
-      stopCluster( cl )   
-      return( out )  
+      stopCluster( cl )
+      return( out )
     }
   })
 
