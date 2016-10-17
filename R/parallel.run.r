@@ -1,7 +1,7 @@
 #' @title parallel.run
 #' @description Run a parallel process .. wrapper for snow. Expectation of all relevant parameters in a list 'p'.
 #' @family abysmally documented
-#' @author Jae Choi, \email{Jae.Choi@@dfo-mpo.gc.ca}
+#' @author Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
 #' @export
 
 parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.to.clusters=F,... ) {
@@ -29,7 +29,7 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
       return(out)
     }
 
-    if ( nruns < length(clusters) ) clusters = sample( nruns, clusters)  # if very few runs, use only what is required
+    if ( nruns < length(clusters) ) clusters = sample( clusters, nruns )  # if very few runs, use only what is required
 
     if ( length(clusters) > 1 ) {
 
