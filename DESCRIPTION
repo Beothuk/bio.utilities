@@ -21,4 +21,4 @@ VignetteBuilder: knitr
 License: MIT
 LazyData: true
 URL: https://github.com/Beothuk/bio.utilities/
-RoxygenNote: 5.0.1
+RoxygenNote: 5.0.1.9000
