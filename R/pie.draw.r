@@ -1,13 +1,12 @@
-#' @export
 #' @title pie.draw
 #' @description couldn't accurately describe
-#' @param \code{x} 
-#' @param \code{y} 
-#' @param \code{z} 
-#' @param \code{radius} 
-#' @param \code{scale} 
-#' @param \code{labels}
-#' @param \code{silent} 
+#' @param \code{x} NULL
+#' @param \code{y} NULL
+#' @param \code{z} NULL
+#' @param \code{radius} NULL
+#' @param \code{scale} NULL
+#' @param \code{labels} NULL
+#' @param \code{silent} NULL
 #' @family plotting
 #' @note 
 #' useage
@@ -53,7 +52,7 @@ pie.draw <- function (x, y, z, radius, scale = T, labels = NA, silent = TRUE,
     if (scale & length(radius) == 1) 
       radiusi <- radius * sqrt(sum(zi, na.rm = T))/sqrt(maxsumz)
     if (sum(zi) > 0) 
-      add.pie(zi, xi, yi, labels, radius = radiusi, ...)
+      pie.add(zi, xi, yi, labels, radius = radiusi, ...)
     if (!silent) 
       iw=11
     #pm <- progressMsg(pm, i)

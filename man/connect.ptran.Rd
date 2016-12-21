@@ -22,4 +22,7 @@ This function is supposed to be a user-friendly means for adding a connection to
 \author{
 Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
 }
+\seealso{
+Other GUI functions: \code{\link{connect_ptran}}
+}
 

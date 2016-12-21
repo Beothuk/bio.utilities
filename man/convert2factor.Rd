@@ -29,7 +29,7 @@ Other poorly documented: \code{\link{A}},
   \code{\link{break.list}}, \code{\link{by2}},
   \code{\link{colour.scale}}, \code{\link{compute.sums}},
   \code{\link{convert.graphics.format}},
-  \code{\link{dim.list}},
+  \code{\link{dim_list}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }

@@ -32,7 +32,7 @@ unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \seealso{
 Other date functions: \code{\link{convert.datecodes}},
-  \code{\link{date.picker}}, \code{\link{dayofyear}},
-  \code{\link{get.day}}
+  \code{\link{date_picker}}, \code{\link{dayofyear}},
+  \code{\link{get.day}}, \code{\link{get_day}}
 }
 

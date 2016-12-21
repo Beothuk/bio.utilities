@@ -8,9 +8,13 @@ pie.legend(x, y = NULL, z = NULL, labels, radius = 1, bty = "o",
   mab = 1.2, bg = NULL, inset = 0, ...)
 }
 \arguments{
+\item{\code{x}}{NULL}
+
 \item{\code{y}}{defaults to NULL}
 
 \item{\code{z}}{defaults to NULL}
+
+\item{\code{labels}}{NULL}
 
 \item{\code{radius}}{defaults to 1}
 
@@ -23,7 +27,7 @@ pie.legend(x, y = NULL, z = NULL, labels, radius = 1, bty = "o",
 \item{\code{inset}}{defaults to 0}
 }
 \description{
-couldn't accurately describe
+couldnt accurately describe
 }
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}

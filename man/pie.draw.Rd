@@ -7,17 +7,19 @@
 pie.draw(x, y, z, radius, scale = T, labels = NA, silent = TRUE, ...)
 }
 \arguments{
-\item{\code{x}}{}
+\item{\code{x}}{NULL}
 
-\item{\code{y}}{}
+\item{\code{y}}{NULL}
 
-\item{\code{z}}{}
+\item{\code{z}}{NULL}
 
-\item{\code{radius}}{}
+\item{\code{radius}}{NULL}
 
-\item{\code{scale}}{}
+\item{\code{scale}}{NULL}
 
-\item{\code{silent}}{}
+\item{\code{labels}}{NULL}
+
+\item{\code{silent}}{NULL}
 }
 \description{
 couldn't accurately describe

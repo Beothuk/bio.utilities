@@ -35,6 +35,7 @@ interpolate.xy.robust = function( xy, method, target.r2=0.9, mv.win=10, trim=0.0
     }
   }
 
+
   z$p= NA
   z$noise = FALSE
   z$loc = 1:nz  # row index used in seq lin method
@@ -122,13 +123,15 @@ interpolate.xy.robust = function( xy, method, target.r2=0.9, mv.win=10, trim=0.0
     var0 = var( z$y, na.rm=TRUE)
     for( sp in loess.spans ) {
       # ID a good span where loess solution ~ real data
-      loess.mod = try( loess( y ~ x, data=z, span=sp, control=loess.control(surface="direct") ), silent=TRUE )
+
+      loess.mod = try( loess( y ~ x, data=z, span=sp, control=loess.control(surface="direct"),na.action = na.exclude ), silent=TRUE )
       if ( "try-error" %in% class(loess.mod) ) next()
       z$p = predict( loess.mod, newdata=z )
       rsq = cor( z$p, z$y, use="pairwise.complete.obs" )^2
       if (!is.na(rsq)) {
         if (rsq > target.r2 ) {
-          if ( var( z$p, na.rm=TRUE) < var0 ) break()
+         # if ( var( z$p, na.rm=TRUE) < var0 ) 
+		break()
         }
       }
     }
@@ -231,6 +234,8 @@ interpolate.xy.robust = function( xy, method, target.r2=0.9, mv.win=10, trim=0.0
     si = (nd+1):(fn-nd)
     fp = rep( NA, fn)
     fp[si] = kernapply( as.vector(z$y), smoothing.kernel )
+
+
     pfunc = approxfun( x=fx, y=fp, method="linear", rule=2)
     z$p = pfunc( z$x)
     # plot( p ~ x, z, type="l" )
