@@ -24,7 +24,7 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
     if (!exists("nruns")) stop( "Must define 'nruns' in the paramater list")
 
     message( "The processes are being run on:")
-    message( p$clusters )
+    message(  paste( unlist( p$clusters), collapse=" ") )
 
     if ( length(clusters) == 1 | nruns==1 ) {
       out = NULL
