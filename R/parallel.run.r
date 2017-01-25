@@ -1,5 +1,5 @@
 #' @title parallel.run
-#' @description Run a parallel process .. wrapper for snow. Expectation of all relevant parameters in a list 'p'.
+#' @description Run a parallel process .. wrapper for snow/parallel. Expectation of all relevant parameters in a list 'p'.
 #' @family abysmally documented
 #' @author Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
 #' @export
@@ -12,21 +12,24 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
     if (!exists("clusters")) {
       k = detectCores()
       clusters = "localhost"
-      print( paste( "Using serial mode as no clusters were defined.", k, "cores are found on localhost, Define 'p$clusters' if you wish to run in parallel mode." ))
+      message( paste( "Using serial mode as no clusters were defined.", k, "cores are found on localhost, Define 'p$clusters' if you wish to run in parallel mode." ))
     }
     if (!exists("clustertype")) {
       clustertype = "PSOCK"
-      print( paste( "Using", clustertype, "connections as default, 'clustertype' was not defined." ))
+      message( paste( "Using", clustertype, "connections as default, 'clustertype' was not defined." ))
     }
     if (!exists("rndseed")) {
-      print( paste( "Using", rndseed, "as the default random number seed for parallel operations, Specify 'rndseed' to change." ))
+      message( paste( "Using", rndseed, "as the default random number seed for parallel operations, Specify 'rndseed' to change." ))
     }
     if (!exists("nruns")) stop( "Must define 'nruns' in the paramater list")
+
+    message( "The processes are being run on:")
+    message(  paste( unlist( p$clusters), collapse=" ") )
 
     if ( length(clusters) == 1 | nruns==1 ) {
       out = NULL
       out = FUNC( p=p, ... )
-      return(out)
+      return( invisible (out) )
     }
 
     if ( nruns < length(clusters) ) clusters = sample( clusters, nruns )  # if very few runs, use only what is required
@@ -68,9 +71,9 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
       out = NULL
       out = clusterApply( cl, ssplt, FUNC, p=p, ... )
       stopCluster( cl )
-      return( out )
+      return( invisible( out) )
     }
   })
 
-  return( res )
+  return( invisible( res) )
 }

@@ -8,10 +8,10 @@ parallel.run(FUNC, p, export = NULL, rndseed = 1,
   specific.allocation.to.clusters = F, ...)
 }
 \description{
-expectation of all relevant parameters in a list 'p'
+Run a parallel process .. wrapper for snow. Expectation of all relevant parameters in a list 'p'.
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
