@@ -1,10 +1,10 @@
 #' @title make.list
-#' @description unknown
+#' @description Make a simple expanded list of parameter values with which parallel runs can be made.
 #' @family abysmally documented
-#' @author  unknown, \email{<unknown>@@dfo-mpo.gc.ca}
+#' @author  Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
 #' @export
 # define compact list of variable (e.g.,  year, var, etc)  combinations for parallel processing
-# which can be accessed w:e ithin a parallel run to recover variable comnbinations using a single index 
+# which can be accessed within a parallel run to recover variable comnbinations using a single index 
 #    outside of parallel run
 #    p = make.list( list(p$vars.to.model, p$years.to.model, p$regions.to.model), Y=list() )
 #    ...
