@@ -28,8 +28,8 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
 
     if ( length(clusters) == 1 | nruns==1 ) {
       out = NULL
-      out = FUNC( p=p, ... )
-      return( invisible (out) )
+      out = suppressMessages( FUNC( p=p, ... ) )
+      return( out )
     }
 
     if ( nruns < length(clusters) ) clusters = sample( clusters, nruns )  # if very few runs, use only what is required
@@ -69,11 +69,11 @@ parallel.run = function( FUNC, p, export=NULL, rndseed = 1, specific.allocation.
       }
 
       out = NULL
-      out = clusterApply( cl, ssplt, FUNC, p=p, ... )
+      out = suppressMessages( clusterApply( cl, ssplt, FUNC, p=p, ... ) )
       stopCluster( cl )
-      return( invisible( out) )
+      return( out )
     }
   })
 
-  return( invisible( res) )
+  return(  res  )
 }
