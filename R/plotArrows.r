@@ -1,3 +1,4 @@
+#' @export
 plotArrows = function (Y,X,add=F) {
 
   #//trace arrows around x,y points from start to end
