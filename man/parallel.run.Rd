@@ -8,7 +8,7 @@ parallel.run(FUNC, p, export = NULL, rndseed = 1,
   specific.allocation.to.clusters = F, ...)
 }
 \description{
-Run a parallel process .. wrapper for snow. Expectation of all relevant parameters in a list 'p'.
+Run a parallel process .. wrapper for snow/parallel. Expectation of all relevant parameters in a list 'p'.
 }
 \author{
 Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
@@ -58,8 +58,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},

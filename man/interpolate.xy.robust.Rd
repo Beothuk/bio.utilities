@@ -11,10 +11,10 @@ interpolate.xy.robust(xy, method, target.r2 = 0.9, mv.win = 10,
   inla.ngroups = 400)
 }
 \description{
-unknown
+Interpolate some xy data used by netmensuration and mode fifnding methods.
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
@@ -60,8 +60,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},

@@ -10,7 +10,7 @@ quantile_to_normal(x, mean = 0.5, ci = 0.999)
 convert quantile to normal with mean 0.5 and variance such that ci% are found within the range (0,1)
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
@@ -57,8 +57,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},

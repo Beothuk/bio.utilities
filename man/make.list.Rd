@@ -7,10 +7,10 @@
 make.list(Z, Y = list(), delimit = "~")
 }
 \description{
-unknown
+Make a simple expanded list of parameter values with which parallel runs can be made.
 }
 \author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
+Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
 }
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
@@ -57,8 +57,8 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},
