@@ -29,9 +29,6 @@ errorbars(b, v, br = "Sturges", nfilter = 0, lowess = 0.4, trim = 0,
 \description{
 create plots of mean y after binning x values, adding 1 SE bars
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -136,4 +133,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

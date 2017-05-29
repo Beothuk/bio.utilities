@@ -24,4 +24,3 @@ couldn't accurately describe
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
 \keyword{manip}
-

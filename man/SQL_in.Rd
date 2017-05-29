@@ -9,9 +9,6 @@ SQL_in(x)
 \description{
 Takes a vector, and converts it into a comma separated list of characters appropriate for a SQL IN clause(e.g. c(a,b,c)-> 'a','b','c')
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -116,4 +113,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

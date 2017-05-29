@@ -39,13 +39,12 @@ This function calculates depth in meters from pressure in decibars using Saunder
 decibar2depth(10000,30,0)
 [1] 9712.653
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \references{
 \url{http://www.code10.info/index.php?option=com_content&view=article&id=67:calculating-the-depth-from-pressure&catid=54:cat_coding_algorithms_seawater&Itemid=79}, \url{http://www.code10.info/index.php?option=com_content&view=article&id=67:calculating-the-depth-from-pressure&catid=54:cat_coding_algorithms_seawater&Itemid=79}
 }
 \seealso{
 Other physical and chemical properties: \code{\link{compute.oxygen.saturation}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

@@ -23,10 +23,9 @@ couldn't accurately describe
 \note{
 X is the matrix of values with each column representing a single variable.  The upper triangle of the resulting matrix is p-values and lower is cor test value
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other statistical: \code{\link{devianceGLM}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

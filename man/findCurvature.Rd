@@ -9,9 +9,6 @@ findCurvature(x, y, eps = 0.02)
 \description{
 generally preferable to using first differences of raw data,  because differencing raw data amplifies noise, while appropriate smooths eliminate much of the noise, leaving you with what you most want. Ramsay and Silverman (2005) Functional Data Analysis, 2nd ed. (Springer) suggest that if you want a second derivative, it is often wise to use quintic splines, because then the second derivative are cubic splines. (The first derivative of a spline of order k is a spline of order k-1.)
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -117,4 +114,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

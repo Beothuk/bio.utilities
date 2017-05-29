@@ -9,9 +9,6 @@ A(x)
 \description{
 This function is a shorthand for \code{attr()}.
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 \code{\link[base]{attr}}
 
@@ -24,4 +21,6 @@ Other poorly documented: \code{\link{applyMean}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

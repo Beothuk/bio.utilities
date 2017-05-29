@@ -31,9 +31,6 @@ m
 #duplicates.toremove(m)
 [1]  1  2  4  5 12 13 15
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
@@ -44,4 +41,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

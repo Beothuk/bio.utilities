@@ -25,13 +25,12 @@ creates a random time series of data of length N, not perfect but works
 createTS(8,nonstationary=T,all.positive=F)
 [1]  0.0000000  0.6036440  0.8781622  0.8489549  1.3040091  0.5772213  0.2788312 -0.2574978 -0.6370382
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \references{
 \url{http://stats.stackexchange.com/questions/29239/creating-auto-correlated-random-values-in-r}
 }
 \seealso{
 Other random data: \code{\link{create_random_matrix}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

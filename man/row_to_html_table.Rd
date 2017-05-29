@@ -12,9 +12,6 @@ pulls all of the attributes for a particular row of data into a single html tabl
 \note{
 This might assist people using the kmlbuilder package who want to populate the kml balloon with all of the attributes.  Calling via apply(x,1, row.to.html.table) might be helpful
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -119,4 +116,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

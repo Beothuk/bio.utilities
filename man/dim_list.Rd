@@ -15,9 +15,6 @@ dim_list(list1)
 \description{
 takes a list and returns a simplified list of its dimensions
 }
-\author{
-Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
@@ -28,4 +25,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
+}

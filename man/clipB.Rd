@@ -12,4 +12,3 @@ Writes table into clipboard in unix environment. Requires xclip be installed (pa
 \author{
 Stackoverflow
 }
-

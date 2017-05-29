@@ -27,12 +27,11 @@ t2<- chron(dates =  dates(c("02/27/92")), times =  "12:00:00")
 chron2datestamp(t2,10)
 [1] "02/27/92.5"
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other date functions: \code{\link{convert.datecodes}},
   \code{\link{date_picker}}, \code{\link{dayofyear}},
   \code{\link{get.day}}, \code{\link{get_day}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

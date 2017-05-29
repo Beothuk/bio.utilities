@@ -10,9 +10,6 @@ gridData(Data, domain.poly, lvls, bcol = "YlGnBu", border = 1, FUN = mean,
 \description{
 summarizes data onto a grid, creates PBSmapping polySet and polyData
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -118,4 +115,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

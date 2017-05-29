@@ -21,10 +21,9 @@ devianceGLM(x, data, test = "F", digits = 2)
 \description{
 couldn't accurately describe
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other statistical: \code{\link{correlationMatrix}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

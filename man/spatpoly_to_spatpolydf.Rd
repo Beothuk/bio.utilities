@@ -9,9 +9,6 @@ spatpoly_to_spatpolydf(spat_poly)
 \description{
 This function takes a spatialpolygon object and converts it to a spatialpolygondataframe (which allows it to be exported to a shapefile via writeOGR()
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -116,4 +113,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

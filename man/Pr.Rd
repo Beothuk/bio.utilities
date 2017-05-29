@@ -10,9 +10,6 @@ Pr(dev = NULL, dname = NULL, fname = NULL, trim = T, width = 10,
 \description{
 unknown
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
@@ -117,4 +114,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

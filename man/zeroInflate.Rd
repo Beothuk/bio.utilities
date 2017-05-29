@@ -26,4 +26,3 @@ incorporates blanking distance by including zeros spaced eqully at the average n
 \author{
 Brad Hubley
 }
-

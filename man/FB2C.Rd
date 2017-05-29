@@ -9,9 +9,6 @@ FB2C(F, B)
 \description{
 catch given Fishing mortality and Biomass; useful for  projections
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{Pr}},
   \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
@@ -116,4 +113,6 @@ Other abysmally documented: \code{\link{Pr}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

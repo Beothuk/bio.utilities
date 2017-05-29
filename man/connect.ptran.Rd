@@ -19,10 +19,9 @@ connect.ptran(user = "x", password = "x", i = 0)
 \description{
 This function is supposed to be a user-friendly means for adding a connection to ptran.  The user is prompted for the credentials 5 times before it
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other GUI functions: \code{\link{connect_ptran}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

@@ -10,9 +10,6 @@ which.noise(xy, method = "", probs = c(0.025, 0.975), lags = c(1, 2, 3, 2,
 \description{
 similar to interpolate.xy.robust given a vector, or xy, identify errors or noise
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -118,4 +115,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

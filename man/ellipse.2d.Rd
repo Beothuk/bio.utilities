@@ -18,9 +18,6 @@ ellipse.2d(x, y, pv = 0.05, sc = 50)
 \description{
 This function calculates a 2D kernel density then plot highest density regions with contour().
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \references{
 \url{https://stat.ethz.ch/pipermail/r-help/2000-March/005973.html}
 }
@@ -31,4 +28,6 @@ Other plotting: \code{\link{dist.plt}},
   \code{\link{pie.add}}, \code{\link{pie.draw}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

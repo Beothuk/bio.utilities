@@ -12,9 +12,6 @@ and return a formatted data.frame
 must contain index, variable, weight in this sequence 
 can take additional parmaters ...
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applySum}}, \code{\link{break.list}},
@@ -25,4 +22,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

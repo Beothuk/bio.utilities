@@ -11,9 +11,6 @@ makeMap(x, xlim = c(-67, -57), ylim = c(42, 47.5), addCrabLabels = F,
 \description{
 unknown
 }
-\author{
-Ben Zisserson, \email{Ben.Zisserson@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -119,4 +116,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Ben Zisserson, \email{Ben.Zisserson@dfo-mpo.gc.ca}
+}

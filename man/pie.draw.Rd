@@ -41,9 +41,6 @@ legend.z <- round(max(rowSums(xyz$z,na.rm=TRUE))/10^6,0)
 legend.bubble(-13.25,55.5,z=legend.z,round=1,maxradius=0.3,bty="n",txt.cex=0.6)
 text(-12.25,56,"landings (kt)",cex=0.8)
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other plotting: \code{\link{dist.plt}},
   \code{\link{dstamp}}, \code{\link{ellipse.2d}},
@@ -51,4 +48,6 @@ Other plotting: \code{\link{dist.plt}},
   \code{\link{legend.bubble}}, \code{\link{pie.add}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

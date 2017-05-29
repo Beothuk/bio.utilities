@@ -20,9 +20,6 @@ converts objects to factors
 \note{
 does not work in Windows
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
@@ -33,4 +30,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

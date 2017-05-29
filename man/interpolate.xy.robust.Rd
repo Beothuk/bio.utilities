@@ -13,9 +13,6 @@ interpolate.xy.robust(xy, method, target.r2 = 0.9, mv.win = 10,
 \description{
 Interpolate some xy data used by netmensuration and mode fifnding methods.
 }
-\author{
-Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -120,4 +117,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
+}

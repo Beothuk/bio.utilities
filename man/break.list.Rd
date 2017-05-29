@@ -9,9 +9,6 @@ break.list(X, delimit = NULL, return.columns = NULL, nvars = NULL)
 \description{
 couldn't accurately describe
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{applySum}},
@@ -22,4 +19,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

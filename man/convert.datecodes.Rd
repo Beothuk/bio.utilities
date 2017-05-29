@@ -24,12 +24,11 @@ convert.datecodes(t,'year')
 convert.datecodes(t,'week')
 [1] 25
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other date functions: \code{\link{chron2datestamp}},
   \code{\link{date_picker}}, \code{\link{dayofyear}},
   \code{\link{get.day}}, \code{\link{get_day}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

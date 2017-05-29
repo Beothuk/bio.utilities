@@ -25,4 +25,3 @@ bufferCircle(c(-64.15,44.75),100)
 \author{
 Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
 }
-

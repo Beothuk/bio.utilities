@@ -35,4 +35,3 @@ capwords('this is a test', F, F)
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
-

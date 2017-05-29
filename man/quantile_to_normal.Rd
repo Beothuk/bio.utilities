@@ -9,9 +9,6 @@ quantile_to_normal(x, mean = 0.5, ci = 0.999)
 \description{
 convert quantile to normal with mean 0.5 and variance such that ci% are found within the range (0,1)
 }
-\author{
-Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -116,4 +113,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Jae Choi, \email{jae.choi@dfo-mpo.gc.ca}
+}

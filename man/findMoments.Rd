@@ -13,9 +13,6 @@ to find the first two moments of a distrbution from quantile breaks (defined by 
 \note{
 Gamma distribution returns shape and scale rather than rate (as per winbugs distribution) for use in r rate=1/scale lo and l.perc are the value and percentile for the low end of the distribution, up and u.perc are the upper values and percentiles
 }
-\author{
-Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -121,4 +118,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
+}

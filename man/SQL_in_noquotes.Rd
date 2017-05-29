@@ -9,9 +9,6 @@ SQL_in_noquotes(x)
 \description{
 Same as SQL.in, but appropriate for numbers (not vectors), since no apostrophes are added (e.g. c(1,2,3)-> 1,2,3)
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -116,4 +113,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

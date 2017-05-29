@@ -10,9 +10,6 @@ parallel.run(FUNC, p, export = NULL, rndseed = 1,
 \description{
 Run a parallel process .. wrapper for snow/parallel. Expectation of all relevant parameters in a list 'p'.
 }
-\author{
-Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -117,4 +114,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Jae Choi, \email{Jae.Choi@dfo-mpo.gc.ca}
+}
