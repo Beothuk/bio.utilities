@@ -14,12 +14,11 @@ couldn't accurately describe
 \note{
 Seems like using this function might just add more complexity rather than calling it directly from lattice?
 }
+\seealso{
+Other overly specific: \code{\link{cutOutLand}},
+  \code{\link{dataOverlap}}
+}
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
-\seealso{
-Other overly specific: \code{\link{assignStation}},
-  \code{\link{cutOutLand}}, \code{\link{dataOverlap}}
-}
 \keyword{datasets}
-

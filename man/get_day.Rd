@@ -17,13 +17,12 @@ This function provides the number of days in each month, given a year and month.
 \note{
 It accounts for leapyears from 1904-2096.  Leapyears are not simply every 4 years - please look it up should this script live long enough to need modification
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other date functions: \code{\link{chron2datestamp}},
   \code{\link{convert.datecodes}},
   \code{\link{date_picker}}, \code{\link{dayofyear}},
   \code{\link{get.day}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

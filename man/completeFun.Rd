@@ -32,4 +32,3 @@ completeFun(A, 2)
 \author{
 Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
 }
-

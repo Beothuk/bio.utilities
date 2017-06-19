@@ -13,9 +13,6 @@ to find the first two moments of a distrbution from quantile breaks (defined by 
 \note{
 Gamma distribution returns shape and scale rather than rate (as per winbugs distribution) for use in r rate=1/scale lo and l.perc are the value and percentile for the low end of the distribution, up and u.perc are the upper values and percentiles
 }
-\author{
-Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -38,9 +35,8 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{get.cpu.usage}}, \code{\link{getCols}},
   \code{\link{getPackage}}, \code{\link{goff}},
   \code{\link{graphics.convert}}, \code{\link{green.red}},
-  \code{\link{gridData}}, \code{\link{gxa}},
-  \code{\link{gx}}, \code{\link{hist_bivariate}},
-  \code{\link{idHoles}},
+  \code{\link{gxa}}, \code{\link{gx}},
+  \code{\link{hist_bivariate}}, \code{\link{idHoles}},
   \code{\link{interpolate.xy.robust}},
   \code{\link{is_leap_year}}, \code{\link{jackknifeCPUE}},
   \code{\link{jae.hist}}, \code{\link{keepOneDuplicated}},
@@ -61,8 +57,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},
@@ -73,7 +70,7 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{mult.windows}}, \code{\link{myrepo}},
   \code{\link{nlsBooter}}, \code{\link{odds}},
   \code{\link{offset.determine}},
-  \code{\link{outerBounds}}, \code{\link{package.install}},
+  \code{\link{package.install}},
   \code{\link{package.list}}, \code{\link{parallel.run}},
   \code{\link{parse.odf.file}},
   \code{\link{parse.odf.parameter.header}},
@@ -120,4 +117,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Adam Cook, \email{Adam.Cook@dfo-mpo.gc.ca}
+}

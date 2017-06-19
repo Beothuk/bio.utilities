@@ -23,10 +23,9 @@ This function determines the percentage of Dissolved oxygen in solution at a giv
 compute.oxygen.saturation(0, 25, 8.2)
 [1] 95.19575
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other physical and chemical properties: \code{\link{decibar2depth}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

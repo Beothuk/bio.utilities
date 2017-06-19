@@ -20,11 +20,10 @@ convert.dd.dddd(4730.3)
 convert.dd.dddd(47.505, 'deg.min')
 [1] 4730.3
 }
-\author{
-Brad Hubley
-}
 \seealso{
 Other coordinate converters: \code{\link{convert.degdec2degmin}},
   \code{\link{convert.degmin2degdec}}
 }
-
+\author{
+Brad Hubley
+}

@@ -12,9 +12,6 @@ pulls all of the attributes for a particular row of data into a single html tabl
 \note{
 This might assist people using the kmlbuilder package who want to populate the kml balloon with all of the attributes.  Calling via apply(x,1, row.to.html.table) might be helpful
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -37,9 +34,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{geomean}}, \code{\link{get.cpu.usage}},
   \code{\link{getCols}}, \code{\link{getPackage}},
   \code{\link{goff}}, \code{\link{graphics.convert}},
-  \code{\link{green.red}}, \code{\link{gridData}},
-  \code{\link{gxa}}, \code{\link{gx}},
-  \code{\link{hist_bivariate}}, \code{\link{idHoles}},
+  \code{\link{green.red}}, \code{\link{gxa}},
+  \code{\link{gx}}, \code{\link{hist_bivariate}},
+  \code{\link{idHoles}},
   \code{\link{interpolate.xy.robust}},
   \code{\link{is_leap_year}}, \code{\link{jackknifeCPUE}},
   \code{\link{jae.hist}}, \code{\link{keepOneDuplicated}},
@@ -60,8 +57,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}},
   \code{\link{makeMapBasic}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},
@@ -72,7 +70,7 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{mult.windows}}, \code{\link{myrepo}},
   \code{\link{nlsBooter}}, \code{\link{odds}},
   \code{\link{offset.determine}},
-  \code{\link{outerBounds}}, \code{\link{package.install}},
+  \code{\link{package.install}},
   \code{\link{package.list}}, \code{\link{parallel.run}},
   \code{\link{parse.odf.file}},
   \code{\link{parse.odf.parameter.header}},
@@ -118,4 +116,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

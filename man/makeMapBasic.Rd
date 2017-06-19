@@ -10,9 +10,6 @@ makeMapBasic(x, xlim = c(-67, -57), ylim = c(42, 47.5), title = "",
 \description{
 generate map using PBSmapping plotting functions
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other abysmally documented: \code{\link{FB2C}},
   \code{\link{Pr}}, \code{\link{Rsquared_glm}},
@@ -35,9 +32,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{geomean}}, \code{\link{get.cpu.usage}},
   \code{\link{getCols}}, \code{\link{getPackage}},
   \code{\link{goff}}, \code{\link{graphics.convert}},
-  \code{\link{green.red}}, \code{\link{gridData}},
-  \code{\link{gxa}}, \code{\link{gx}},
-  \code{\link{hist_bivariate}}, \code{\link{idHoles}},
+  \code{\link{green.red}}, \code{\link{gxa}},
+  \code{\link{gx}}, \code{\link{hist_bivariate}},
+  \code{\link{idHoles}},
   \code{\link{interpolate.xy.robust}},
   \code{\link{is_leap_year}}, \code{\link{jackknifeCPUE}},
   \code{\link{jae.hist}}, \code{\link{keepOneDuplicated}},
@@ -58,8 +55,9 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{line.intersection.2d}},
   \code{\link{list.names.to.columns}},
   \code{\link{loadPackages}}, \code{\link{ls.objects}},
-  \code{\link{lsos}}, \code{\link{make.histograms}},
-  \code{\link{make.hist}}, \code{\link{make.list}},
+  \code{\link{lsmem}}, \code{\link{lsos}},
+  \code{\link{make.histograms}}, \code{\link{make.hist}},
+  \code{\link{make.list}},
   \code{\link{make.random.string}}, \code{\link{makeMap}},
   \code{\link{makePBS}}, \code{\link{matrix.multiply}},
   \code{\link{matrixBubbles}}, \code{\link{mave}},
@@ -69,7 +67,7 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{mult.windows}}, \code{\link{myrepo}},
   \code{\link{nlsBooter}}, \code{\link{odds}},
   \code{\link{offset.determine}},
-  \code{\link{outerBounds}}, \code{\link{package.install}},
+  \code{\link{package.install}},
   \code{\link{package.list}}, \code{\link{parallel.run}},
   \code{\link{parse.odf.file}},
   \code{\link{parse.odf.parameter.header}},
@@ -116,4 +114,6 @@ Other abysmally documented: \code{\link{FB2C}},
   \code{\link{whichEvents}}, \code{\link{windrose}},
   \code{\link{workspace.clear}}, \code{\link{xkill}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

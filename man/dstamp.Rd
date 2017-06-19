@@ -16,9 +16,6 @@ dstamp(txt, pwd = FALSE, time. = TRUE)
 \description{
 function to add a datestamp to the bottom right corner of a figure
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other plotting: \code{\link{dist.plt}},
   \code{\link{ellipse.2d}}, \code{\link{get.asp}},
@@ -26,4 +23,6 @@ Other plotting: \code{\link{dist.plt}},
   \code{\link{pie.add}}, \code{\link{pie.draw}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

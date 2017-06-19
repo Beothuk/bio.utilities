@@ -9,9 +9,6 @@ get.asp()
 \description{
 gets the aspect ratio
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other plotting: \code{\link{dist.plt}},
   \code{\link{dstamp}}, \code{\link{ellipse.2d}},
@@ -19,4 +16,6 @@ Other plotting: \code{\link{dist.plt}},
   \code{\link{pie.add}}, \code{\link{pie.draw}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

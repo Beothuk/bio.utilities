@@ -22,10 +22,9 @@ This function calculates depth in meters from pressure in decibars using Saunder
 \examples{
 create.random.matrix(the.nrow=10, the.ncol=20, the.range=0:9)
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other random data: \code{\link{createTS}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

@@ -23,4 +23,3 @@ Find the outline (boundary) of a set of points in 2D space.
 \author{
 Jae Choi, \email{<jae.choi>@dfo-mpo.gc.ca}
 }
-

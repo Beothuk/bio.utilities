@@ -9,9 +9,6 @@ applySum(f, method = "fast", newnames = NULL)
 \description{
 apply a sum and return a formated data frame. If 3 columns of data then a weighted sum is returned, if 1 column (vector) then a count is returned. Must contain index, variable, weight in this sequence
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other poorly documented: \code{\link{A}},
   \code{\link{applyMean}}, \code{\link{break.list}},
@@ -22,4 +19,6 @@ Other poorly documented: \code{\link{A}},
   \code{\link{duplicates.toremove}}, \code{\link{na.zero}},
   \code{\link{nearest.sorted.angles}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

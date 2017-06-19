@@ -20,11 +20,10 @@ lat    lon
 1 42.3 55.153
 (55.153 is 55deg 15.3min)
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other coordinate converters: \code{\link{convert.dd.dddd}},
   \code{\link{convert.degmin2degdec}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

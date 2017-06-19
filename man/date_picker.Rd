@@ -18,12 +18,11 @@ This function presents successive picklists for year, month and day, and returns
 \note{
 Only valid days for each month and year combo are presented.  Most complexity is due to the potential for users to click cancel rather than choose valid options.  Cancelling at any point fails gracefully, and results will depend on the selected parameter.
 }
-\author{
-Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
-}
 \seealso{
 Other date functions: \code{\link{chron2datestamp}},
   \code{\link{convert.datecodes}}, \code{\link{dayofyear}},
   \code{\link{get.day}}, \code{\link{get_day}}
 }
-
+\author{
+Mike McMahon, \email{Mike.McMahon@dfo-mpo.gc.ca}
+}

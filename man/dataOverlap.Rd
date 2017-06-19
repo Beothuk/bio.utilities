@@ -25,12 +25,10 @@ compare 2 datasets and returns values that overlap
 \note{
 should not the return object should probably be Data1, not Data?
 }
+\seealso{
+Other overly specific: \code{\link{cutOutLand}},
+  \code{\link{default.lattice.options}}
+}
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
-\seealso{
-Other overly specific: \code{\link{assignStation}},
-  \code{\link{cutOutLand}},
-  \code{\link{default.lattice.options}}
-}
-

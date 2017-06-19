@@ -25,12 +25,10 @@ PBS mapping utility to remove the land from management area polygons, include co
 example.function() returns \\code{4}
 example.function(6) returns \\code{36}.
 }
+\seealso{
+Other overly specific: \code{\link{dataOverlap}},
+  \code{\link{default.lattice.options}}
+}
 \author{
 unknown, \email{<unknown>@dfo-mpo.gc.ca}
 }
-\seealso{
-Other overly specific: \code{\link{assignStation}},
-  \code{\link{dataOverlap}},
-  \code{\link{default.lattice.options}}
-}
-

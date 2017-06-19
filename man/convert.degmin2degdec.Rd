@@ -19,11 +19,10 @@ convert.degmin2degdec(test)
 lat      lon
 1 -52.50833 55.33333
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other coordinate converters: \code{\link{convert.dd.dddd}},
   \code{\link{convert.degdec2degmin}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

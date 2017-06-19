@@ -30,9 +30,6 @@ dist.plt(dist = "beta", par1, par2, x, xl = c(0, 1), col = 1, add = F,
 \description{
 plots distributions in R, useful for setting up priors in Bayesian analyses
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other plotting: \code{\link{dstamp}},
   \code{\link{ellipse.2d}}, \code{\link{get.asp}},
@@ -40,4 +37,6 @@ Other plotting: \code{\link{dstamp}},
   \code{\link{pie.add}}, \code{\link{pie.draw}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}

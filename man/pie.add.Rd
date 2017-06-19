@@ -40,9 +40,6 @@ pie.add(z, x = 0, y = 0, labels = names(z), radius = 1, edges = 200,
 \description{
 couldn't accurately describe
 }
-\author{
-unknown, \email{<unknown>@dfo-mpo.gc.ca}
-}
 \seealso{
 Other plotting: \code{\link{dist.plt}},
   \code{\link{dstamp}}, \code{\link{ellipse.2d}},
@@ -50,4 +47,6 @@ Other plotting: \code{\link{dist.plt}},
   \code{\link{legend.bubble}}, \code{\link{pie.draw}},
   \code{\link{pie.legend}}
 }
-
+\author{
+unknown, \email{<unknown>@dfo-mpo.gc.ca}
+}
