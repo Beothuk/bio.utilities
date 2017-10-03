@@ -24,8 +24,7 @@ blue.red <- function (n)
       c( if (l1 > 0) {
             hsv( h = blue, 
                  s = seq(1, ifelse(even.n, 1/k, 0), length = l1), 
-                 v = 1, 
-                 gamma = gamma)
+                 v = 1)
           },
          if (l2 > 1) { 
            hsv( h = red, 
