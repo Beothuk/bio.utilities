@@ -18,14 +18,15 @@ create.histograms.yearly(X, probs = c(0, 0.995))
 couldn't accurately describe
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in_noquotes}}, \code{\link{SQL_in}},
-  \code{\link{SU}}, \code{\link{Tabulate}},
-  \code{\link{U2F}}, \code{\link{U}},
-  \code{\link{cor.prob}}, \code{\link{errorbars}},
-  \code{\link{estimParamsFromCI}}, \code{\link{expandSet}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in_noquotes}},
+  \code{\link{SQL_in}}, \code{\link{SU}},
+  \code{\link{Tabulate}}, \code{\link{U2F}},
+  \code{\link{U}}, \code{\link{cor.prob}},
+  \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
+  \code{\link{expandSet}},
   \code{\link{explicit.to.implicit.2d.line}},
   \code{\link{export.to.clipboard}},
   \code{\link{factor2character}},

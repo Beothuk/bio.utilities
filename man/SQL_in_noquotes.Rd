@@ -10,12 +10,13 @@ SQL_in_noquotes(x)
 Same as SQL.in, but appropriate for numbers (not vectors), since no apostrophes are added (e.g. c(1,2,3)-> 1,2,3)
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in}}, \code{\link{SU}},
-  \code{\link{Tabulate}}, \code{\link{U2F}},
-  \code{\link{U}}, \code{\link{cor.prob}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in}},
+  \code{\link{SU}}, \code{\link{Tabulate}},
+  \code{\link{U2F}}, \code{\link{U}},
+  \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}},
   \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
   \code{\link{expandSet}},

@@ -10,13 +10,13 @@ findCurvature(x, y, eps = 0.02)
 generally preferable to using first differences of raw data,  because differencing raw data amplifies noise, while appropriate smooths eliminate much of the noise, leaving you with what you most want. Ramsay and Silverman (2005) Functional Data Analysis, 2nd ed. (Springer) suggest that if you want a second derivative, it is often wise to use quintic splines, because then the second derivative are cubic splines. (The first derivative of a spline of order k is a spline of order k-1.)
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in_noquotes}}, \code{\link{SQL_in}},
-  \code{\link{SU}}, \code{\link{Tabulate}},
-  \code{\link{U2F}}, \code{\link{U}},
-  \code{\link{cor.prob}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in_noquotes}},
+  \code{\link{SQL_in}}, \code{\link{SU}},
+  \code{\link{Tabulate}}, \code{\link{U2F}},
+  \code{\link{U}}, \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}},
   \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
   \code{\link{expandSet}},

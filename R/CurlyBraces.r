@@ -1,10 +1,12 @@
-# function to draw curly braces
-# x, y position where to put the braces
-# range is the length of the brace
-# position: 1 vertical, 2 horizontal
-# direction: 1 left/down, 2 right/up
-# depth controls width of the shape
-#'@export
+#' @title CurlyBraces
+#' @description function to draw curly braces
+#' @param x, y position where to put the braces range is the length of the brace
+#' @param pos: 1 vertical, 2 horizontal
+#' @param direction: 1 left/down, 2 right/up
+#' @param depth controls width of the shape
+#' @family abysmally documented
+#' @author  Sharon from stackoverflow
+#' @export
 
 CurlyBraces = function(x0, x1, y0, y1, pos = 1, direction = 1, depth = 1) {
 
