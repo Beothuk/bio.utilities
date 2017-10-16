@@ -18,13 +18,13 @@ cor.prob(X, dfr = nrow(X) - 2)
 couldn't accurately describe
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in_noquotes}}, \code{\link{SQL_in}},
-  \code{\link{SU}}, \code{\link{Tabulate}},
-  \code{\link{U2F}}, \code{\link{U}},
-  \code{\link{create.histograms.yearly}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in_noquotes}},
+  \code{\link{SQL_in}}, \code{\link{SU}},
+  \code{\link{Tabulate}}, \code{\link{U2F}},
+  \code{\link{U}}, \code{\link{create.histograms.yearly}},
   \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
   \code{\link{expandSet}},
   \code{\link{explicit.to.implicit.2d.line}},

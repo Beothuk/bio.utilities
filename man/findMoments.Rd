@@ -14,13 +14,13 @@ to find the first two moments of a distrbution from quantile breaks (defined by 
 Gamma distribution returns shape and scale rather than rate (as per winbugs distribution) for use in r rate=1/scale lo and l.perc are the value and percentile for the low end of the distribution, up and u.perc are the upper values and percentiles
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in_noquotes}}, \code{\link{SQL_in}},
-  \code{\link{SU}}, \code{\link{Tabulate}},
-  \code{\link{U2F}}, \code{\link{U}},
-  \code{\link{cor.prob}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in_noquotes}},
+  \code{\link{SQL_in}}, \code{\link{SU}},
+  \code{\link{Tabulate}}, \code{\link{U2F}},
+  \code{\link{U}}, \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}},
   \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
   \code{\link{expandSet}},

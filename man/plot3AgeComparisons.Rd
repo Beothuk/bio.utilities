@@ -10,13 +10,13 @@ plot3AgeComparisons(triplets, color = "grey60", offset = 0.2)
 plot triplets of age readings on a hexagon to compare 3 age readers or to compare 3 aging methods
 }
 \seealso{
-Other abysmally documented: \code{\link{FB2C}},
-  \code{\link{Pr}}, \code{\link{Rsquared_glm}},
-  \code{\link{Rsquared_lm}}, \code{\link{Rsquared}},
-  \code{\link{SQL_in_noquotes}}, \code{\link{SQL_in}},
-  \code{\link{SU}}, \code{\link{Tabulate}},
-  \code{\link{U2F}}, \code{\link{U}},
-  \code{\link{cor.prob}},
+Other abysmally documented: \code{\link{CurlyBraces}},
+  \code{\link{FB2C}}, \code{\link{Pr}},
+  \code{\link{Rsquared_glm}}, \code{\link{Rsquared_lm}},
+  \code{\link{Rsquared}}, \code{\link{SQL_in_noquotes}},
+  \code{\link{SQL_in}}, \code{\link{SU}},
+  \code{\link{Tabulate}}, \code{\link{U2F}},
+  \code{\link{U}}, \code{\link{cor.prob}},
   \code{\link{create.histograms.yearly}},
   \code{\link{errorbars}}, \code{\link{estimParamsFromCI}},
   \code{\link{expandSet}},
