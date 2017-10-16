@@ -15,7 +15,7 @@ getCols <- function(n){
  G <- rep(rep(LEV, each=N), N)
  B <- rep(LEV, N^2)
  
- x11(width=6, height=6)
+ plot.new(width=6, height=6)
  layout(matrix(1:2, nrow=2, ncol=1), widths=c(6), heights=c(1.5,4.5))
  op <- par(mar=c(1,3,2,1))
  

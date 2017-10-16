@@ -22,7 +22,7 @@ dist.plt<-function(dist="beta",par1,par2,x,xl=c(0,1),col=1,add=F,alpha=0.05,plot
 	y<-get(paste("d",dist,sep=''))(x,par1,par2)
 	
 	if(add==F){
-#		x11()
+#		plot.new()
 		plot(x,y,type='l',col=col,xlab='',ylab='',main=title)
 	}
 	
