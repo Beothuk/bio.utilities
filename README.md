@@ -6,6 +6,6 @@ Installation:
 
 ```
 require( devtools ) # or install.packages( "devtools", dependencies=TRUE )
-install_github( "jae0/bio.utilities" ) 
+install_github( "Beothuk/bio.utilities" ) 
 ```
 
